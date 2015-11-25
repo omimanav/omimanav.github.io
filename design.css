@@ -81,6 +81,10 @@ label:focus {
   transform: translate3d(0, 0, 0);
 }
 
+#index
+{
+  background-color: #ea2612;
+}
 /* for show */
 html, body {
   height: 100%;
@@ -89,7 +93,7 @@ html, body {
     max-height: 100%;
     background-size: 100% auto;
     background-position: center;
-    background-color: #ea2612;
+    
 }
 
 
