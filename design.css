@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+#wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+        max-width: 100%;
+    max-height: 100%;
+    background-size: 100% auto;
+    background-position: center;
+    text-emphasis-color: black;
+}
+
+label {
+  cursor: pointer;
+}
+label:focus {
+  outline: none;
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #ea2612;
+  width: 240px;
+  height: 60px;
+  transform: translate3d(-240px, 0, 0);
+  transition: transform 0.35s;
+}
+.menu label.menu-toggle {
+  position: absolute;
+  right: -60px;
+  width: 60px;
+  height: 60px;
+  line-height: 0px;
+  display: block;
+  padding: 0;
+  text-indent: -9999px;
+  background: #ea2612 url(menu.png) 50% 50%/25px 25px no-repeat;
+}
+
+.menu label.menu-toggle:hover{background-color: whitesmoke;}
+
+#home, #con
+{
+    width: 20px;
+    height: 20px;
+}
+
+.menu ul li a, .menu ul li label {
+  display: block;
+  text-align: center;
+  padding: 0 20px;
+  line-height: 60px;
+  text-decoration: none;
+  color: whitesmoke;
+    background-color: #ea2612;
+}
+.menu ul li a:hover, .menu ul li label:hover {
+    color: #ea2612;
+    background-color: whitesmoke;
+}
+
+/* hide inputs */
+.menu-checkbox {
+  display: none;
+}
+
+/* hide navigation icon for sublabels */
+.menu .menu label.menu-toggle {
+  background: none;
+}
+
+/* fade in checked menu */
+.menu-checkbox:checked + .menu {
+  transform: translate3d(0, 0, 0);
+}
+
+/* for show */
+html, body {
+  height: 100%;
+    font-family: Helvetica, sans-serif;
+    max-width: 100%;
+    max-height: 100%;
+    background-size: 100% auto;
+    background-position: center;
+    background-color: #ea2612;
+}
+
+
+#about {
+  margin-bottom: 15px;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 60px;
+    display: block;
+}
+
+p, a {
+    color: #ea2612;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: whitesmoke;
+    background-color: #ea2612;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+h1{
+    align-self: center;
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+}
