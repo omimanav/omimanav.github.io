@@ -83,7 +83,7 @@ label:focus {
 
 #index
 {
-  background-color: #ea2612;
+  background-color: #ecf0f1;
 }
 /* for show */
 html, body {
@@ -93,7 +93,7 @@ html, body {
     max-height: 100%;
     background-size: 100% auto;
     background-position: center;
-    background-color: whitesmoke;
+    background-color: #ecf0f1;
 }
 
 
