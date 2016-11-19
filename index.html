@@ -1,27 +1,194 @@
 <!DOCTYPE html>
 <html lang="">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="design.css">
-  <title>beerandcamera</title>
+				<meta charset="utf-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<title></title>
 </head>
 
-<body id="index">
-    
-    <div id="wrapper"></div>
+<body>
+	
+	
+	<body>
+		<div id="container" style="height:666px; position:absolute;">
+			<div class="pages" id="home" style="display:inline;">
+				<img src="whiteback.jpg"/>
+				<img src="home/IMG_0178.jpg"/>
+			</div>
+			<div class="pages" id="newzealand" style="display:none;">
+				<img src="whiteback.jpg"/>
+				<img src="nz/1.jpg"/>
+				<img src="nz/3.jpg"/>
+				<img src="nz/2.jpg"/>
+				<img src="nz/5.jpg"/>
+				<img src="nz/4.jpg"/>
+				<img src="nz/6.jpg"/>
+				<img src="nz/7.jpg"/>
+			</div>
+			<div class="pages" id="iceland" style="display:none;">
+				<img src="whiteback.jpg"/>
+				<p>-  coming soon...</p>
+			</div>
+			<div class="pages" id="holland" style="display:none;">
+				<img src="whiteback.jpg"/>
+				<p>-  coming soon...</p>
+			</div>
+			<div class="pages" id="norway" style="display:none;">
+				<img src="whiteback.jpg"/>
+				<p>-  coming soon...</p>
+			</div>
+			<div class="pages" id="usa" style="display:none;">
+				<img src="whiteback.jpg"/>
+				<img src="usa/1.JPG"/>
+				<img src="usa/3.JPG"/>
+				<img src="usa/4.JPG"/>
+				<img src="usa/5.JPG"/>
+				<img src="usa/6.JPG"/>
+				<img src="usa/7.JPG"/>
+			</div>
+			<div class="pages" id="animates" style="display:none;">
+				<img src="whiteback.jpg"/>
+				<img src="animates/1.jpg"/>
+				<img src="animates/2(1).jpg"/>
+				<img src="animates/2.jpg"/>
+				<img src="animates/3.jpg"/>
+				<img src="animates/4.jpg"/>
+				<img src="animates/1(1).jpg">
+			</div>
+			<div class="pages" id="inanimates" style="display:none;">
+				<img src="whiteback.jpg"/>
+				<p>-  coming soon...</p>
+			</div>
+			<div class="pages" id="about" style="display:none;">
+				<img src="whiteback.jpg"/>
+				<p>-  coming soon...</p>
+			</div>
+			<div class="pages" id="contact" style="display:none;">
+				<img src="whiteback.jpg"/>
+				<p>-  coming soon...</p>
+			</div>
+		</div>
+	
+		<div id="bar">
 
-        <input type="checkbox" id="menu" name="menu" class="menu-checkbox">
-        <div class="menu">
-            <label class="menu-toggle" for="menu"><span>Toggle</span></label>
-            <ul>
-                <li>
-                    <a href="about.html"><img id="con" src="contact.png"></a>
-                </li>  
-            </ul>
-        </div>
-    
-    <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="myjq.js"></script>
+			<a class="title" href="index.html">omi</a>
+
+			<br><br>
+
+
+			<a class="tab" onclick="photoMenuToggle()" id="photosToggle">photos</a>
+			<div id="photos" style="display:none;">
+				<br>
+				<a onclick="showPages('newzealand')">new zealand</a><br>
+				<a onclick="showPages('iceland')">iceland</a><br>
+				<a onclick="showPages('holland')">holland</a><br>
+				<a onclick="showPages('norway')">norway</a><br>
+				<a onclick="showPages('usa')">usa</a><br>
+				
+				<br>
+				<a onclick="showPages('animates')">animates</a><br><br>
+				<a onclick="showPages('inanimates')">inanimates</a><br>
+			</div>
+			
+			<br><br>
+
+			<a onclick="showPages('about')" class="tab">about</a>
+
+			<br><br>
+
+			<a onclick="showPages('contact')" class="tab">contact</a>
+		</div>
+		
+		
+		
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<style>
+		* {
+			-webkit-user-select: none;      
+			-moz-user-select: none;
+			-ms-user-select: none;
+		}
+		
+		body {
+			background-color: whitesmoke;
+		}
+		
+		.title {
+			font-size: 20px;
+		}
+		
+		a:link, a:visited, a:active, a:hover {
+			text-decoration:none;
+			color: #000000;
+			cursor: pointer;
+		}
+		
+		#bar {
+			z-index: 50;
+			left: 0px;
+			position: fixed;
+			float: left;
+			height: 100%;
+			width: 180px;
+			background-color: whitesmoke;
+			opacity: 0.9;
+			font-family: monospace;
+			color: #000000;
+			padding-top: 8px;
+			letter-spacing : 2px;
+			padding-left: 35px;
+		}
+		
+		#photos a {
+			padding-left:20px;
+		}
+		
+		div.pages * {
+			padding: 12px;
+		}
+		
+		div.pages img {
+			max-height: 666px;
+			height: 666px;
+			float: left;
+			position: relative;
+		}
+		
+		div.pages#home {
+			width: 1500px;
+		}
+		div.pages {
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width:6000px;
+		}
+	</style>
+	
+
+		
+		
+	<script>
+		console.log("this website's UI is entirely built by me (omi), if you like any part(s) of it and would like to use the codes, please, just ask; you can use it without any costs, just a little credit would be nice :) thanks!");
+
+		function photoMenuToggle() {
+			$("#photos").toggle("display");
+		}
+		
+		function showPages(name) {
+			var pages = document.getElementsByClassName("pages");
+			for (var i = 0; i < pages.length; i++) {
+				pages[i].style.display = 'none';
+			}
+			
+			setTimeout(function() {
+				document.getElementById(name).style.display = 'block';
+			}, 500);
+			
+		}
+		
+		
+	</script>
 </body>
 </html>
