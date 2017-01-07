@@ -1,315 +1,49 @@
 <!DOCTYPE html>
 <html lang="">
-<head>
-				<meta charset="utf-8">
-				<title>omi</title>
-</head>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>omi</title>
+	</head>
 
-<body>
-	
-	
 	<body>
-		<div id="container" style="height:666px; position:absolute;">
-			<div class="pages" id="home" style="display:inline; width:1600px">
-				<img src="whiteback.jpg" style="height:666px;"/>
-				<img src="home/watch%20me.gif"/>
-			</div>
-			<div class="pages" id="newzealand" style="display:none;">
-				<img src="whiteback.jpg" style="height:666px;"/>
-				<img src="nz/1.jpg"/>
-				<img src="nz/3.jpg"/>
-				<img src="nz/2.jpg"/>
-				<img src="nz/5.jpg"/>
-				<img src="nz/4.jpg"/>
-				<img src="nz/6.jpg"/>
-				<img src="nz/7.jpg"/>
-			</div>
-			<div class="pages" id="iceland" style="display:none;">
-				<img src="whiteback.jpg" style="height:666px;"/>
-				<p>-  coming soon...</p>
-			</div>
-			<div class="pages" id="holland" style="display:none;">
-				<img src="whiteback.jpg" style="height:666px;"/>
-				<img src="ams/1.jpg"/>
-				<img src="ams/2.jpg"/>
-				<img src="ams/3.jpg"/>
-				<img src="ams/4.jpg"/>
-				<img src="ams/5.jpg"/>
-				<img src="ams/6.jpg"/>
-			</div>
-			<div class="pages" id="norway" style="display:none;">
-				<img src="whiteback.jpg" style="height:666px;"/>
-				<img src="nor/1.jpg"/>
-				<img src="nor/2.jpg"/>
-				<img src="nor/3.jpg"/>
-				<img src="nor/4.jpg"/>
-				<img src="nor/5.jpg"/>
-				<img src="nor/6.jpg"/>
-				<img src="nor/7.jpg"/>
-				<img src="nor/8.jpg"/>
-				<img src="nor/9.jpg"/>
-				<img src="nor/10.jpg"/>
-			</div>
-			<div class="pages" id="swe" style="display:none;">
-				<img src="whiteback.jpg" style="height:666px;"/>
-				<img src="swe/1.jpg"/>
-				<img src="swe/2.jpg"/>
-				<img src="swe/3.jpg"/>
-				<img src="swe/4.jpg"/>
-				<img src="swe/5.jpg"/>
-			</div>
-			<div class="pages" id="usa" style="display:none;">
-				<img src="whiteback.jpg" style="height:666px;"/>
-				<img src="usa/1.JPG"/>
-				<img src="usa/3.JPG"/>
-				<img src="usa/4.JPG"/>
-				<img src="usa/5.JPG"/>
-				<img src="usa/6.JPG"/>
-				<img src="usa/7.JPG"/>
-			</div>
-			<div class="pages" id="uae" style="display:none;">
-				<img src="whiteback.jpg" style="height:666px;"/>
-				<img src="uae/1.jpg"/>
-				<img src="uae/3.jpg"/>
-				<img src="uae/5.jpg"/>
-				<img src="uae/6.jpg"/>
-				<img src="uae/8.jpg"/>
-			</div>
-			<div class="pages" id="people" style="display:none;">
-				<img src="whiteback.jpg" style="height:666px;"/>
-				<img src="people/1.jpg"/>
-				<img src="people/2(1).jpg"/>
-				<img src="swe/5.jpg"/>
-				<img src="people/3.jpg"/>
-				<img src="people/4.jpg"/>
-				<img src="people/1(1).jpg"/>
-				<img src="ams/4.jpg"/>
-				<img src="people/5.jpg"/>
-			</div>
-			<div class="pages" id="stuff" style="display:none;">
-				<img src="whiteback.jpg" style="height:666px;"/>
-				<img src="stuff/1.jpg"/>
-				<img src="stuff/2.jpg"/>
-				<img src="nor/7.jpg"/>
-			</div>
-			<div class="pages" id="about" style="display:none;">
-				<img style="padding-right:80px;position:block;" src="whiteback.jpg"/>
-				<div style="height:666px;">
-					<p style="position:block; width:50%;">
-						Live in Auckland, NZ. I love to travel, grew up travelling, <br>now that I'm into photography, <br>I built this site to display photos from (mostly) my travels.
-					</p>
-				</div>
-			</div>
-			<div class="pages" id="contact" style="display:none;">
-				<img style="padding-right:80px;" src="whiteback.jpg"/>
-				<div style="width:50%;position:block;">
-					<p>
-						feel free to ask regarding any subject, you can contact me through email - <a href="mailto:beerandcamera@icloud.com">beerandcamera@icloud.com</a>
-						<br> <br> social media accounts, tad more active <br>
-						<a style="padding:0px;" href="http://beerandcamera.tumblr.com">-- tumblr</a> <br>
-						<a style="padding:0px;" href="http://instagram.com/beerandcamera">-- instagram</a> <br>
-					</p>
-				</div>
-			</div>
-		</div>
-	
-		<div id="bar">
-
-			<a class="title" href="index.html">omi</a>
-
-			<br><br>
-
-
-			<a class="tab" onclick="photoMenuToggle()" id="photosToggle">photos</a>
-			<div id="photos" style="display:none;">
+		<div id="menu">
+<!-- class menuItems needs to be indented (.menuItems {left:40px}) -->
+			<a class="menuItems" id="title" href="index.html"><b>omi</b></a>
+			
+			<br>
+			
+			<div class="menuItems" id="personal"> 
+<!--				<p><b>personal</b></p>-->
 				<br>
-				<a onclick="showPages('newzealand')">new zealand</a><br>
-				<a onclick="showPages('holland')">netherlands</a><br>
-				<a onclick="showPages('iceland')">iceland</a><br>
-				<a onclick="showPages('norway')">norway</a><br>
-				<a onclick="showPages('swe')">sweden</a><br>
-				<a onclick="showPages('usa')">usa</a><br>
-				<a onclick="showPages('uae')">uae (dubai)</a><br>
+<!-- class indented needs to be indented (.indented {left:40px}) -->
+				<a class="indented" id="places" href="places.html">places i've been</a><br>
+				<a class="indented" id="people" href="people.html">people i've met</a><br>
+				<a class="indented" id="things" href="things.html">things i've seen</a><br>
+			</div>
+			
+			<br>
+			
+<!--			<div class="menuItems" id="work">-->
+<!--				<p><b>work</b></p>-->
+<!--			</div>-->
+			
+<!--			<br>-->
+			
+<!--
+			<a class="menuItems" id="about" href="about.html">about</a>
+			<br>
+-->
+			<a class="menuItems" id="contact" href="contact.html">contact</a>
+		</div>
+		
+		<div id="displayContainer">
+			<div id="homePhoto">
+				<img src="whiteback.jpg">
 				
-				<br>
-				<a onclick="showPages('people')">people</a><br><br>
-				<a onclick="showPages('stuff')">stuff</a><br>
 			</div>
-			
-			<br><br>
-
-			<a onclick="showPages('about')" class="tab">about</a>
-
-			<br><br>
-
-			<a onclick="showPages('contact')" class="tab">contact</a>
 		</div>
 		
-		
-		
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<style>
-		* {
-			-webkit-user-select: none;      
-			-moz-user-select: none;
-			-ms-user-select: none;
-			font-family: monospace;
-		}
-		
-		body {
-			background-color: whitesmoke;
-		}
-		
-		.title {
-			font-size: 20px;
-		}
-		
-		a:link, a:visited, a:active, a:hover {
-			text-decoration:none;
-			color: #000000;
-			cursor: pointer;
-		}
-		
-		#bar {
-			z-index: 50;
-			left: 0px;
-			position: fixed;
-			float: left;
-			height: 100%;
-			width: 180px;
-			background-color: whitesmoke;
-			opacity: 0.9;
-			font-family: monospace;
-			color: #000000;
-			padding-top: 8px;
-			letter-spacing : 2px;
-			padding-left: 35px;
-		}
-		
-		#photos a {
-			padding-left:20px;
-		}
-		
-		div.pages * {
-			padding: 12px;
-		}
-		
-		div.pages img {
-			max-height: 666px;
-			height: 567px;
-			float: left;
-			position: relative;
-		}
-		
-		div.pages#home {
-			width: 1234px;
-		}
-		
-		
-		div.pages#holland {
-			position: absolute;
-			top: 0;
-			left: 0;
-			height: 100%;
-			width:6250px;
-		}
-		
-	
-		div.pages#swe {
-			position: absolute;
-			top: 0;
-			left: 0;
-			height: 100%;
-			width:5500px;
-		}
-		
-		div.pages#newzealand {
-			position: absolute;
-			top: 0;
-			left: 0;
-			height: 100%;
-			width:5250px;
-		}
-		
-		
-		div.pages#norway {
-			position: absolute;
-			top: 0;
-			left: 0;
-			height: 100%;
-			width:9500px;
-		}
-		
-		
-		div.pages#iceland {
-			position: absolute;
-			top: 0;
-			left: 0;
-			height: 100%;
-			width:3750px;
-		}
-		
-		div.pages#usa {
-			position: absolute;
-			top: 0;
-			left: 0;
-			height: 100%;
-			width:5100px;
-		}
-		
-		
-		div.pages#uae {
-			position: absolute;
-			top: 0;
-			left: 0;
-			height: 100%;
-			width:4500px;
-		}
-		
-	
-		div.pages#people {
-			position: absolute;
-			top: 0;
-			left: 0;
-			height: 100%;
-			width:7200px;
-		}
-		
-		
-		div.pages#stuff {
-			position: absolute;
-			top: 0;
-			left: 0;
-			height: 100%;
-			width:3500px;
-		}
-		
-	</style>
-	
-
-		
-		
-	<script>
-		console.log("this website's UI is entirely built by me (omi), if you like any part(s) of it and would like to use the codes, please, just ask; you can use it without any costs, just a little credit would be nice :) thanks!");
-
-		function photoMenuToggle() {
-			$("#photos").toggle("display");
-		}
-		
-		function showPages(name) {
-			var pages = document.getElementsByClassName("pages");
-			for (var i = 0; i < pages.length; i++) {
-				pages[i].style.display = 'none';
-			}
-			
-			setTimeout(function() {
-				document.getElementById(name).style.display = 'block';
-			}, 500);
-			
-		}
-		
-		
-	</script>
-</body>
+		<link rel="stylesheet" href="stylesheet.css">
+	</body>
 </html>
-<!-- -->

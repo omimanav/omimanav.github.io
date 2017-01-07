@@ -1,0 +1,82 @@
+* {
+	font-family: monospace;
+}
+
+body {
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#menu {
+	width: 200px;
+	height: 676px;
+	z-index: 20px;
+	position: fixed;
+	background-color: white;
+	opacity: 20px;
+}
+
+.menuItems {
+	padding-left: 5px;
+}
+
+.indented {
+	padding-left: 25px;
+}
+
+#displayPeople {
+	height: 686px;
+	z-index: 0px;
+	width: 8310px;
+	overflow-x: scroll;
+}
+
+#displayPlaces {
+	height: 686px;
+	z-index: 0px;
+	width: 13239px;
+	overflow-x: scroll;
+}
+
+#displayThings {
+	height: 686px;
+	z-index: 0px;
+	width: 10100px;
+	overflow-x: scroll;
+}
+#contact {
+	position: relative;
+}
+
+#displayContact {
+	float: right;
+	z-index: 0px;
+	height: 686px;
+	width: 100%;
+	overflow-x: scroll;
+}
+
+#title {
+	font-size: 20px;
+}
+
+img {
+	padding-right:10px; 
+	padding-top: 10px;
+	height: 666px;
+}
+
+#homePhoto {
+	overflow-x: scroll;
+	z-index: 0px;
+	height: 686px;
+}
+
+#displayContainer {
+	width: 100%;
+	overflow-x: scroll;
+	background-color: white;
+}
