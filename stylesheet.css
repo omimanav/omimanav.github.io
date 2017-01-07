@@ -72,7 +72,8 @@ img {
 #homePhoto {
 	overflow-x: hidden;
 	z-index: 0px;
-	height: 886px;
+	height: 686px;
+	width: 1200px;
 }
 
 #displayContainer {
