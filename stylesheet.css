@@ -70,7 +70,7 @@ img {
 }
 
 #homePhoto {
-	overflow-x: scroll;
+	overflow-x: hidden;
 	z-index: 0px;
 	height: 686px;
 }
