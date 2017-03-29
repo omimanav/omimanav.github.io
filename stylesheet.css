@@ -28,23 +28,23 @@ a {
 }
 
 #displayPeople {
-	height: 686px;
+	height: 666px;
 	z-index: 0px;
-	width: 8310px;
+	width: 7300px;
 	overflow-x: scroll;
 }
 
 #displayPlaces {
 	height: 686px;
 	z-index: 0px;
-	width: 13239px;
+	width: 12600px;
 	overflow-x: scroll;
 }
 
 #displayThings {
-	height: 686px;
+	height: 666px;
 	z-index: 0px;
-	width: 14100px;
+	width: 11100px;
 	overflow-x: scroll;
 }
 #contact {
@@ -75,14 +75,14 @@ a {
 img {
 	padding-right:20px;
 	padding-top: 20px;
-	height: 666px;
+	height: 563px;
 }
 
 #homePhoto {
 	overflow-x: hidden;
 	z-index: 0px;
-	height: 686px;
-	width: 1280px;
+	height: 600px;
+	width: 1125px;
 }
 
 #displayContainer {
