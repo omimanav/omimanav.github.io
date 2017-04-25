@@ -11,8 +11,8 @@ a {
 }
 
 #menu {
-	width: 200px;
-	height: 686px;
+	width: 180px;
+	height: 666px;
 	z-index: 20px;
 	position: fixed;
 	background-color: white;
@@ -65,7 +65,7 @@ a {
 
 #displayAbout {
 	width: 2000px;
-	height: 686px;
+	height: 600px;
 	overflow-y: visible;
 	z-index: 0px;
 }
