@@ -1,0 +1,101 @@
+a:link, a:visited, a:active, a:hover
+		{
+		text-decoration:none;
+		color: black;
+		}
+
+
+
+p		{
+		font-family: monospace;
+		letter-spacing: 0px;
+		line-height: 110%;       
+		color: black;
+        font-size: 11px;
+		letter-spacing: 0px;
+		}
+		
+p.top	{
+		font-size:16px;
+		letter-spacing:1px;
+		text-indent:20px;
+		}
+
+p.secondarytop	{
+		font-size:12px;
+		letter-spacing:0px;
+		text-indent:40px;
+		}
+
+p.secondary	{
+		font-size:12px;
+		letter-spacing:0px;
+		text-indent:40px;
+		padding-top:5px;
+		}
+
+
+
+p.indv	{
+		font-size:12px;
+		letter-spacing:0px;
+		text-indent:60px;
+		}
+
+p.contact	{
+		font-size:12px;
+		letter-spacing:0px;
+		padding:5px;
+		}
+
+#menu 	{
+		z-index: 50;
+		left: 0px;
+		position: fixed;
+		height: 100%;
+		width: 165px;
+		background: #FFF;
+		opacity: 0.9; 
+		font-family : georgia;         
+		color: #333; 
+		padding-top: 8px;
+		letter-spacing : 0px
+		}
+		
+#clean {
+		z-index:0;
+		position: fixed;
+		left:200px;
+		top:20px;
+		height:100%;
+		width: 100%;
+		padding:10px;
+		background: #FFFFFF;
+		}	
+
+#things {
+		z-index:0;
+		left:0px;
+		height:100%;
+		width: 11020px;
+		background: #FFFFFF;
+		}
+
+#places {
+		z-index:0;
+		left:0px;
+		height:100%;
+		width: 11020px;
+		background: #FFFFFF;
+		}
+				
+#people {
+		z-index:0;
+		left:0px;
+		height:100%;
+		width: 11020px;
+		background: #FFFFFF;
+		}
+
+
+
