@@ -77,7 +77,7 @@ p.contact	{
 		z-index:0;
 		left:0px;
 		height:100%;
-		width: 9820px;
+		width: 10030px;
 		background: #FFFFFF;
 		}
 
@@ -85,7 +85,7 @@ p.contact	{
 		z-index:0;
 		left:0px;
 		height:100%;
-		width: 9820px;
+		width: 10030px;
 		background: #FFFFFF;
 		}
 				
@@ -93,9 +93,11 @@ p.contact	{
 		z-index:0;
 		left:0px;
 		height:100%;
-		width: 9820px;
+		width: 10030px;
 		background: #FFFFFF;
 		}
 
-
+img {
+	padding: 10px;
+}
 
