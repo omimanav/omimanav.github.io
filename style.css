@@ -1,3 +1,7 @@
+* {
+	font-family: georgia;
+}
+
 a:link, a:visited, a:active, a:hover
 		{
 		text-decoration:none;
@@ -7,7 +11,6 @@ a:link, a:visited, a:active, a:hover
 
 
 p		{
-		font-family: monospace;
 		letter-spacing: 0px;
 		line-height: 110%;       
 		color: black;
