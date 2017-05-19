@@ -10,13 +10,13 @@
 	<div id="menu">
 			<a href="http://beerandcamera.github.io"><p class="title">omi</a>
 			<br>
-			<a href="places.html"><p class="submenu">places i've been</a>
+			<a href="places"><p class="submenu">places i've been</a>
 			<br>
-			<a href="people.html"><p class="submenu">people i've met</a>
+			<a href="people"><p class="submenu">people i've met</a>
 			<br>
-			<a href="things.html"><p class="submenu">things i've seen</a>
+			<a href="things"><p class="submenu">things i've seen</a>
 			<br>
-			<a href="about.html"><p class="about">about</a>
+			<a href="about"><p class="about">about</a>
 	</div>
 	
 	<div id="things">
