@@ -15,5 +15,7 @@ from PIL import Image
 for filename in os.listdir('.'):
 	if '.jpg' in filename:
 		img = Image.open(filename)
-		img = img.resize((1067, 600), Image.ANTIALIAS)
+		ratio = float(img.size[0]) / float(img.size[1])
+		print ratio
+		img = img.resize((int(600 * ratio), 600), Image.ANTIALIAS)
 		img.save(filename)

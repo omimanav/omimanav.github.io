@@ -82,14 +82,14 @@ p.about {
 	z-index:0;
 	left:0px;
 	height:100%;
-	width: 10030px;
+	width: 11120px;
 	background: #FFFFFF;
 	}
 
 img {
 	padding: 10px;
 }
-
+/* +1090px for gallery per photo */
 /*
 if you're reading this, at least let me know that you're going to use this style, i'm okay with sharing.
 */
