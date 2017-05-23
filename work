@@ -8,14 +8,14 @@
 
 <body>
 	<div id="menu">
-		<a href="http://beerandcamera.github.io"><p class="title">omi</a>
+		<a href="http://beerandcamera.github.io"><p class="title">OMI</a>
 			<br>
 		<a href="index.html"><p class="menuitem">PHOTOS</a>
-			<a href="places.html"><p class="submenu">__places</a>
-			<a href="people.html"><p class="submenu">__people</a>
-			<a href="things.html"><p class="submenu">__things</a>
+			<a href="places"><p class="submenu">__places</a>
+			<a href="people"><p class="submenu">__people</a>
+			<a href="things"><p class="submenu">__things</a>
 			<br>
-		<a href="about.html"><p class="menuitem">ABOUT</a>
+		<a href="about"><p class="menuitem">ABOUT</a>
 	</div>
 	
 	<div id="display">
