@@ -21,7 +21,7 @@
 	</div>
 	
 	<div id="display">
-	<img style="home.jpg" style="padding:10px;">
+	<img src="home.jpg" style="padding:10px;">
 	</div>
 		
 		
