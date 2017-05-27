@@ -19,8 +19,7 @@
 	</div>
 	
 	<div id="display">
-		<iframe src="https://player.vimeo.com/video/219179126" width="800" height="440" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/219179126">here n&#039; there</a> from <a href="https://vimeo.com/user67077895">omi</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+		<iframe style="padding:30px;" src="https://player.vimeo.com/video/219179126" width="800" height="440" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	</div>
 		
 		
