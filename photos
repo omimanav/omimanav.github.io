@@ -2,7 +2,7 @@
 <html>
 <head>
 <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8">
-<title>photos</title>
+<title>omi</title>
 </head>
 
 
@@ -11,9 +11,9 @@
 		<a href="http://beerandcamera.github.io"><p class="title">OMI</a>
 			<br>
 		<a href="index.html"><p class="menuitem">PHOTOS</a>
-			<a href="places"><p class="submenu">__places</a>
-			<a href="people"><p class="submenu">__people</a>
-			<a href="things"><p class="submenu">__things</a>
+			<a href="places"><p class="submenu">places</a>
+			<a href="people"><p class="submenu">people</a>
+			<a href="things"><p class="submenu">things</a>
 		<br>
 		<a href="videos"><p class="menuitem">VIDEOS</a>
 		<br>

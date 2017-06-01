@@ -5,7 +5,7 @@
 a:link, a:visited, a:active, a:hover
 	{
 	text-decoration:none;
-	color: black;
+	color: #000;
 	}
 
 
@@ -13,7 +13,7 @@ a:link, a:visited, a:active, a:hover
 p		{
 	letter-spacing: 0px;
 	line-height: 110%;       
-	color: black;
+	color: #000;
 	font-size: 11px;
 	letter-spacing: 0px;
 	}
@@ -90,6 +90,4 @@ img.photato {
 	padding: 10px;
 }
 /* +1107px for gallery per photo */
-/*
-if you're reading this, at least let me know that you're going to use any code, i'm okay with sharing.
-*/
+/*if you're reading this; hi, hmu if you can help me with a bit of html, i'd appreciate it, ta.*/
