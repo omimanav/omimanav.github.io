@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8">
+<title>portraits</title>
+</head>
+
+
+<body>
+	<div id="menu">
+			<a href="http://beerandcamera.github.io"><p class="title">OMI</a>
+			<br>
+			<a href="photos"><p class="menuitem">PHOTOS</a>
+				<a href="heibei"><p class="submenu">heibei.01</a>
+				<a href="heibei"><p class="submenu">heibei.02</a>
+				<a href="1010n"><p class="submenu">1010n</a>
+				<a href="1010d"><p class="submenu">1010d</a>
+				<a href="akl-kef"><p class="submenu">akl-kef</a>
+				<a href="portraits"><p class="submenu">portraits</a>
+			<br>
+			<a href="videos"><p class="menuitem">VIDEOS</a>
+			<br>
+			<a href="about"><p class="menuitem">ABOUT</a>
+	</div>
+	
+	<div id="portraits">
+		<img src="white.png">
+		<img class="photato"  src='portraits2.jpg'>
+		<img class="photato"  src='portraits0.jpg'>
+		<img class="photato"  src='portraits3.jpg'>
+		<img class="photato"  src='portraits6.jpg'>
+		<img class="photato"  src='portraits8.jpg'>
+		<img class="photato"  src='portraits1.jpg'>
+		<img class="photato"  src='portraits7.jpg'>
+		<img class="photato"  src='portraits5.jpg'>
+		<img class="photato"  src='portraits4.jpg'>
+	</div>
+</body>
+</html>
+	
+	<!--if you're reading this; hi, hmu if you can help me with a bit of html, i'd appreciate it, ta.-->

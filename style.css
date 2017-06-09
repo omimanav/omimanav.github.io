@@ -62,7 +62,7 @@ p.menuitem {
 	background: #FFFFFF;
 	}	
 
-#things {
+#akl-kef {
 	z-index:0;
 	left:0px;
 	height:100%;
@@ -70,15 +70,7 @@ p.menuitem {
 	background: #FFFFFF;
 	}
 
-#places {
-	z-index:0;
-	left:0px;
-	height:100%;
-	width: 10030px;
-	background: #FFFFFF;
-	}
-
-#people {
+#portraits {
 	z-index:0;
 	left:0px;
 	height:100%;
@@ -86,8 +78,41 @@ p.menuitem {
 	background: #FFFFFF;
 	}
 
+#heibei01 {
+	z-index:0;
+	left:0px;
+	height:100%;
+	width: 14391px;
+	background: #FFFFFF;
+	}
+
+#heibei02 {
+	z-index:0;
+	left:0px;
+	height:100%;
+	width: 11070px;
+	background: #FFFFFF;
+	}
+
 img.photato {
 	padding: 10px;
 }
+
+#1010d {
+	z-index:0;
+	left:0px;
+	height:100%;
+	width: 8856px;
+	background: #FFFFFF;
+}
+
+#1010n {
+	z-index:0;
+	left:0px;
+	height:100%;
+	width: 8856px;
+	background: #FFFFFF;
+}
+
 /* +1107px for gallery per photo */
 /*if you're reading this; hi, hmu if you can help me with a bit of html, i'd appreciate it, ta.*/

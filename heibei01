@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8">
+<title>heibei.01</title>
+</head>
+
+
+<body>
+	<div id="menu">
+			<a href="http://beerandcamera.github.io"><p class="title">OMI</a>
+			<br>
+			<a href="photos"><p class="menuitem">PHOTOS</a>
+				<a href="heibei"><p class="submenu">heibei.01</a>
+				<a href="heibei"><p class="submenu">heibei.02</a>
+				<a href="1010n"><p class="submenu">1010n</a>
+				<a href="1010d"><p class="submenu">1010d</a>
+				<a href="akl-kef"><p class="submenu">akl-kef</a>
+				<a href="portraits"><p class="submenu">portraits</a>
+			<br>
+			<a href="videos"><p class="menuitem">VIDEOS</a>
+		<br>
+			<a href="about"><p class="menuitem">ABOUT</a>
+	</div>
+	
+	<div id="heibei01">
+		<img src="white.png">
+		<img class="photato"  src='heibei0.jpg'>
+		<img class="photato"  src='heibei1.jpg'>
+		<img class="photato"  src='heibei2.jpg'>
+		<img class="photato"  src='heibei3.jpg'>
+		<img class="photato"  src='heibei4.jpg'>
+		<img class="photato"  src='heibei5.jpg'>
+		<img class="photato"  src='heibei6.jpg'>
+		<img class="photato"  src='heibei7.jpg'>
+		<img class="photato"  src='heibei8.jpg'>
+		<img class="photato"  src='heibei9.jpg'>
+		<img class="photato"  src='heibei10.jpg'>
+		<img class="photato"  src='heibei11.jpg'>
+		<img class="photato"  src='heibei12.jpg'>
+		<img class="photato"  src='heibei13.jpg'>
+	</div>
+</body>
+</html>
+
+<!--if you're reading this; hi, hmu if you can help me with a bit of html, i'd appreciate it, ta.-->

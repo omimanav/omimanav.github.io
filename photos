@@ -12,8 +12,12 @@
 			<br>
 		<a href="index.html"><p class="menuitem">PHOTOS</a>
 			<a href="places"><p class="submenu">places</a>
-			<a href="people"><p class="submenu">people</a>
-			<a href="things"><p class="submenu">things</a>
+				<a href="heibei"><p class="submenu">heibei.01</a>
+				<a href="heibei"><p class="submenu">heibei.02</a>
+				<a href="1010n"><p class="submenu">1010n</a>
+				<a href="1010d"><p class="submenu">1010d</a>
+				<a href="akl-kef"><p class="submenu">akl-kef</a>
+				<a href="portraits"><p class="submenu">portraits</a>
 		<br>
 		<a href="videos"><p class="menuitem">VIDEOS</a>
 		<br>
