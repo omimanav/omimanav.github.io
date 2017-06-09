@@ -74,7 +74,7 @@ p.menuitem {
 	z-index:0;
 	left:0px;
 	height:100%;
-	width: 11130px;
+	width: 10020px;
 	background: #FFFFFF;
 	}
 
@@ -90,29 +90,29 @@ p.menuitem {
 	z-index:0;
 	left:0px;
 	height:100%;
-	width: 11070px;
+	width: 6440px;
 	background: #FFFFFF;
 	}
 
 img.photato {
 	padding: 10px;
-}
+	}
 
-#1010d {
+#d1010 {
 	z-index:0;
 	left:0px;
 	height:100%;
-	width: 8856px;
+	width: 3820px;
 	background: #FFFFFF;
-}
+	}
 
-#1010n {
+#n1010 {
 	z-index:0;
 	left:0px;
 	height:100%;
-	width: 8856px;
+	width: 3820px;
 	background: #FFFFFF;
 }
 
-/* +1107px for gallery per photo */
+/* +1107px for gallery for 16:9, 440px for 5:7, 640 for 1:1*/
 /*if you're reading this; hi, hmu if you can help me with a bit of html, i'd appreciate it, ta.*/

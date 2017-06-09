@@ -11,9 +11,8 @@
 			<a href="http://beerandcamera.github.io"><p class="title">OMI</a>
 			<br>
 			<a href="photos"><p class="menuitem">PHOTOS</a>
-				<a href="places"><p class="submenu">places</a>
 				<a href="heibei01"><p class="submenu">heibei.01</a>
-				<a href="heibei01"><p class="submenu">heibei.02</a>
+				<a href="heibei02"><p class="submenu">heibei.02</a>
 				<a href="1010n"><p class="submenu">1010n</a>
 				<a href="1010d"><p class="submenu">1010d</a>
 				<a href="akl-kef"><p class="submenu">akl-kef</a>
@@ -24,7 +23,7 @@
 			<a href="about"><p class="menuitem">ABOUT</a>
 	</div>
 	
-	<div id="1010n">
+	<div id="n1010">
 		<img src="white.png">
 		<img class="photato"  src='1010n0.jpg'>
 		<img class="photato"  src='1010n1.jpg'>
