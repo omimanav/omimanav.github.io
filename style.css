@@ -82,7 +82,7 @@ p.menuitem {
 	z-index:0;
 	left:0px;
 	height:100%;
-	width: 14391px;
+	width: 15500px;
 	background: #FFFFFF;
 	}
 
@@ -114,5 +114,5 @@ img.photato {
 	background: #FFFFFF;
 }
 
-/* +1107px for gallery for 16:9, 440px for 5:7, 640 for 1:1*/
+/* +1100px for gallery for 16:9, 440px for 5:7, 640 for 1:1*/
 /*if you're reading this; hi, hmu if you can help me with a bit of html, i'd appreciate it, ta.*/
