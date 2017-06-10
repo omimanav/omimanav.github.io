@@ -28,7 +28,6 @@ p.submenu	{
 	font-size:12px;
 	letter-spacing:0px;
 	text-indent:60px;
-	font-style: italic;
 	}
 
 p.menuitem {
@@ -111,6 +110,14 @@ img.photato {
 	left:0px;
 	height:100%;
 	width: 3820px;
+	background: #FFFFFF;
+}
+
+#n-i-16 {
+	z-index:0;
+	left:0px;
+	height:100%;
+	width: 11110px;
 	background: #FFFFFF;
 }
 
