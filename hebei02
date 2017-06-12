@@ -2,7 +2,7 @@
 <html>
 <head>
 <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8">
-<title>heibei.02</title>
+<title>hebei.02</title>
 </head>
 
 
@@ -12,8 +12,8 @@
 			<br>
 			<a href="photos"><p class="menuitem">PHOTOS</a>
 				<a href="n-i-16"><p class="submenu">n-i-16</a> 				
-				<a href="heibei01"><p class="submenu">heibei.01</a>
-				<a href="heibei02"><p class="submenu">heibei.02</a>
+				<a href="hebei01"><p class="submenu">hebei.01</a>
+				<a href="hebei02"><p class="submenu">hebei.02</a>
 				<a href="1010n"><p class="submenu">1010n</a>
 				<a href="1010d"><p class="submenu">1010d</a>
 				<a href="akl-kef"><p class="submenu">akl-kef</a>
@@ -24,18 +24,18 @@
 			<a href="about"><p class="menuitem">ABOUT</a>
 	</div>
 	
-	<div id="heibei02">
+	<div id="hebei02">
 		<img src="white.png">
-		<img class="photato"  src='heibei14.jpg'>
-		<img class="photato"  src='heibei15.jpg'>
-		<img class="photato"  src='heibei16.jpg'>
-		<img class="photato"  src='heibei17.jpg'>
-		<img class="photato"  src='heibei18.jpg'>
-		<img class="photato"  src='heibei19.jpg'>
-		<img class="photato"  src='heibei20.jpg'>
-		<img class="photato"  src='heibei21.jpg'>
-		<img class="photato"  src='heibei22.jpg'>
-		<img class="photato"  src='heibei23.jpg'>
+		<img class="photato"  src='hebei14.jpg'>
+		<img class="photato"  src='hebei15.jpg'>
+		<img class="photato"  src='hebei16.jpg'>
+		<img class="photato"  src='hebei17.jpg'>
+		<img class="photato"  src='hebei18.jpg'>
+		<img class="photato"  src='hebei19.jpg'>
+		<img class="photato"  src='hebei20.jpg'>
+		<img class="photato"  src='hebei21.jpg'>
+		<img class="photato"  src='hebei22.jpg'>
+		<img class="photato"  src='hebei23.jpg'>
 	</div>
 </body>
 </html>

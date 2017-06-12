@@ -2,7 +2,7 @@
 <html>
 <head>
 <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8">
-<title>heibei.01</title>
+<title>hebei.01</title>
 </head>
 
 
@@ -12,8 +12,8 @@
 			<br>
 			<a href="photos"><p class="menuitem">PHOTOS</a>
 				<a href="n-i-16"><p class="submenu">n-i-16</a> 				
-				<a href="heibei01"><p class="submenu">heibei.01</a>
-				<a href="heibei02"><p class="submenu">heibei.02</a>
+				<a href="hebei01"><p class="submenu">hebei.01</a>
+				<a href="hebei02"><p class="submenu">hebei.02</a>
 				<a href="1010n"><p class="submenu">1010n</a>
 				<a href="1010d"><p class="submenu">1010d</a>
 				<a href="akl-kef"><p class="submenu">akl-kef</a>
@@ -24,22 +24,22 @@
 			<a href="about"><p class="menuitem">ABOUT</a>
 	</div>
 	
-	<div id="heibei01">
+	<div id="hebei01">
 		<img src="white.png">
-		<img class="photato"  src='heibei0.jpg'>
-		<img class="photato"  src='heibei1.jpg'>
-		<img class="photato"  src='heibei2.jpg'>
-		<img class="photato"  src='heibei3.jpg'>
-		<img class="photato"  src='heibei4.jpg'>
-		<img class="photato"  src='heibei5.jpg'>
-		<img class="photato"  src='heibei6.jpg'>
-		<img class="photato"  src='heibei7.jpg'>
-		<img class="photato"  src='heibei8.jpg'>
-		<img class="photato"  src='heibei9.jpg'>
-		<img class="photato"  src='heibei10.jpg'>
-		<img class="photato"  src='heibei11.jpg'>
-		<img class="photato"  src='heibei12.jpg'>
-		<img class="photato"  src='heibei13.jpg'>
+		<img class="photato"  src='hebei0.jpg'>
+		<img class="photato"  src='hebei1.jpg'>
+		<img class="photato"  src='hebei2.jpg'>
+		<img class="photato"  src='hebei3.jpg'>
+		<img class="photato"  src='hebei4.jpg'>
+		<img class="photato"  src='hebei5.jpg'>
+		<img class="photato"  src='hebei6.jpg'>
+		<img class="photato"  src='hebei7.jpg'>
+		<img class="photato"  src='hebei8.jpg'>
+		<img class="photato"  src='hebei9.jpg'>
+		<img class="photato"  src='hebei10.jpg'>
+		<img class="photato"  src='hebei11.jpg'>
+		<img class="photato"  src='hebei12.jpg'>
+		<img class="photato"  src='hebei13.jpg'>
 	</div>
 </body>
 </html>
