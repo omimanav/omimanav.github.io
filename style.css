@@ -122,29 +122,5 @@ img.photato {
 	background: #FFFFFF;
 }
 
-.scroller {
-	z-index: 10;
-	height: 600px;
-	width: 100%;
-	position: relative;
-}
-
-#left {
-	margin-top: 10px;
-	z-index: 200;
-	float:left;
-	width: 200px;
-	margin-left: 200px;
-	height: 600px;
-}
-
-#right {
-	margin-top: 10px;
-	z-index: 200;
-	height: 600px;
-	float: right;
-	width: 200px;
-}
-
 /* +1100px for gallery for 16:9, 440px for 5:7, 640 for 1:1*/
 /*if you're reading this; hi, hmu if you can help me with a bit of html, i'd appreciate it, ta.*/
