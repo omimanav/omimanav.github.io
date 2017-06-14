@@ -141,7 +141,7 @@ img.photato {
 
 #right {
 	margin-top: 10px;
-	z-index: 20   s0;
+	z-index: 200;
 	height: 600px;
 	float: right;
 	width: 200px;
