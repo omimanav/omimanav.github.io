@@ -83,6 +83,7 @@ p.menuitem {
 	height:100%;
 	width: 15500px;
 	background: #FFFFFF;
+	position: absolute;
 	}
 
 #hebei02 {
@@ -119,6 +120,31 @@ img.photato {
 	height:100%;
 	width: 11110px;
 	background: #FFFFFF;
+}
+
+.scroller {
+	z-index: 10;
+	height: 600px;
+	width: 100%;
+	position: relative;
+}
+
+#left {
+	margin-top: 10px;
+	z-index: 20;
+	float:left;
+	width: 200px;
+	margin-left: 200px;
+	height: 600px;
+	position: absolute;
+}
+
+#right {
+	margin-top: 10px;
+	z-index: 20;
+	height: 600px;
+	float: right;
+	width: 200px;
 }
 
 /* +1100px for gallery for 16:9, 440px for 5:7, 640 for 1:1*/
