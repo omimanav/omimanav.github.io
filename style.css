@@ -131,7 +131,7 @@ img.photato {
 
 #left {
 	margin-top: 10px;
-	z-index: 20;
+	z-index: 200;
 	float:left;
 	width: 200px;
 	margin-left: 200px;
@@ -141,7 +141,7 @@ img.photato {
 
 #right {
 	margin-top: 10px;
-	z-index: 20;
+	z-index: 20   s0;
 	height: 600px;
 	float: right;
 	width: 200px;
