@@ -48,23 +48,8 @@
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script type="text/javascript">
-		var sa = '';
-		
-		function scroller() {
-			$(".gallery").animate({scrollLeft: sa}, 100, 'linear', function() {
-				if (sa != '') scroller();
-			});
-		}
-		
-		$('#left').hover(function() {
-			sa = '+=10';
-			scroller();
-		}, function() {sa = ''});
-		
-		$('#right').hover(function() {
-			sa = '-=10';
-			scroller();
-		}, function() {sa = ''});
+		$("#left").hover($(".gallery").scrollLeft(), $("."));
+		$("#right").hover($(".gallery").scrollRight(), $("."));
 	</script>
 </body>
 </html>
