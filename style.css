@@ -43,7 +43,7 @@ p.menuitem:hover {
 
 p.active {
 	background-color: #333;
-	padding: 10px;
+	padding: 5px;
 	color: #FFF;
 	width: 20px;
 }
