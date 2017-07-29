@@ -1,139 +1,130 @@
 * {
-	font-family: georgia;
-}
-
-a:link, a:visited, a:active, a:hover
-	{
-	text-decoration:none;
-	color: #333;
+	font: georgia serif;
 }
 
 body {
-	background-color: #FFF;
-}
-
-p		{
-	letter-spacing: 0px;
-	line-height: 110%;       
-	color: #333;
-	font-size: 11px;
-	letter-spacing: 0px;
-}
-
-p.title	{
-	color: #333;
-	font-size:16px;
-	letter-spacing:1px;
-	text-indent:20px;
-}
-
-p.submenu	{
-	color: #333;
-	font-size:12px;
-	letter-spacing:0px;
-	text-indent:60px;
-}
-
-p.menuitem {
-	color: #333;
-	font-size:12px;
-	letter-spacing:0px;
-	text-indent:40px;
-	padding-top: 5px;
-}
-
-p.subheading {
-	color: #333;
-	font-size:12px;
-	letter-spacing:0px;
-	text-indent:60px;
-	cursor: default;
+	overflow: hidden;
 }
 
 #menu {
-	z-index: 50;
-	left: 0px;
-	position: fixed;
-	height: 625px;
-	width: 165px;
-	background: #FFF;
+	height: 22pt;
+	width: 100%;
+	z-index: 2;
+	background-color: #FFF;
 	opacity: 0.9;
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+a {
+	text-decoration: none;
 	color: #333;
-	padding-top: 8px;
-	letter-spacing : 0px;
+}
+
+p {
+	color: #333;
+}
+
+a.menuitem {
+	float: left;
+	position: relative;
+	font-size: 12pt;
+	text-indent: 22px;
+}
+
+a.submenuitem {
+	float: left;
+	position: relative;
+	font-size: 10pt;
+	text-indent: 22px;
+	padding: 1pt
+}
+
+img {
+	padding: 10px;
+}
+
+#submenu {
+	height: 100%;
+	overflow: hidden;
+	position: fixed;
+	width: 100%;
+}
+
+#submenu a, p {
+	text-indent: 22pt;
 }
 
 #display {
 	z-index:0;
-	position: fixed;
-	left:200px;
-	top:20px;
-	height:620px;
+	height:622px;
 	width: 100%;
 	padding:10px;
 	background: #FFF;
-}	
-
-#akl-kef {
-	z-index:0;
-
-	height:700px;
-	width: 10030px;
-	background: #FFF;
+	font-size: 10pt;
 }
 
-#portraits {
-	z-index:0;
-	left:0px;
-	height:100%;
-	width: 11110px;
-	background: #FFF;
-}
-
-#hebei01 {
-	z-index:0;
-	left:0px;
-	height:100%;
-	width: 15500px;
-	background: #FFF;
-	position: absolute;
-}
-
-#hebei02 {
-	z-index:0;
-	left:0px;
-	height:100%;
-	width: 6440px;
-	background: #FFF;
-}
-
-img.photato {
-	padding: 10px;
-}
-
-#d1010 {
-	z-index:0;
-	left:0px;
-	height:100%;
-	width: 3820px;
-	background: #FFF;
-}
-
-#n1010 {
-	z-index:0;
-	left:0px;
-	height:100%;
-	width: 3820px;
-	background: #FFF;
+.outer {
+	overflow: scroll;
 }
 
 #n-i-16 {
 	z-index:0;
 	left:0px;
 	height:100%;
-	width: 12210px;
+	width: 12020px;
+	overflow-y: hidden;
+	background-color: #FFF;
+}
+
+#hebei01 {
+	z-index:0;
+	left:0px;
+	height:100%;
+	width: 15280px;
 	background: #FFF;
 }
 
-/* +1100px for gallery for 16:9, 440px for 5:7, 640 for 1:1*/
-/*if you're reading this; hi, hmu if you can help me with a bit of html, i'd appreciate it, ta.*/
+#hebei02 {
+	z-index:0;
+	left:0px;
+	height:100%;
+	width: 6240px;
+	background: #FFF;
+}
+
+#d1010 {
+	z-index:0;
+	left:0px;
+	height:100%;
+	width: 3620px;
+	overflow-y: hidden;
+	background-color: #FFF;
+}
+
+#n1010 {
+	z-index:0;
+	left:0px;
+	height:100%;
+	width: 3620px;
+	overflow-y: hidden;
+	background-color: #FFF;
+}
+
+#akl-kef {
+	width: 9820px;
+	z-index:0;
+	left:0px;
+	height:100%;
+	overflow-y: hidden;
+	background-color: #FFF;
+}
+
+#portraits {
+	z-index:0;
+	left:0px;
+	height:100%;
+	width: 10920px;
+	background: #FFF;
+}
+
