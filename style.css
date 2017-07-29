@@ -1,3 +1,6 @@
+cloudflare-app[app-id="no-adblock"] {display:none!important;}
+html body.adbmodal-cloudflare-open {overflow:auto;}
+
 * {
 	font: georgia serif;
 }
