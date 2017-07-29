@@ -79,7 +79,7 @@ p.subheading {
 
 	height:700px;
 	width: 10030px;
-	background: #FFF;
+	background: #333;
 }
 
 #portraits {
@@ -87,7 +87,7 @@ p.subheading {
 	left:0px;
 	height:100%;
 	width: 11110px;
-	background: #FFF;
+	background: #333;
 }
 
 #hebei01 {
@@ -95,7 +95,7 @@ p.subheading {
 	left:0px;
 	height:100%;
 	width: 15500px;
-	background: #FFF;
+	background: #333;
 	position: absolute;
 }
 
@@ -104,7 +104,7 @@ p.subheading {
 	left:0px;
 	height:100%;
 	width: 6440px;
-	background: #FFF;
+	background: #333;
 }
 
 img.photato {
@@ -116,7 +116,7 @@ img.photato {
 	left:0px;
 	height:100%;
 	width: 3820px;
-	background: #FFF;
+	background: #333;
 }
 
 #n1010 {
@@ -124,7 +124,7 @@ img.photato {
 	left:0px;
 	height:100%;
 	width: 3820px;
-	background: #FFF;
+	background: #333;
 }
 
 #n-i-16 {
@@ -132,7 +132,7 @@ img.photato {
 	left:0px;
 	height:100%;
 	width: 12210px;
-	background: #FFF;
+	background: #333;
 }
 
 /* +1100px for gallery for 16:9, 440px for 5:7, 640 for 1:1*/
