@@ -2,6 +2,10 @@
 	font-family: georgia;
 }
 
+body {
+	background-color: #333;
+}
+
 a:link, a:visited, a:active, a:hover
 	{
 	text-decoration:none;
