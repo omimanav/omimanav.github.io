@@ -3,7 +3,7 @@
 }
 
 body {
-	background-color: #333;
+	background-color: #FFF;
 }
 
 a:link, a:visited, a:active, a:hover
@@ -67,7 +67,7 @@ p.subheading {
 	height:100%;
 	width: 100%;
 	padding:10px;
-	background: #333;
+	background: #FFF;
 }	
 
 #akl-kef {
@@ -75,7 +75,7 @@ p.subheading {
 
 	height:700px;
 	width: 10030px;
-	background: #333;
+	background: #FFF;
 }
 
 #portraits {
@@ -83,7 +83,7 @@ p.subheading {
 	left:0px;
 	height:100%;
 	width: 11110px;
-	background: #333;
+	background: #FFF;
 }
 
 #hebei01 {
@@ -91,7 +91,7 @@ p.subheading {
 	left:0px;
 	height:100%;
 	width: 15500px;
-	background: #333;
+	background: #FFF;
 	position: absolute;
 }
 
@@ -100,7 +100,7 @@ p.subheading {
 	left:0px;
 	height:100%;
 	width: 6440px;
-	background: #333;
+	background: #FFF;
 }
 
 img.photato {
@@ -112,7 +112,7 @@ img.photato {
 	left:0px;
 	height:100%;
 	width: 3820px;
-	background: #333;
+	background: #FFF;
 }
 
 #n1010 {
@@ -120,7 +120,7 @@ img.photato {
 	left:0px;
 	height:100%;
 	width: 3820px;
-	background: #333;
+	background: #FFF;
 }
 
 #n-i-16 {
@@ -128,7 +128,7 @@ img.photato {
 	left:0px;
 	height:100%;
 	width: 12210px;
-	background: #333;
+	background: #FFF;
 }
 
 /* +1100px for gallery for 16:9, 440px for 5:7, 640 for 1:1*/
