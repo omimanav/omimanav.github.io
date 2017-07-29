@@ -5,37 +5,37 @@
 a:link, a:visited, a:active, a:hover
 	{
 	text-decoration:none;
-	color: #DDD;
+	color: #333;
 }
 
 body {
-	background-color: #333;
+	background-color: #FFF;
 }
 
 p		{
 	letter-spacing: 0px;
 	line-height: 110%;       
-	color: #DDD;
+	color: #333;
 	font-size: 11px;
 	letter-spacing: 0px;
 }
 
 p.title	{
-	color: #DDD;
+	color: #333;
 	font-size:16px;
 	letter-spacing:1px;
 	text-indent:20px;
 }
 
 p.submenu	{
-	color: #DDD;
+	color: #333;
 	font-size:12px;
 	letter-spacing:0px;
 	text-indent:60px;
 }
 
 p.menuitem {
-	color: #DDD;
+	color: #333;
 	font-size:12px;
 	letter-spacing:0px;
 	text-indent:40px;
@@ -43,7 +43,7 @@ p.menuitem {
 }
 
 p.subheading {
-	color: #DDD;
+	color: #333;
 	font-size:12px;
 	letter-spacing:0px;
 	text-indent:60px;
@@ -56,9 +56,9 @@ p.subheading {
 	position: fixed;
 	height: 625px;
 	width: 165px;
-	background: #333;
+	background: #FFF;
 	opacity: 0.9;
-	color: #DDD;
+	color: #333;
 	padding-top: 8px;
 	letter-spacing : 0px;
 }
@@ -71,7 +71,7 @@ p.subheading {
 	height:620px;
 	width: 100%;
 	padding:10px;
-	background: #333;
+	background: #FFF;
 }	
 
 #akl-kef {
@@ -79,7 +79,7 @@ p.subheading {
 
 	height:700px;
 	width: 10030px;
-	background: #333;
+	background: #FFF;
 }
 
 #portraits {
@@ -87,7 +87,7 @@ p.subheading {
 	left:0px;
 	height:100%;
 	width: 11110px;
-	background: #333;
+	background: #FFF;
 }
 
 #hebei01 {
@@ -95,7 +95,7 @@ p.subheading {
 	left:0px;
 	height:100%;
 	width: 15500px;
-	background: #333;
+	background: #FFF;
 	position: absolute;
 }
 
@@ -104,7 +104,7 @@ p.subheading {
 	left:0px;
 	height:100%;
 	width: 6440px;
-	background: #333;
+	background: #FFF;
 }
 
 img.photato {
@@ -116,7 +116,7 @@ img.photato {
 	left:0px;
 	height:100%;
 	width: 3820px;
-	background: #333;
+	background: #FFF;
 }
 
 #n1010 {
@@ -124,7 +124,7 @@ img.photato {
 	left:0px;
 	height:100%;
 	width: 3820px;
-	background: #333;
+	background: #FFF;
 }
 
 #n-i-16 {
@@ -132,7 +132,7 @@ img.photato {
 	left:0px;
 	height:100%;
 	width: 12210px;
-	background: #333;
+	background: #FFF;
 }
 
 /* +1100px for gallery for 16:9, 440px for 5:7, 640 for 1:1*/
