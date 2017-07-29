@@ -11,7 +11,7 @@ a:link, a:visited, a:active, a:hover
 p		{
 	letter-spacing: 0px;
 	line-height: 110%;       
-	color: #333;
+	color: #DDD;
 	font-size: 11px;
 	letter-spacing: 0px;
 }
@@ -46,11 +46,11 @@ p.subheading {
 	z-index: 50;
 	left: 0px;
 	position: fixed;
-	height: 620px;
+	height: 100%;
 	width: 165px;
 	background: #333;
 	opacity: 0.9;
-	color: #EEE;
+	color: #DDD;
 	padding-top: 8px;
 	letter-spacing : 0px;
 }
@@ -63,7 +63,7 @@ p.subheading {
 	height:100%;
 	width: 100%;
 	padding:10px;
-	background: #FFFFFF;
+	background: #333;
 }	
 
 #akl-kef {
@@ -71,7 +71,7 @@ p.subheading {
 
 	height:700px;
 	width: 10030px;
-	background: #FFFFFF;
+	background: #333FFF;
 }
 
 #portraits {
@@ -79,7 +79,7 @@ p.subheading {
 	left:0px;
 	height:100%;
 	width: 11110px;
-	background: #FFFFFF;
+	background: #333FFF;
 }
 
 #hebei01 {
@@ -87,7 +87,7 @@ p.subheading {
 	left:0px;
 	height:100%;
 	width: 15500px;
-	background: #FFFFFF;
+	background: #333FFF;
 	position: absolute;
 }
 
@@ -96,7 +96,7 @@ p.subheading {
 	left:0px;
 	height:100%;
 	width: 6440px;
-	background: #FFFFFF;
+	background: #333FFF;
 }
 
 img.photato {
@@ -108,7 +108,7 @@ img.photato {
 	left:0px;
 	height:100%;
 	width: 3820px;
-	background: #FFFFFF;
+	background: #333FFF;
 }
 
 #n1010 {
@@ -116,7 +116,7 @@ img.photato {
 	left:0px;
 	height:100%;
 	width: 3820px;
-	background: #FFFFFF;
+	background: #333FFF;
 }
 
 #n-i-16 {
@@ -124,7 +124,7 @@ img.photato {
 	left:0px;
 	height:100%;
 	width: 12210px;
-	background: #FFFFFF;
+	background: #333FFF;
 }
 
 /* +1100px for gallery for 16:9, 440px for 5:7, 640 for 1:1*/
