@@ -1,5 +1,6 @@
 * {
 	font: georgia serif;
+	-webkit-overflow-scrolling: touch;
 }
 
 body {
@@ -77,6 +78,7 @@ img {
 	overflow: scroll;
 	padding-left: 12px;
 	margin-top: 42px;
+	-webkit-overflow-scrolling: touch;
 }
 
 #n-i-16 {
