@@ -12,7 +12,7 @@ body {
 	z-index: 2;
 	background-color: #FFF;
 	opacity: 0.9;
-	margin-top: 10px;
+	margin-top: 20px;
 	overflow: hidden;
 }
 
@@ -59,13 +59,21 @@ img {
 #display {
 	z-index:0;
 	width: 100%;
-	padding-left: 10px;
+	padding-left: 20px;
 	background: #FFF;
 	font-size: 10pt;
 }
 
+#display p {
+	cursor:default;
+	padding-left: 38px;
+	text-align: left;
+	text-indent: 0px;
+}
+
 .outer {
 	overflow: scroll;
+	padding-left: 12px;
 }
 
 #n-i-16 {
