@@ -12,8 +12,10 @@ body {
 	z-index: 2;
 	background-color: #FFF;
 	opacity: 0.9;
-	margin-top: 20px;
+	margin-top: 18px;
 	overflow: hidden;
+	position: fixed;
+	top: 0;
 }
 
 a {
@@ -74,6 +76,7 @@ img {
 .outer {
 	overflow: scroll;
 	padding-left: 12px;
+	margin-top: 42px;
 }
 
 #n-i-16 {
