@@ -52,6 +52,9 @@ img {
 	overflow: hidden;
 	position: fixed;
 	width: 100%;
+	z-index: 2;
+	background-color: #FFF;
+	opacity: 0.9;
 }
 
 #submenu a, p {
