@@ -18,9 +18,10 @@ body {
 	z-index: 2;
 	background-color: #FFF;
 	opacity: 0.9;
-	margin-top: 18px;
+	margin-top: 0px;
 	overflow: hidden;
 	position: fixed;
+	padding-top: 18px;
 	top: 0;
 }
 
