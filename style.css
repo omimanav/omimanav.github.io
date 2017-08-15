@@ -74,6 +74,7 @@ img {
 	padding-left: 20px;
 	background: #FFF;
 	font-size: 10pt;
+	position: fixed;
 }
 
 #display p {
