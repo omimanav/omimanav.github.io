@@ -34,6 +34,10 @@ p {
 	color: #333;
 }
 
+p.subheading {
+	text-indent: 43px;
+}
+
 a.menuitem {
 	float: left;
 	position: relative;
@@ -74,7 +78,7 @@ img {
 	padding-left: 20px;
 	background: #FFF;
 	font-size: 10pt;
-	position: fixed;
+	position: absolute;
 }
 
 #display p {
