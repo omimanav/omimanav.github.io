@@ -79,6 +79,7 @@ img {
 	background: #FFF;
 	font-size: 10pt;
 	position: absolute;
+	overflow: hidden;
 }
 
 #display p {
