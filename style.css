@@ -8,6 +8,11 @@
 	width: 0 !important;
 }
 
+#display::-webkit-scrollbar {
+	display: none;
+	width: 0 !important;
+}
+
 body {
 	overflow: hidden;
 }
@@ -74,7 +79,7 @@ img {
 
 #display {
 	z-index:0;
-	width: 90%;
+	width: 100%;
 	padding-left: 20px;
 	background: #FFF;
 	font-size: 10pt;
@@ -140,7 +145,7 @@ img {
 }
 
 #akl-kef {
-	width: 9820px;
+	width: 10920px;
 	z-index:0;
 	left:0px;
 	height:100%;
