@@ -161,3 +161,11 @@ img {
 	background: #FFF;
 }
 
+#n-i-17 {
+	z-index:0;
+	left:0px;
+	height:100%;
+	width: 7640px;
+	overflow-y: hidden;
+	background-color: #FFF;
+}
