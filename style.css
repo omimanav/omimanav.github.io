@@ -91,6 +91,11 @@ img {
 	overflow: hidden;
 }
 
+.video {
+	margin-top: 42px;
+	position: relative;
+}
+
 #display p {
 	cursor:default;
 	padding-left: 38px;
