@@ -1,5 +1,5 @@
 /*
-design/style from zerotwelve and iggy - thanks fellas 
+design/style help from dan and iggy - thanks fellas 
 */
 
 * {
@@ -171,6 +171,15 @@ img {
 }
 
 #n-i-17 {
+	z-index:0;
+	left:0px;
+	height:100%;
+	width: 8740px;
+	overflow-y: hidden;
+	background-color: #FFF;
+}
+
+#s-i-17 {
 	z-index:0;
 	left:0px;
 	height:100%;
