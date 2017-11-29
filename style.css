@@ -183,7 +183,11 @@ img {
 	z-index:0;
 	left:0px;
 	height:100%;
-	width: 8740px;
+	width: 12000px;
 	overflow-y: hidden;
 	background-color: #FFF;
 }
+
+
+
+/* 1090px for each img added */
