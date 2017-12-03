@@ -81,7 +81,7 @@ img {
 	font-size: 10pt;
 }
 
-#submenu p a {
+#submenu p #work {
 	display: block;
 	width: 98.5%;
 	height:300px;
