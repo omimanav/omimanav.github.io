@@ -81,9 +81,14 @@ img {
 	font-size: 10pt;
 }
 
+#submenu p {
+	margin-right: 20px;
+}
+
 #submenu p #work {
 	display: block;
-	width: 98.5%;
+	min-width: 50px;
+	width: 100%;
 	height:300px;
 	background-size: cover;
 	border: 2px solid #EEE;
