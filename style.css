@@ -106,6 +106,31 @@ img {
 	overflow: hidden;
 }
 
+#display-work {
+	z-index:0;
+	width: 100%;
+	padding-left: 50px;
+	background: #FFF;
+	font-size: 10pt;
+	position: absolute;
+	overflow: hidden;
+}
+
+#overlay {
+	z-index: 1;
+	position: absolute;
+	opacity: 0.5;
+	width: 45px;
+	height: 100%;
+	background: white;
+	text-align: left;
+}
+
+#overlay a:hover {
+	z-index: 2;
+	color: black;
+}
+
 .video {
 	margin-top: 42px;
 	position: relative;
