@@ -146,6 +146,7 @@ img {
 	padding-left: 12px;
 	margin-top: 42px;
 	-webkit-overflow-scrolling: touch;
+	height: 100%;
 }
 
 #n-i-16 {
