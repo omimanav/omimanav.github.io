@@ -38,7 +38,7 @@
     "robotsSwitcher": "on",
     "siteUrl": "http://beerandcamera.com",
     "sitemapSwitcherAuto": "on",
-    "favicon": "",
+    "favicon": "http://beerandcamera.com/assets/images/homecopy.png",
     "noImageResize": "",
     "sitemapSwitcher": "on"
   },
