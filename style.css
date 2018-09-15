@@ -1,0 +1,170 @@
+html {
+    height: 100%;
+}
+
+.infoBody {
+	background-image: url(res/home.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#bigContainer {
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+#smallContainer {
+    height: 60%;
+    margin-top: 5%
+}
+
+#workabout {
+    float: right;
+}
+
+#workabout a, #home a {
+    background-color: whitesmoke;
+    font: 20pt monospace;
+    color: #333;
+}
+
+#workabout a:hover, #home a:hover {
+    background-color: transparent;
+    font-family: monospace;
+    color: #000;
+}
+
+.galleria {
+    margin-top: 25px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.btn-light, .btn-dark {
+    top: 50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.about {
+    margin-top: 10%; 
+}
+
+p {
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    font-family: monospace;
+}
+
+ul {
+    font-family: monospace;
+    list-style-type: none;
+    text-align: center;
+}
+
+.button a {
+    text-decoration: none !important;
+	font-family: monospace;
+}
+
+i {
+	color: #000;
+	cursor: default;
+}
+
+.button a i:hover {
+	color: #333;
+	background-color: #DDD;
+}
+
+.button a {
+	cursor: default;
+	padding-right: 5px;	
+	padding-left: 5px;	
+	background-color: #F50;
+}
+
+.btn-lg {
+	width: 125px;
+}
+
+.btn-lg:hover {
+	color: black;
+}
+
+div img {
+	padding-right: 10px;
+	padding-top: 10px;
+	height: 600px;
+}
+
+/* galleries  */
+
+.d1010 {
+	width: 3540px;
+	height: 100%;
+}
+
+.n1010 {
+	width: 3095px;
+	height: 100%;
+}
+
+.akl-kef {
+	width: 12973px;
+	height: 100%;
+}
+
+.n-i-16 {
+	width: 9733px;
+	height: 100%;
+}
+
+.n-i-17 {
+	width: 10810px;
+	height: 100%;
+}
+
+.s-i-17 {
+	width: 18379px;
+	height: 100%;
+}
+
+.hebei01 {
+	width: 14045px;
+	height: 100%;
+}
+
+.hebei02 {
+	width: 5528px;
+	height: 100%;
+}
+
+.gor {
+	width: 15135px;
+	height: 100%;
+}
+
+.gbi {
+	width: 7210px;
+	height: 100%;
+}
+
+.interior {
+	width: 6380px;
+	height: 100%;
+}
+
+.portraits {
+	width: 11695px;
+	height: 100%;
+}
