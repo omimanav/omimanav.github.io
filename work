@@ -14,43 +14,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-    <title>ABOUT</title>
+    <title>WORK</title>
 </head>
 
-<body>
+<body class="infoBody">
     <div class="container col" id="bigContainer">
         <div class="btn-toolbar fixed-top justify-content-center">
             <div id="home" class="btn-group">
-                <a class="btn btn-sm-3 btn-xs-3" href="index.html">OMI MANAV</a>
+                <a class="btn btn-sm-3 btn-xs-3" href="index">OMI MANAV</a>
             </div>
             <div class="gap col-xl-6 col-lg-6 col-md-4 col-sm-2"> </div>
             <div id="workabout" class="btn-group">
-                <a class="btn btn-sm-3 btn-xs-4" href="work.html">WORK</a>
-                <a class="btn btn-sm-3 btn-xs-4" href="about.html">ABOUT</a>
+                <a class="btn btn-sm-3 btn-xs-4" href="work">WORK</a>
+                <a class="btn btn-sm-3 btn-xs-4" href="about">ABOUT</a>
             </div>
         </div>
         
-        <div class="jumbotron about offset-2 col-8 col-sm-10 offset-sm-1 col-xs-10 offset-xs-1 offset-sm-1 col-xl-6 offset-xl-3">
-            <ul>
-                <li>email: <a href="mailto:beerandcamera@icloud.com">beerandcamera@icloud.com</a></li>
-                <li>instagram: <a href="https://www.instagram.com/beerandcamera">@beerandcamera</a></li>
-            </ul>
-            
-            <p id="about">
-                Travelling, photographer based in New Zealand.
-            </p>
-            
-            <ul>
-                <u>WORK</u>
-                <li>Acterix - 2018</li>
-                <li>Gemma Christall - 2017</li>
-                <li>Children of Aotea - 2017</li>
-                <li>Pablo Expósito - 2017</li>
-                <li>DocEdge - 2016</li>
-                <li>MSA Awards - 2016</li>
-                <li>ChromaCon - 2015</li>
-                <li>Violet Highway - 2015 </li>
-            </ul>
+        <div class="container-fluid" id="smallContainer">
+			<div class=''>
+				<div class="button btn-lg"><a href="1010d"><i>1010d</i></a></div>
+			</div>
+			<div class=''>
+				<div class="button btn-lg"><a href="1010n"><i>1010n</i></a></div>
+			</div>
+			<div class=''>
+				<div class="button btn-lg"><a href="n-i-16"><i>n-i-16</i></a></div>
+			</div>
+			<div class=''>
+				<div class="button btn-lg"><a href="n-i-17"><i>n-i-17</i></a></div>
+			</div>
+			<div class=''>
+				<div class="button btn-lg"><a href="s-i-17"><i>s-i-17</i></a></div>
+			</div>
+			<div class=''>
+				<div class="button btn-lg"><a href="akl-kef"><i>akl-kef</i></a></div>
+			</div>
+			<div class=''>
+				<div class="button btn-lg"><a href="gor"><i>g.o.r</i></a></div>
+			</div>
+			<div class=''>
+				<div class="button btn-lg"><a href="hebei01"><i>hebei.01</i></a></div>
+			</div>
+			<div class=''>
+				<div class="button btn-lg"><a href="hebei02"><i>hebei.02</i></a></div>
+			</div>
+			<div class=''>
+				<div class="button btn-lg"><a href="gbi"><i>g.b.i</i></a></div>
+			</div>
+			
+			<div class=''>
+				<div class="button btn-lg"><i>---------</i></div>
+			</div>
+			
+			<div class=''>
+				<div class="button btn-lg"><a href="portraits"><i>portraits</i></a></div>
+			</div>
+			<div class=''>
+				<div class="button btn-lg"><a href="interior"><i>interior</i></a></div>
+			</div>
         </div>
     </div>
     

@@ -14,35 +14,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-    <title>aotea</title>
+    <title>great ocean road</title>
 </head>
 
 <body>
     <div class="container col" id="bigContainer">
         <div class="btn-toolbar fixed-top justify-content-center">
             <div id="home" class="btn-group">
-                <a class="btn btn-sm-3 btn-xs-3" href="index.html">OMI MANAV</a>
+                <a class="btn btn-sm-3 btn-xs-3" href="index">OMI MANAV</a>
             </div>
             <div class="gap col-xl-6 col-lg-6 col-md-4 col-sm-2"> </div>
             <div id="workabout" class="btn-group">
-                <a class="btn btn-sm-3 btn-xs-4" href="work.html">WORK</a>
-                <a class="btn btn-sm-3 btn-xs-4" href="about.html">ABOUT</a>
+                <a class="btn btn-sm-3 btn-xs-4" href="work">WORK</a>
+                <a class="btn btn-sm-3 btn-xs-4" href="about">ABOUT</a>
             </div>
         </div>
         
         <div class="btn btn-lg invisible col-12 d-sm-none d-lg-none" style="background-color: #666">pee</div>
         <div class="btn btn-lg invisible col-12 d-md-block" style="background-color: #999">poo</div>
         
-        <div class="gbi">
-			<img src="res/gbi/gbi1.jpg">
-			<img src="res/gbi/gbi2.jpg">
-			<img src="res/gbi/gbi3.jpg">
-			<img src="res/gbi/gbi4.jpg">
-			<img src="res/gbi/gbi5.jpg">
-			<img src="res/gbi/gbi6.jpg">
-			<img src="res/gbi/gbi7.jpg">
-			<img src="res/gbi/gbi8.jpg">
-			<img src="res/gbi/gbi9.jpg">
+        <div class="gor">
+			<img src="res/gor/gor1.jpg">
+			<img src="res/gor/gor2.jpg">
+			<img src="res/gor/gor3.jpg">
+			<img src="res/gor/gor4.jpg">
+			<img src="res/gor/gor5.jpg">
+			<img src="res/gor/gor8.jpg">
+			<img src="res/gor/gor9.jpg">
+			<img src="res/gor/gor10.jpg">
+			<img src="res/gor/gor11.jpg">
+			<img src="res/gor/gor12.jpg">
+			<img src="res/gor/gor13.jpg">
+			<img src="res/gor/gor14.jpg">
+			<img src="res/gor/gor15.jpg">
+			<img src="res/gor/gor16.jpg">
 		</div>
     </div>
     

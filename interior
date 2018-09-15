@@ -14,65 +14,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-    <title>WORK</title>
+    <title>interior</title>
 </head>
 
-<body class="infoBody">
+<body>
     <div class="container col" id="bigContainer">
         <div class="btn-toolbar fixed-top justify-content-center">
             <div id="home" class="btn-group">
-                <a class="btn btn-sm-3 btn-xs-3" href="index.html">OMI MANAV</a>
+                <a class="btn btn-sm-3 btn-xs-3" href="index">OMI MANAV</a>
             </div>
             <div class="gap col-xl-6 col-lg-6 col-md-4 col-sm-2"> </div>
             <div id="workabout" class="btn-group">
-                <a class="btn btn-sm-3 btn-xs-4" href="work.html">WORK</a>
-                <a class="btn btn-sm-3 btn-xs-4" href="about.html">ABOUT</a>
+                <a class="btn btn-sm-3 btn-xs-4" href="work">WORK</a>
+                <a class="btn btn-sm-3 btn-xs-4" href="about">ABOUT</a>
             </div>
         </div>
         
-        <div class="container-fluid" id="smallContainer">
-			<div class=''>
-				<div class="button btn-lg"><a href="1010d.html"><i>1010d</i></a></div>
-			</div>
-			<div class=''>
-				<div class="button btn-lg"><a href="1010n.html"><i>1010n</i></a></div>
-			</div>
-			<div class=''>
-				<div class="button btn-lg"><a href="n-i-16.html"><i>n-i-16</i></a></div>
-			</div>
-			<div class=''>
-				<div class="button btn-lg"><a href="n-i-17.html"><i>n-i-17</i></a></div>
-			</div>
-			<div class=''>
-				<div class="button btn-lg"><a href="s-i-17.html"><i>s-i-17</i></a></div>
-			</div>
-			<div class=''>
-				<div class="button btn-lg"><a href="akl-kef.html"><i>akl-kef</i></a></div>
-			</div>
-			<div class=''>
-				<div class="button btn-lg"><a href="gor.html"><i>g.o.r</i></a></div>
-			</div>
-			<div class=''>
-				<div class="button btn-lg"><a href="hebei01.html"><i>hebei.01</i></a></div>
-			</div>
-			<div class=''>
-				<div class="button btn-lg"><a href="hebei02.html"><i>hebei.02</i></a></div>
-			</div>
-			<div class=''>
-				<div class="button btn-lg"><a href="gbi.html"><i>g.b.i</i></a></div>
-			</div>
-			
-			<div class=''>
-				<div class="button btn-lg"><i>---------</i></div>
-			</div>
-			
-			<div class=''>
-				<div class="button btn-lg"><a href="portraits.html"><i>portraits</i></a></div>
-			</div>
-			<div class=''>
-				<div class="button btn-lg"><a href="interior.html"><i>interior</i></a></div>
-			</div>
-        </div>
+        <div class="btn btn-lg invisible col-12 d-sm-none d-lg-none" style="background-color: #666">pee</div>
+        <div class="btn btn-lg invisible col-12 d-md-block" style="background-color: #999">poo</div>
+        
+        <div class="interior">
+			<img src="res/interior/interior1.jpg">
+			<img src="res/interior/interior2.jpg">
+			<img src="res/interior/interior3.jpg">
+			<img src="res/interior/interior4.jpg">
+			<img src="res/interior/interior5.jpg">
+			<img src="res/interior/interior6.jpg">
+		</div>
     </div>
     
     
@@ -81,4 +49,4 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
 </body>
-</html>
+</html> 

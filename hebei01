@@ -14,43 +14,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-    <title>south island '17</title>
+    <title>hebei - beijing</title>
 </head>
 
 <body>
     <div class="container col" id="bigContainer">
         <div class="btn-toolbar fixed-top justify-content-center">
             <div id="home" class="btn-group">
-                <a class="btn btn-sm-3 btn-xs-3" href="index.html">OMI MANAV</a>
+                <a class="btn btn-sm-3 btn-xs-3" href="index">OMI MANAV</a>
             </div>
             <div class="gap col-xl-6 col-lg-6 col-md-4 col-sm-2"> </div>
             <div id="workabout" class="btn-group">
-                <a class="btn btn-sm-3 btn-xs-4" href="work.html">WORK</a>
-                <a class="btn btn-sm-3 btn-xs-4" href="about.html">ABOUT</a>
+                <a class="btn btn-sm-3 btn-xs-4" href="work">WORK</a>
+                <a class="btn btn-sm-3 btn-xs-4" href="about">ABOUT</a>
             </div>
         </div>
         
         <div class="btn btn-lg invisible col-12 d-sm-none d-lg-none" style="background-color: #666">pee</div>
         <div class="btn btn-lg invisible col-12 d-md-block" style="background-color: #999">poo</div>
         
-        <div class="s-i-17">
-			<img src="res/s-i-17/s-i-170.jpg">
-			<img src="res/s-i-17/s-i-171.jpg">
-			<img src="res/s-i-17/s-i-172.jpg">
-			<img src="res/s-i-17/s-i-173.jpg">
-			<img src="res/s-i-17/s-i-174.jpg">
-			<img src="res/s-i-17/s-i-175.jpg">
-			<img src="res/s-i-17/s-i-176.jpg">
-			<img src="res/s-i-17/s-i-177.jpg">
-			<img src="res/s-i-17/s-i-178.jpg">
-			<img src="res/s-i-17/s-i-179.jpg">
-			<img src="res/s-i-17/s-i-1710.jpg">
-			<img src="res/s-i-17/s-i-1711.jpg">
-			<img src="res/s-i-17/s-i-1712.jpg">
-			<img src="res/s-i-17/s-i-1713.jpg">
-			<img src="res/s-i-17/s-i-1714.jpg">
-			<img src="res/s-i-17/s-i-1715.jpg">
-			<img src="res/s-i-17/s-i-1716.jpg">
+        <div class="hebei01">
+			<img src="res/hebei01/hebei0.jpg">
+			<img src="res/hebei01/hebei1.jpg">
+			<img src="res/hebei01/hebei2.jpg">
+			<img src="res/hebei01/hebei3.jpg">
+			<img src="res/hebei01/hebei4.jpg">
+			<img src="res/hebei01/hebei5.jpg">
+			<img src="res/hebei01/hebei6.jpg">
+			<img src="res/hebei01/hebei7.jpg">
+			<img src="res/hebei01/hebei8.jpg">
+			<img src="res/hebei01/hebei9.jpg">
+			<img src="res/hebei01/hebei11.jpg">
+			<img src="res/hebei01/hebei12.jpg">
+			<img src="res/hebei01/hebei13.jpg">
 		</div>
     </div>
     

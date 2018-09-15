@@ -14,41 +14,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-    <title>great ocean road</title>
+    <title>ABOUT</title>
 </head>
 
 <body>
     <div class="container col" id="bigContainer">
         <div class="btn-toolbar fixed-top justify-content-center">
             <div id="home" class="btn-group">
-                <a class="btn btn-sm-3 btn-xs-3" href="index.html">OMI MANAV</a>
+                <a class="btn btn-sm-3 btn-xs-3" href="index">OMI MANAV</a>
             </div>
             <div class="gap col-xl-6 col-lg-6 col-md-4 col-sm-2"> </div>
             <div id="workabout" class="btn-group">
-                <a class="btn btn-sm-3 btn-xs-4" href="work.html">WORK</a>
-                <a class="btn btn-sm-3 btn-xs-4" href="about.html">ABOUT</a>
+                <a class="btn btn-sm-3 btn-xs-4" href="work">WORK</a>
+                <a class="btn btn-sm-3 btn-xs-4" href="about">ABOUT</a>
             </div>
         </div>
         
-        <div class="btn btn-lg invisible col-12 d-sm-none d-lg-none" style="background-color: #666">pee</div>
-        <div class="btn btn-lg invisible col-12 d-md-block" style="background-color: #999">poo</div>
-        
-        <div class="gor">
-			<img src="res/gor/gor1.jpg">
-			<img src="res/gor/gor2.jpg">
-			<img src="res/gor/gor3.jpg">
-			<img src="res/gor/gor4.jpg">
-			<img src="res/gor/gor5.jpg">
-			<img src="res/gor/gor8.jpg">
-			<img src="res/gor/gor9.jpg">
-			<img src="res/gor/gor10.jpg">
-			<img src="res/gor/gor11.jpg">
-			<img src="res/gor/gor12.jpg">
-			<img src="res/gor/gor13.jpg">
-			<img src="res/gor/gor14.jpg">
-			<img src="res/gor/gor15.jpg">
-			<img src="res/gor/gor16.jpg">
-		</div>
+        <div class="jumbotron about offset-2 col-8 col-sm-10 offset-sm-1 col-xs-10 offset-xs-1 offset-sm-1 col-xl-6 offset-xl-3">
+            <ul>
+                <li>email: <a href="mailto:beerandcamera@icloud.com">beerandcamera@icloud.com</a></li>
+                <li>instagram: <a href="https://www.instagram.com/beerandcamera">@beerandcamera</a></li>
+            </ul>
+            
+            <p id="about">
+                Travelling, photographer based in New Zealand.
+            </p>
+            
+            <ul>
+                <u>WORK</u>
+                <li>Acterix - 2018</li>
+                <li>Gemma Christall - 2017</li>
+                <li>Children of Aotea - 2017</li>
+                <li>Pablo Expósito - 2017</li>
+                <li>DocEdge - 2016</li>
+                <li>MSA Awards - 2016</li>
+                <li>ChromaCon - 2015</li>
+                <li>Violet Highway - 2015 </li>
+            </ul>
+        </div>
     </div>
     
     
@@ -57,4 +60,4 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
 </body>
-</html> 
+</html>
