@@ -61,7 +61,7 @@ p {
     align-content: center;
     align-items: center;
     justify-content: center;
-    text-align: justify;
+    text-align: center;
     font-family: monospace;
 }
 
@@ -71,7 +71,7 @@ ul {
     text-align: center;
 }
 
-.button a {
+.button a, ul a {
     text-decoration: none !important;
 	font-family: monospace;
 }
