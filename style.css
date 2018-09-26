@@ -4,9 +4,9 @@ html {
 
 .infoBody {
 	background-image: url(res/home.jpg);
-    background-position: center;
+    background-position:center;
+	background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
     background-attachment: fixed;
 }
 
@@ -88,8 +88,7 @@ i {
 
 .button a {
 	cursor: default;
-	padding-right: 5px;	
-	padding-left: 5px;	
+	padding: 2px 7px 2px 5px;
 	background-color: #F50;
 }
 
