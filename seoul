@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <a class="title" href="index.html">
+    <a class="title" href="">
 		<h2>
 			OMI MANAV
 		</h2>
@@ -26,8 +26,8 @@
 	
 	<div class="menubar">
 		<ul class="photo"><li><u>TRAVELS</u></li>
-			<li><a href="1010d.html">1010d</a></li>
 			<li><a href="1010n.html">1010n</a></li>
+			<li><a href="1010d.html">1010d</a></li>
 			<li><a href="n-i.html">n-i</a></li>
 			<li><a href="s-i.html">s-i</a></li>
 			<li><a href="akl-kef.html">akl-kef</a></li>
@@ -36,7 +36,8 @@
 			<li><a href="hebei01.html">hebei-01</a></li>
 			<li><a href="hebei02.html">hebei-02</a></li>
 			<li><a href="gbi.html">g-b-i</a></li>
-			<li><a href="sdc.html">s-d-c</a></li> <br>
+			<li><a href="sdc.html">s-d-c</a></li> 
+			<br>
 
 			<li><u>WORK</u></li>
 
