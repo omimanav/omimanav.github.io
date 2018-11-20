@@ -2,7 +2,7 @@
 
 body {
 	cursor: default;
-	background-color: #efefef;
+	background-color: #fff;
 	
 }
 
@@ -11,7 +11,7 @@ body {
 	position: fixed;
 	text-decoration: none;
 	background-color: #3d3d3d;
-	border: 2px solid #efefef;
+	border: 2px solid #fff;
 	padding: 4px 15px 0px 15px;
 	margin-top: 10px;
 	margin-left: 50px;
