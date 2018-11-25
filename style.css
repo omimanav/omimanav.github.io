@@ -1,3 +1,7 @@
+/*
+massive thank you to dan and igor as inspo - check their work out on zerotwelve.co.uk and igorolenev.com
+*/
+
 @import url('https://fonts.googleapis.com/css?family=Lato:300,300i');
 
 html, body, div {
@@ -251,4 +255,21 @@ div img {
 .about ul {
 	list-style: none;
 	padding: 0px;
+}
+
+input, textarea, #submit {
+	border-bottom: 1px solid #333;
+	border-top: none;
+	border-left: 1px solid #333;
+	border-right: none;
+	box-shadow: none;
+}
+
+#submit :hover {
+	cursor: pointer;
+}
+
+#body {
+	width: 300px;
+	height: 100px;
 }
