@@ -116,7 +116,7 @@ ul {
 
 .webmenu {
 	position: absolute;
-	width: 50px;
+	width: 100px;
 	z-index: 2;
 	left: 150px;
 	top: 180px;
