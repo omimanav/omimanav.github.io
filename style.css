@@ -266,8 +266,12 @@ input, textarea, #submit {
 	box-shadow: none;
 }
 
-#submit :hover {
-	cursor: pointer;
+#submit {
+	padding: 3px;
+}
+
+#contact #submit:hover {
+	cursor: pointer;	
 }
 
 #body {
