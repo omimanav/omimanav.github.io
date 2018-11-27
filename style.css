@@ -90,7 +90,7 @@ html, body, div {
 	list-style-type:none;
 }
 
-.drop_menu li:hover { 
+.drop_menu li:hover, .drop_menu li:active { 
 	position:relative; background:#333; 
 	cursor: default;
 }
@@ -102,7 +102,7 @@ html, body, div {
 	padding:0px;
 }
 
-.drop_menu li:hover ul li a {
+.drop_menu li:hover ul li a, .drop_menu li:active ul li a {
 	padding:5px;
 	display:block;
 	width:120px;
