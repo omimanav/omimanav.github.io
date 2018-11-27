@@ -208,7 +208,7 @@ html, body, div {
 /* ----------- */
 /* galleries  */
 /* ----------- */
-@media (min-width: 768px) {
+@media (min-width: 771px) {
 	div img {
 		padding-right: 20px;
 		padding-top: 10px;
@@ -286,7 +286,7 @@ html, body, div {
 	}
 }
 
-@media (max-width:768px) and (min-width:0px) {
+@media (max-width:770px) and (min-width:0px) {
 	div img {
 		width: 100%;
 		z-index: 1;
@@ -299,7 +299,7 @@ html, body, div {
 /* ------------ */
 /* about / contact */
 /* ------------ */
-@media (min-width: 768px) {
+@media (min-width: 771px) {
 	.about, .contact {
 		top: 120px;
 		font-family: "Lato";
@@ -344,7 +344,7 @@ html, body, div {
 	}
 }
 
-@media (min-width:0px) and (max-width:768px) {
+@media (min-width:0px) and (max-width:770px) {
 	.about, .contact {
 		top: 120px;
 		font-family: "Lato";
