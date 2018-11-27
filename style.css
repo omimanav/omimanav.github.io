@@ -68,6 +68,7 @@ html, body, div {
 
 .drop_menu li:hover { 
 	position:relative; background:#333; 
+	cursor: default;
 }
 
 .drop_menu li:hover ul {
@@ -207,7 +208,7 @@ html, body, div {
 /* ----------- */
 /* galleries  */
 /* ----------- */
-@media (min-width: 992px) {
+@media (min-width: 768px) {
 	div img {
 		padding-right: 20px;
 		padding-top: 10px;
@@ -285,7 +286,7 @@ html, body, div {
 	}
 }
 
-@media (max-width:992px) and (min-width:0px) {
+@media (max-width:768px) and (min-width:0px) {
 	div img {
 		width: 100%;
 		z-index: 1;
@@ -298,46 +299,92 @@ html, body, div {
 /* ------------ */
 /* about / contact */
 /* ------------ */
+@media (min-width: 768px) {
+	.about, .contact {
+		top: 120px;
+		font-family: "Lato";
+		text-decoration: none;
+		font-size: 9pt;
+		top: 100px;
+		left: 190px;
+		position: fixed;
+		color: #333;
+	}
 
-.about, .contact {
-	top: 120px;
-	font-family: "Lato";
-	text-decoration: none;
-	font-size: 9pt;
-	top: 100px;
-	left: 190px;
-	position: fixed;
-	color: #333;
+	.contact p a, contact p a:hover  {
+		text-decoration: none;
+		color: #3d3d3d;
+		cursor: pointer;
+	}
+
+	.about ul {
+		list-style: none;
+		padding: 0px;
+	}
+
+	input, textarea, #submit {
+		border-bottom: 1px solid #333;
+		border-top: none;
+		border-left: 1px solid #333;
+		border-right: none;
+		box-shadow: none;
+	}
+
+	#submit {
+		padding: 3px;
+	}
+
+	#contact #submit:hover {
+		cursor: pointer;	
+	}
+
+	#body {
+		width: 300px;
+		height: 100px;
+	}
 }
 
-.contact p a, contact p a:hover  {
-	text-decoration: none;
-	color: #3d3d3d;
-	cursor: pointer;
-}
+@media (min-width:0px) and (max-width:768px) {
+	.about, .contact {
+		top: 120px;
+		font-family: "Lato";
+		text-decoration: none;
+		font-size: 9pt;
+		top: 150px;
+		left: 90px;
+		position: fixed;
+		color: #333;
+	}
 
-.about ul {
-	list-style: none;
-	padding: 0px;
-}
+	.contact p a, contact p a:hover  {
+		text-decoration: none;
+		color: #3d3d3d;
+		cursor: pointer;
+	}
 
-input, textarea, #submit {
-	border-bottom: 1px solid #333;
-	border-top: none;
-	border-left: 1px solid #333;
-	border-right: none;
-	box-shadow: none;
-}
+	.about ul {
+		list-style: none;
+		padding: 0px;
+	}
 
-#submit {
-	padding: 3px;
-}
+	input, textarea, #submit {
+		border-bottom: 1px solid #333;
+		border-top: none;
+		border-left: 1px solid #333;
+		border-right: none;
+		box-shadow: none;
+	}
 
-#contact #submit:hover {
-	cursor: pointer;	
-}
+	#submit {
+		padding: 3px;
+	}
 
-#body {
-	width: 300px;
-	height: 100px;
+	#contact #submit:hover {
+		cursor: pointer;	
+	}
+
+	#body {
+		width: 300px;
+		height: 100px;
+	}
 }
