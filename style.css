@@ -8,24 +8,48 @@ html, body, div {
 	background-color: #fff;
 }
 
-.title {
-	z-index: 3;
-	position: fixed;
-	text-decoration: none;
-	background-color: #3d3d3d;
-	border: 2px solid #fff;
-	padding: 4px 15px 0px 15px;
-	margin-top: 10px;
-	margin-left: 50px;
+@media (min-width:768px) {
+	.title {
+		z-index: 3;
+		position: fixed;
+		text-decoration: none;
+		background-color: #3d3d3d;
+		border: 2px solid #fff;
+		padding: 4px 15px 0px 15px;
+		margin-top: 10px;
+		margin-left: 50px;
+	}
+
+	.title h2 {
+		font-family: "Lato";
+		color: #fff;
+	}
+
+	.title:hover {
+		text-decoration: none;
+	}
 }
 
-.title h2 {
-	font-family: "Lato";
-	color: #fff;
-}
+@media (min-width:0px) and (max-width:768px) {
+	.title {
+		z-index: 3;
+		position: fixed;
+		text-decoration: none;
+		background-color: #3d3d3d;
+		border: 2px solid #fff;
+		padding: 4px 15px 0px 15px;
+		margin-top: 10px;
+		margin-left: 10px;
+	}
 
-.title:hover {
-	text-decoration: none;
+	.title h2 {
+		font-family: "Lato";
+		color: #fff;
+	}
+
+	.title:hover {
+		text-decoration: none;
+	}
 }
 
 .drop_menu {
@@ -37,7 +61,7 @@ html, body, div {
 	height:45px;
 	width: 150px;
 	top: 15px;
-	left: 300px;
+	left: 250px;
 	position: fixed;
 	z-index: 2;
 }
@@ -207,7 +231,7 @@ html, body, div {
 /* ----------- */
 /* galleries  */
 /* ----------- */
-@media (min-width: 769px) {
+@media (min-width: 768px) {
 	div img {
 		padding-right: 20px;
 		padding-top: 10px;
@@ -298,7 +322,7 @@ html, body, div {
 /* ------------ */
 /* about / contact */
 /* ------------ */
-@media (min-width: 769px) {
+@media (min-width: 768px) {
 	.about, .contact {
 		top: 120px;
 		font-family: "Lato";
