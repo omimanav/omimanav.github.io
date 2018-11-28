@@ -8,82 +8,193 @@ html, body, div {
 	background-color: #333;
 }
 
-.title {
+@media (min-width:768px) {
+	.title {
+		z-index: 3;
+		position: fixed;
+		text-decoration: none;
+		background-color: #3d3d3d;
+		border: 2px solid #fff;
+		padding: 4px 15px 0px 15px;
+		margin-top: 10px;
+		margin-left: 50px;
+	}
+
+	.title h2 {
+		font-family: "Lato";
+		color: #fff;
+	}
+
+	.title:hover {
+		text-decoration: none;
+	}
+	
+	.photomenu {
+		position: absolute;
+		z-index: 2;
+		left: 150px;
+		top: 100px;
+		background-color: #3d3d3d;
+	}
+
+	.photomenu ul {
+		padding-top: 10px;
+		list-style: none;
+		width: 200px;
+		font-family: "Lato";
+		font-size: 12pt;
+		font-style: italic;
+		text-align: center;
+		padding-left: 0px;
+		background-color: #3d3d3d;
+	}
+
+	.photomenu ul li a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	.photomenu ul li {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	.photomenu ul li a:hover {
+		color: #eee;
+		text-decoration: none;
+	}
+}
+
+@media (min-width:0px) and (max-width:768px) {
+	.title {
+		z-index: 3;
+		position: fixed;
+		text-decoration: none;
+		background-color: #3d3d3d;
+		border: 2px solid #fff;
+		padding: 4px 15px 0px 15px;
+		margin-top: 10px;
+		margin-left: 10px;
+		opacity: 0.8
+	}
+
+	.title h2 {
+		font-family: "Lato";
+		color: #fff;
+	}
+
+	.title:hover {
+		text-decoration: none;
+	}
+	
+	.photomenu {
+		position: absolute;
+		z-index: 2;
+		left: 100px;
+		top: 100px;
+		background-color: #3d3d3d;
+	}
+
+	.photomenu ul {
+		padding-top: 10px;
+		list-style: none;
+		width: 200px;
+		font-family: "Lato";
+		font-size: 12pt;
+		font-style: italic;
+		text-align: center;
+		padding-left: 0px;
+		background-color: #3d3d3d;
+		margin: 0px;
+	}
+
+	.photomenu ul li a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	.photomenu ul li {
+		color: #fff;
+		padding-top: 5px;
+		text-decoration: none;
+	}
+
+	.photomenu ul li a:hover {
+		color: #eee;
+		text-decoration: none;
+	}
+}
+
+.smallmenu {
+	position: fixed;
 	z-index: 3;
-	position: fixed;
-	text-decoration: none;
-	background-color: #3d3d3d;
-	border: 2px solid #fff;
-	padding: 4px 15px 0px 15px;
-	margin-top: 10px;
-	margin-left: 50px;
-}
-
-.title h2 {
-	font-family: "Lato";
-	color: #fff;
-}
-
-.title:hover {
-	text-decoration: none;
-}
-
-.dropmenu {
+	top: 20px;
+	left: 240px;
 	opacity: 0.9;
-	background:#333;
-	padding:0;
-	margin:0;
-	list-style-type:none;
-	height:45px;
-	width: 150px;
-	top: 15px;
-	left: 300px;
-	position: fixed;
-	z-index: 2;
+	border: 1px solid #333;
+	padding: 5px;
 }
 
-.dropmenu li { 
-	float:left; 
+.smallmenu * {
 	font-family: "Lato";
 	font-size: 12pt;
 	font-style: italic;
-	color: #eee;
-	padding: 10px;
-}
-
-.dropmenu li a {
-	padding:9px 20px;
-	display:block;
-	color:#fff;
-	text-decoration:none;
-}
-
-/* Submenu */
-.dropmenu ul {
-	position:absolute;
-	left:-9999px;
-	top:-9999px;
-	list-style-type:none;
-}
-
-.dropmenu li:hover { 
-	position:relative; background:#333; 
+	color: #333;
 	cursor: default;
 }
 
-.dropmenu li:hover ul {
-	left:0px;
-	top:30px;
-	background:#333;
-	padding:0px;
+.smallmenu ul {
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
 }
 
-.dropmenu li:hover ul li a {
-	padding:5px;
+.smallmenu ul a {
 	display:block;
-	width:120px;
-	text-indent:15px;
+	color:#333;
+	text-decoration:none;
 }
+
+.smallmenu ul li {
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+}
+
+.smallmenu ul li.current-menu-item {
+	background:#ddd
+}
+
+.smallmenu ul ul {
+	display:none;
+	position:absolute;
+	top:30px;
+	left: 0px;
+	background:#fff;
+	padding:0px;
+	width: 110px;
+}
+
+.smallmenu ul ul li {
+	float:none;
+}
+
+.smallmenu ul ul a {
+	line-height:150%;
+	padding:10px 15px;
+}
+
+.smallmenu ul li:hover > *, .smallmenu ul li ul:hover > * {
+	display:block;
+}
+
+.smallmenu ul ul li a:hover {
+	border: 1px solid #333;
+}
+
 
 .menubar {
 	background-color: #3d3d3d;
@@ -132,41 +243,6 @@ html, body, div {
 	height: 600px;
 }
 
-.photomenu {
-	position: absolute;
-	z-index: 2;
-	left: 150px;
-	top: 100px;
-	background-color: #3d3d3d;
-}
-
-.photomenu ul {
-	padding-top: 10px;
-	list-style: none;
-	width: 200px;
-	font-family: "Lato";
-	font-size: 12pt;
-	font-style: italic;
-	text-align: center;
-	padding-left: 0px;
-	background-color: #3d3d3d;
-}
-
-.photomenu ul li a {
-	color: #fff;
-	text-decoration: none;
-}
-
-.photomenu ul li {
-	color: #fff;
-	text-decoration: none;
-}
-
-.photomenu ul li a:hover {
-	color: #eee;
-	text-decoration: none;
-}
-
 .webmenu {
 	position: absolute;
 	width: 100px;
@@ -203,7 +279,6 @@ html, body, div {
 	color: #eee;
 	text-decoration: none;
 }
-
 
 /* ----------- */
 /* galleries  */
