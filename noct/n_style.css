@@ -28,7 +28,7 @@ html, body, div {
 	text-decoration: none;
 }
 
-.drop_menu {
+.dropmenu {
 	opacity: 0.9;
 	background:#333;
 	padding:0;
@@ -42,7 +42,7 @@ html, body, div {
 	z-index: 2;
 }
 
-.drop_menu li { 
+.dropmenu li { 
 	float:left; 
 	font-family: "Lato";
 	font-size: 12pt;
@@ -51,7 +51,7 @@ html, body, div {
 	padding: 10px;
 }
 
-.drop_menu li a {
+.dropmenu li a {
 	padding:9px 20px;
 	display:block;
 	color:#fff;
@@ -59,26 +59,26 @@ html, body, div {
 }
 
 /* Submenu */
-.drop_menu ul {
+.dropmenu ul {
 	position:absolute;
 	left:-9999px;
 	top:-9999px;
 	list-style-type:none;
 }
 
-.drop_menu li:hover { 
+.dropmenu li:hover { 
 	position:relative; background:#333; 
 	cursor: default;
 }
 
-.drop_menu li:hover ul {
+.dropmenu li:hover ul {
 	left:0px;
 	top:30px;
 	background:#333;
 	padding:0px;
 }
 
-.drop_menu li:hover ul li a {
+.dropmenu li:hover ul li a {
 	padding:5px;
 	display:block;
 	width:120px;
