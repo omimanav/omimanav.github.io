@@ -133,13 +133,14 @@ html, body, div {
 	opacity: 0.9;
 	border: 1px solid #333;
 	padding: 5px;
+	background-color: #fff;
 }
 
 .smallmenu * {
 	font-family: "Lato";
 	font-size: 12pt;
 	font-style: italic;
-	color: #333;
+	color: #fff;
 	cursor: default;
 }
 
@@ -165,7 +166,7 @@ html, body, div {
 }
 
 .smallmenu ul li.current-menu-item {
-	background:#ddd
+	background:#ddd;
 }
 
 .smallmenu ul ul {
