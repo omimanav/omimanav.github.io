@@ -131,8 +131,7 @@ html, body, div {
 	top: 20px;
 	left: 240px;
 	opacity: 0.9;
-	border: 1px solid #333;
-	padding: 5px;
+
 }
 
 .smallmenu * {
@@ -157,15 +156,11 @@ html, body, div {
 	text-decoration:none;
 }
 
-.smallmenu ul li {
+.smallmenu > ul > li {
 	position:relative;
 	float:left;
 	margin:0;
-	padding:0;
-}
-
-.smallmenu ul li.current-menu-item {
-	background:#ddd
+	padding:5px;
 }
 
 .smallmenu ul ul {
@@ -174,7 +169,7 @@ html, body, div {
 	top:30px;
 	left: 0px;
 	background:#fff;
-	padding:0px;
+	padding:2px;
 	width: 110px;
 }
 
@@ -187,7 +182,7 @@ html, body, div {
 	padding:10px 15px;
 }
 
-.smallmenu ul li:hover > *, .smallmenu ul li ul:hover > * {
+.smallmenu ul li:hover > ul {
 	display:block;
 }
 
