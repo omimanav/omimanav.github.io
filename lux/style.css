@@ -160,13 +160,14 @@ ul {
 	}
 	
 	div img {
-		padding-right: 20px;
-		padding-top: 10px;
+		left: 5px;
+		padding-right: 5px;
 		height: 600px;
 		z-index: 1;
-		position: relative;
+		float: left;
 		top: 65px;
 		overflow-y: hidden;
+		position: relative;
 	}
 
 	.d1010 {

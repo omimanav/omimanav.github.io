@@ -230,14 +230,6 @@ html, body, div {
 	top: 25vh;
 }
 
-.homeimg {
-	position: fixed;
-	z-index: 1;
-	top: 85px;
-	left: 180px;
-	height: 600px;
-}
-
 .webmenu {
 	position: absolute;
 	width: 100px;
@@ -412,6 +404,14 @@ html, body, div {
 		width: 300px;
 		height: 100px;
 	}
+	
+	.homeimg {
+		position: fixed;
+		z-index: 1;
+		top: 85px;
+		left: 180px;
+		height: 600px;
+	}
 }
 
 @media (min-width:0px) and (max-width:768px) {
@@ -421,9 +421,17 @@ html, body, div {
 		text-decoration: none;
 		font-size: 9pt;
 		top: 150px;
-		left: 90px;
+		left: 20px;
 		position: fixed;
 		color: #333;
+	}
+	
+	.homeimg {
+		position: fixed;
+		z-index: 1;
+		top: 85px;
+		left: 120px;
+		width: 100%;
 	}
 
 	.contact p a, contact p a:hover  {
