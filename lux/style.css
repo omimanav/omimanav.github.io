@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i');
+
+html {
+	font-family: "Lato", sans-serif;
+	color: #333;
+	cursor: default;
+}
+
+ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*normal screens*/
+@media (min-width:768px) {
+	body {
+		background-color: #efefef;
+		text-align: center;
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	.menuContainer {
+		opacity: 0.8;
+		width: 100%;
+		top: 0;
+		left: 0;
+		padding: 5px;
+		position: fixed;
+		z-index: 4;
+		background-color: #efefef;
+	}
+	
+	.menu {
+		text-align: center;
+	}
+	
+	.menuItem {
+		padding: 5px;
+		display: inline;
+	}
+	
+	.menuItem .title {
+		font-size: 28pt;
+		color: #333;
+	} 
+	
+	.menuItem .title:hover {
+		-webkit-transition: font-size 0.1s;
+    	transition: font-size 0.1s;
+		font-size: 30pt;
+	}
+	
+	.menuItem a:hover {
+		cursor: pointer;
+		color: #333;
+		font-size: 24pt;
+		-webkit-transition: font-size 0.1s;
+    	transition: font-size 0.1s;
+	}
+	
+	.menuItem a {
+		color: #333;
+		text-decoration: none;
+		font-size: 20pt;
+		-webkit-transition: font-size 0.1s;
+    	transition: font-size 0.1s;
+	}
+	
+	.homeImg {
+		margin-top: 6%;
+		top: 0;
+		left: 0;
+	}
+	
+	.workOverlay {
+		background-image: url(/img/home.jpg);
+		width: 100vw;
+		height:100vh;
+		max-height: 600px;
+		max-width: 1067px;
+		z-index: 2;
+		margin-top: 6%;
+		top: 0;
+		left: 0;
+		display: inline-block;
+	}
+	
+	.workOverlay ul {
+		width: 100%;
+		height: 600px;
+		position: relative;
+		text-align: center;
+	}
+	
+	.workOverlay > ul > li {
+		width: 50%;
+		height: 100%;
+		float: left;
+		background-color: #ddd;
+		opacity: 0.8;
+		-webkit-transition: 0.1s;
+    	transition: 0.1s;
+	}
+	
+	.workOverlay a {
+		text-decoration: none;
+		color: #333;
+		font-size: 18pt;
+	}
+	
+	.workOverlay > ul li:hover {
+		background-color: #333; 
+		-webkit-transition: 0.1s;
+    	transition: 0.1s;
+	}
+	
+	.workOverlay > ul li:hover a {
+		color: #ddd;
+		-webkit-transition: 0.1s;
+    	transition: 0.1s;
+		top: 50px;
+	}
+	
+	.menuWork, .menuPersonal {
+		display: none;
+		top: 130px;
+	}
+	
+	.workOverlay > ul > li > a {
+		position: relative;
+		top: 200px;
+		text-decoration: overline;
+	}
+	
+	.workOverlay > ul li:hover .menuWork, .workOverlay > ul li:hover .menuPersonal {
+		display: block;
+	}
+	
+	.aboutContainer {
+		position: relative;
+		margin: auto;
+    	width: 50%;
+		top: 50px;
+		overflow: hidden;
+	}
+	
+	.about a {
+		color: #333;
+	}
+	
+	.about {
+		text-align: justify;
+	}
+	
+	.aboutImg {
+		position: relative;
+		max-height: 100%;
+		max-width: 100%;
+	}
+	
+	
+}
+
+/*small screens*/
+@media (max-width:768px) {
+	body {
+		background-image: url(img/home.jpg);
+		background-position: center;
+		background-size: cover;
+		background-repeat:no-repeat;
+		background-attachment: fixed;
+		text-align: center;
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	.menuContainer {
+		opacity: 0.9;
+		width: 100%;
+		left: 0;
+		position: fixed;
+		z-index: 4;
+		background-color: #efefef;
+		top: 0;
+		height: 100%;
+	}
+	
+	.hide {
+		display: none;
+	}
+	
+	.menu {
+		text-align: center;
+		height: 100%;
+	}
+	
+	.menuItem {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+	
+	.menuItem .title {
+		font-size: 28pt;
+		color: #333;
+	} 
+	
+	.menuItem .title:hover {
+		-webkit-transition: font-size 0.1s;
+    	transition: font-size 0.1s;
+		font-size: 30pt;
+	}
+	
+	.menuItem a:hover {
+		cursor: pointer;
+		color: #333;
+		font-size: 24pt;
+		-webkit-transition: font-size 0.1s;
+    	transition: font-size 0.1s;
+	}
+	
+	.menuItem a {
+		color: #333;
+		text-decoration: none;
+		font-size: 20pt;
+		-webkit-transition: font-size 0.1s;
+    	transition: font-size 0.1s;
+	}
+	
+	.homeImg {
+		display: none;
+	}
+	
+	.workOverlay {
+		position: relative;
+		z-index: 4;
+		top: 150px;
+		width: 100%;
+	}
+	
+	.menuPersonal, .menuWork {
+		padding: 10px;
+	}
+	
+	.menuPersonal li, .menuWork li {
+		padding: 10px;
+	}
+	
+	.workOverlay > ul > li > a {
+		text-decoration: underline;
+	}
+	
+	.menuPersonal a, .menuWork a {
+		text-decoration: none;
+		color: #333;
+	}
+
+}
