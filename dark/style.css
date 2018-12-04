@@ -123,7 +123,7 @@ ul {
 		top: 50px;
 	}
 	
-	.menuWork, .menuPersonal {
+	.menuDesign, .menuPersonal {
 		display: none;
 		top: 130px;
 	}
@@ -134,7 +134,7 @@ ul {
 		text-decoration: overline;
 	}
 	
-	.workOverlay > ul li:hover .menuWork, .workOverlay > ul li:hover .menuPersonal {
+	.workOverlay > ul li:hover .menuDesign, .workOverlay > ul li:hover .menuPersonal {
 		display: block;
 	}
 	
@@ -312,11 +312,11 @@ ul {
 		width: 100%;
 	}
 	
-	.menuPersonal, .menuWork {
+	.menuPersonal, .menuDesign {
 		padding: 10px;
 	}
 	
-	.menuPersonal li, .menuWork li {
+	.menuPersonal li, .menuDesign li {
 		padding: 10px;
 	}
 	
@@ -324,7 +324,7 @@ ul {
 		text-decoration: underline;
 	}
 	
-	.menuPersonal a, .menuWork a {
+	.menuPersonal a, .menuDesign a {
 		text-decoration: none;
 		color: #333;
 	}

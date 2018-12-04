@@ -1,285 +1,177 @@
-/*
-massive thank you to dan and igor as inspo - check their work out on zerotwelve.co.uk and igorolenev.com
-*/
-
 @import url('https://fonts.googleapis.com/css?family=Lato:300,300i');
 
-html, body, div {
-	background-color: #fff;
-}
-
-@media (min-width:768px) {
-	.title {
-		z-index: 3;
-		position: fixed;
-		text-decoration: none;
-		background-color: #3d3d3d;
-		border: 2px solid #fff;
-		padding: 4px 15px 0px 15px;
-		margin-top: 10px;
-		margin-left: 50px;
-	}
-
-	.title h2 {
-		font-family: "Lato";
-		color: #fff;
-	}
-
-	.title:hover {
-		text-decoration: none;
-	}
-	
-	.photomenu {
-		position: absolute;
-		z-index: 2;
-		left: 150px;
-		top: 100px;
-		background-color: #3d3d3d;
-	}
-
-	.photomenu ul {
-		padding-top: 10px;
-		list-style: none;
-		width: 200px;
-		font-family: "Lato";
-		font-size: 12pt;
-		font-style: italic;
-		text-align: center;
-		padding-left: 0px;
-		background-color: #3d3d3d;
-	}
-
-	.photomenu ul li a {
-		color: #fff;
-		text-decoration: none;
-	}
-
-	.photomenu ul li {
-		color: #fff;
-		text-decoration: none;
-	}
-
-	.photomenu ul li a:hover {
-		color: #eee;
-		text-decoration: none;
-	}
-}
-
-@media (min-width:0px) and (max-width:768px) {
-	.title {
-		z-index: 3;
-		position: fixed;
-		text-decoration: none;
-		background-color: #3d3d3d;
-		border: 2px solid #fff;
-		padding: 4px 15px 0px 15px;
-		margin-top: 10px;
-		margin-left: 10px;
-		opacity: 0.8
-	}
-
-	.title h2 {
-		font-family: "Lato";
-		color: #fff;
-	}
-
-	.title:hover {
-		text-decoration: none;
-	}
-	
-	.photomenu {
-		position: absolute;
-		z-index: 2;
-		left: 100px;
-		top: 100px;
-		background-color: #3d3d3d;
-	}
-
-	.photomenu ul {
-		padding-top: 10px;
-		list-style: none;
-		width: 200px;
-		font-family: "Lato";
-		font-size: 12pt;
-		font-style: italic;
-		text-align: center;
-		padding-left: 0px;
-		background-color: #3d3d3d;
-		margin: 0px;
-	}
-
-	.photomenu ul li a {
-		color: #fff;
-		text-decoration: none;
-	}
-
-	.photomenu ul li {
-		color: #fff;
-		padding-top: 5px;
-		text-decoration: none;
-	}
-
-	.photomenu ul li a:hover {
-		color: #eee;
-		text-decoration: none;
-	}
-}
-
-.smallmenu {
-	position: fixed;
-	z-index: 3;
-	top: 20px;
-	left: 240px;
-	opacity: 0.9;
-
-}
-
-.smallmenu * {
-	font-family: "Lato";
-	font-size: 12pt;
-	font-style: italic;
+html {
+	font-family: "Lato", sans-serif;
 	color: #333;
 	cursor: default;
+	overflow-x: hidden;
 }
 
-.smallmenu ul {
-	list-style:none;
-	position:relative;
-	float:left;
-	margin:0;
-	padding:0;
-}
-
-.smallmenu ul a {
-	display:block;
-	color:#333;
-	text-decoration:none;
-}
-
-.smallmenu > ul > li {
-	position:relative;
-	float:left;
-	margin:0;
-	padding:5px;
-}
-
-.smallmenu ul ul {
-	display:none;
-	position:absolute;
-	top:30px;
-	left: 0px;
-	background:#fff;
-	padding:2px;
-	width: 110px;
-}
-
-.smallmenu ul ul li {
-	float:none;
-}
-
-.smallmenu ul ul a {
-	line-height:150%;
-	padding:10px 15px;
-}
-
-.smallmenu ul li:hover > ul {
-	display:block;
-}
-
-.smallmenu ul ul li a:hover {
-	border: 1px solid #333;
-}
-
-
-.menubar {
-	background-color: #3d3d3d;
-	height: 100vh;
-	display: block;
-	position: fixed;
-	z-index: 2;
-	min-width: 150px;
-	max-width: 15vw;
-	overflow: hidden;
-}
-
-.menubar ul {
+ul {
 	list-style: none;
-	font-family: "Lato";
-	font-size: 12pt;
-	font-style: italic;
-	position: relative;
-	top: 120px;
-	text-align: center;
-	padding-left: 0px;
-	background-color: #3d3d3d;
+	padding: 0px;
+	margin: 0px;
 }
 
-.menubar ul li {
-	color: #eee;
-}
-
-.menubar ul li a {
-	color: #eee;
-	text-decoration: none;
-}
-.menubar ul li a:hover {
-	text-decoration: none;
-}
-
-.photo {
-	top: 25vh;
-}
-
-.webmenu {
-	position: absolute;
-	width: 100px;
-	z-index: 2;
-	left: 150px;
-	top: 180px;
-	background-color: #3d3d3d;
-}
-
-.webmenu ul {
-	padding-top: 10px;
-	list-style: none;
-	width: 100px;
-	font-family: "Lato";
-	font-size: 12pt;
-	font-style: italic;
-	text-align: center;
-	padding-left: 0px;
-	background-color: #3d3d3d;
-	margin-top: 10px;
-}
-
-.webmenu ul li a {
-	color: #fff;
-	text-decoration: none;
-}
-
-.webmenu ul li {
-	color: #fff;
-	text-decoration: none;
-}
-
-.webmenu ul li a:hover {
-	color: #eee;
-	text-decoration: none;
-}
-
-/* ----------- */
-/* galleries  */
-/* ----------- */
-@media (min-width: 768px) {
+/*normal screens*/
+@media (min-width:768px) {
+	body {
+		background-color: #efefef;
+		text-align: center;
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	.menuContainer {
+		opacity: 0.8;
+		width: 100%;
+		top: 0;
+		left: 0;
+		padding: 5px;
+		position: fixed;
+		z-index: 4;
+		background-color: #efefef;
+	}
+	
+	.menu {
+		text-align: center;
+	}
+	
+	.menuItem {
+		padding: 5px;
+		display: inline;
+	}
+	
+	.menuItem .title {
+		font-size: 28pt;
+		color: #333;
+	} 
+	
+	.menuItem .title:hover {
+		-webkit-transition: font-size 0.1s;
+    	transition: font-size 0.1s;
+		font-size: 30pt;
+	}
+	
+	.menuItem a:hover {
+		cursor: pointer;
+		color: #333;
+		font-size: 24pt;
+		-webkit-transition: font-size 0.1s;
+    	transition: font-size 0.1s;
+	}
+	
+	.menuItem a {
+		color: #333;
+		text-decoration: none;
+		font-size: 20pt;
+		-webkit-transition: font-size 0.1s;
+    	transition: font-size 0.1s;
+	}
+	
+	.homeImg {
+		margin-top: 6%;
+		top: 0;
+		left: 0;
+	}
+	
+	.workOverlay {
+		background-image: url(http://beerandcamera.com/img/home.jpg);
+		width: 100vw;
+		height:100vh;
+		max-height: 600px;
+		max-width: 1067px;
+		z-index: 2;
+		margin-top: 6%;
+		top: 0;
+		left: 0;
+		display: inline-block;
+	}
+	
+	.workOverlay ul {
+		width: 100%;
+		height: 600px;
+		position: relative;
+		text-align: center;
+	}
+	
+	.workOverlay > ul > li {
+		width: 50%;
+		height: 100%;
+		float: left;
+		background-color: #ddd;
+		opacity: 0.8;
+		-webkit-transition: 0.1s;
+    	transition: 0.1s;
+	}
+	
+	.workOverlay a {
+		text-decoration: none;
+		color: #333;
+		font-size: 18pt;
+	}
+	
+	.workOverlay > ul li:hover {
+		background-color: #333; 
+		-webkit-transition: 0.1s;
+    	transition: 0.1s;
+	}
+	
+	.workOverlay > ul li:hover a {
+		color: #ddd;
+		-webkit-transition: 0.1s;
+    	transition: 0.1s;
+		top: 50px;
+	}
+	
+	.menuDesign, .menuPhotos {
+		display: none;
+		top: 80px;
+		height: 80px;
+	}
+	
+	.workOverlay > ul > li > a {
+		position: relative;
+		top: 200px;
+		text-decoration: overline;
+	}
+	
+	.workOverlay > ul li:hover .menuDesign, .workOverlay > ul li:hover .menuPhotos {
+		display: block;
+		position: relative;
+		height: 82%;
+	}
+	
+	.aboutContainer {
+		position: relative;
+		margin: auto;
+    	width: 50%;
+		top: 50px;
+		overflow: hidden;
+	}
+	
+	.about a {
+		color: #333;
+	}
+	
+	.about {
+		text-align: left;
+	}
+	
+	.aboutImg {
+		position: relative;
+		height: 500px;
+	}
+	
 	div img {
-		padding-right: 20px;
-		padding-top: 10px;
+		left: 5px;
+		padding-right: 5px;
 		height: 600px;
 		z-index: 1;
-		position: relative;
+		float: left;
 		top: 65px;
-		left: 172px;
 		overflow-y: hidden;
+		position: relative;
 	}
 
 	.d1010 {
@@ -348,121 +240,131 @@ html, body, div {
 	}
 }
 
-@media (max-width:768px) and (min-width:0px) {
-	div img {
+/*small screens*/
+@media (max-width:768px) {
+	body {
+		background-image: url(http://beerandcamera.com/img/home.jpg);
+		background-position: center;
+		background-size: cover;
+		background-repeat:no-repeat;
+		background-attachment: fixed;
+		text-align: center;
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	.menuContainer {
+		opacity: 0.9;
 		width: 100%;
-		z-index: 1;
-		padding:10px;
-		top:65px;
+		left: 0;
+		position: fixed;
+		z-index: 4;
+		background-color: #efefef;
+		top: 0;
+		height: 100%;
+	}
+	
+	.hide {
+		display: none;
+	}
+	
+	.menu {
+		text-align: center;
+		height: 100%;
+	}
+	
+	.menuItem {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	
+	.menuItem .title {
+		font-size: 28pt;
+		color: #333;
+	} 
+	
+	.menuItem .title:hover {
+		-webkit-transition: font-size 0.1s;
+    	transition: font-size 0.1s;
+		font-size: 30pt;
+	}
+	
+	.menuItem a:hover {
+		cursor: pointer;
+		color: #333;
+		font-size: 24pt;
+		-webkit-transition: font-size 0.1s;
+    	transition: font-size 0.1s;
+	}
+	
+	.menuItem a {
+		color: #333;
+		text-decoration: none;
+		font-size: 20pt;
+		-webkit-transition: font-size 0.1s;
+    	transition: font-size 0.1s;
+	}
+	
+	.homeImg {
+		display: none;
+	}
+	
+	.workOverlay {
 		position: relative;
-	}
-}
-
-/* ------------ */
-/* about / contact */
-/* ------------ */
-@media (min-width: 768px) {
-	.about, .contact {
-		top: 120px;
-		font-family: "Lato";
-		text-decoration: none;
-		font-size: 9pt;
+		z-index: 4;
 		top: 100px;
-		left: 190px;
-		position: fixed;
-		color: #333;
-	}
-
-	.contact p a, contact p a:hover  {
-		text-decoration: none;
-		color: #3d3d3d;
-		cursor: pointer;
-	}
-
-	.about ul {
-		list-style: none;
-		padding: 0px;
-	}
-
-	input, textarea, #submit {
-		border-bottom: 1px solid #333;
-		border-top: none;
-		border-left: 1px solid #333;
-		border-right: none;
-		box-shadow: none;
-	}
-
-	#submit {
-		padding: 3px;
-	}
-
-	#contact #submit:hover {
-		cursor: pointer;	
-	}
-
-	#body {
-		width: 300px;
-		height: 100px;
-	}
-	
-	.homeimg {
-		position: fixed;
-		z-index: 1;
-		top: 85px;
-		left: 180px;
-		height: 600px;
-	}
-}
-
-@media (min-width:0px) and (max-width:768px) {
-	.about, .contact {
-		top: 120px;
-		font-family: "Lato";
-		text-decoration: none;
-		font-size: 9pt;
-		top: 150px;
-		left: 20px;
-		position: fixed;
-		color: #333;
-	}
-	
-	.homeimg {
-		position: fixed;
-		z-index: 1;
-		top: 85px;
-		left: 120px;
 		width: 100%;
 	}
-
-	.contact p a, contact p a:hover  {
+	
+	.menuPhotos, .menuDesign {
+		padding: 10px;
+	}
+	
+	.menuPhotos li, .menuDesign li {
+		padding: 10px;
+	}
+	
+	.workOverlay > ul > li > a {
+		text-decoration: line-through;
+	}
+	
+	.menuPhotos a, .menuDesign a {
 		text-decoration: none;
-		color: #3d3d3d;
-		cursor: pointer;
+		color: #333;
 	}
-
-	.about ul {
-		list-style: none;
-		padding: 0px;
+	
+	.aboutContainer {
+		position: absolute;
+		z-index: 4;
+		padding: 10px;
+		top: 100px;
 	}
-
-	input, textarea, #submit {
-		border-bottom: 1px solid #333;
-		border-top: none;
-		border-left: 1px solid #333;
-		border-right: none;
-		box-shadow: none;
+	
+	.about {
+		width: 100%;
+		margin: 0px auto;
+		text-align: left;
 	}
-
-	#submit {
-		padding: 3px;
+	
+	.aboutImg {
+		display: none;
 	}
-
-	#contact #submit:hover {
-		cursor: pointer;	
+	
+	.about a {
+		text-decoration: none;
+		color: #333;
 	}
-
-	#body {
-		width: 300px;
-		height: 100px;
+	
+	div > img {
+		position: relative;
+		z-index: 4;
+		top: 120px;
+		width: 97%;
+		margin: 0 auto;
+		padding-bottom: 5px;
+	}
+	
+	.galleryBody {
+		background-image: none;
 	}
 }
