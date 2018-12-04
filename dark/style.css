@@ -2,7 +2,7 @@
 
 html {
 	font-family: "Lato", sans-serif;
-	color: #333;
+	color: #ddd;
 	cursor: default;
 }
 
@@ -15,7 +15,7 @@ ul {
 /*normal screens*/
 @media (min-width:768px) {
 	body {
-		background-color: #efefef;
+		background-color: #333;
 		text-align: center;
 		padding: 0px;
 		margin: 0px;
@@ -29,7 +29,7 @@ ul {
 		padding: 5px;
 		position: fixed;
 		z-index: 4;
-		background-color: #efefef;
+		background-color: #333;
 	}
 	
 	.menu {
@@ -43,7 +43,7 @@ ul {
 	
 	.menuItem .title {
 		font-size: 28pt;
-		color: #333;
+		color: #ddd;
 	} 
 	
 	.menuItem .title:hover {
@@ -54,14 +54,14 @@ ul {
 	
 	.menuItem a:hover {
 		cursor: pointer;
-		color: #333;
+		color: #ddd;
 		font-size: 24pt;
 		-webkit-transition: font-size 0.1s;
     	transition: font-size 0.1s;
 	}
 	
 	.menuItem a {
-		color: #333;
+		color: #ddd;
 		text-decoration: none;
 		font-size: 20pt;
 		-webkit-transition: font-size 0.1s;
@@ -98,7 +98,7 @@ ul {
 		width: 50%;
 		height: 100%;
 		float: left;
-		background-color: #ddd;
+		background-color: #333;
 		opacity: 0.8;
 		-webkit-transition: 0.1s;
     	transition: 0.1s;
@@ -106,18 +106,18 @@ ul {
 	
 	.workOverlay a {
 		text-decoration: none;
-		color: #333;
+		color: #ddd;
 		font-size: 18pt;
 	}
 	
 	.workOverlay > ul li:hover {
-		background-color: #333; 
+		background-color: #ddd; 
 		-webkit-transition: 0.1s;
     	transition: 0.1s;
 	}
 	
 	.workOverlay > ul li:hover a {
-		color: #ddd;
+		color: #333;
 		-webkit-transition: 0.1s;
     	transition: 0.1s;
 		top: 50px;
@@ -147,7 +147,7 @@ ul {
 	}
 	
 	.about a {
-		color: #333;
+		color: #ddd;
 	}
 	
 	.about {
@@ -276,7 +276,7 @@ ul {
 	
 	.menuItem .title {
 		font-size: 28pt;
-		color: #333;
+		color: #ddd;
 	} 
 	
 	.menuItem .title:hover {
@@ -287,14 +287,14 @@ ul {
 	
 	.menuItem a:hover {
 		cursor: pointer;
-		color: #333;
+		color: #ddd;
 		font-size: 24pt;
 		-webkit-transition: font-size 0.1s;
     	transition: font-size 0.1s;
 	}
 	
 	.menuItem a {
-		color: #333;
+		color: #ddd;
 		text-decoration: none;
 		font-size: 20pt;
 		-webkit-transition: font-size 0.1s;
@@ -326,7 +326,7 @@ ul {
 	
 	.menuPersonal a, .menuDesign a {
 		text-decoration: none;
-		color: #333;
+		color: #ddd;
 	}
 	
 	.aboutContainer {
@@ -347,6 +347,6 @@ ul {
 	
 	.about a {
 		text-decoration: none;
-		color: #333;
+		color: #ddd;
 	}
 }
