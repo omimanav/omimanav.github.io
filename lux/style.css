@@ -160,7 +160,80 @@ ul {
 		max-width: 100%;
 	}
 	
-	
+	div img {
+		padding-right: 20px;
+		padding-top: 10px;
+		height: 600px;
+		z-index: 1;
+		position: relative;
+		top: 65px;
+		overflow-y: hidden;
+	}
+
+	.d1010 {
+		width: 3595px;
+		height: 100%;
+	}
+
+	.n1010 {
+		width: 3220px;
+		height: 100%;
+	}
+
+	.kef {
+		width: 13000px;
+		height: 100%;
+	}
+
+	.n-i {
+		width: 13000px;
+		height: 100%;
+	}
+
+	.s-i {
+		width: 18400px;
+		height: 100%;
+	}
+
+	.hebei01 {
+		width: 14000px;
+		height: 100%;
+	}
+
+	.hebei02 {
+		width: 5550px;
+		height: 100%;
+	}
+
+	.gor {
+		width: 15150px;
+		height: 100%;
+	}
+
+	.gbi {
+		width: 7400px;
+		height: 100%;
+	}
+
+	.sdc {
+		width: 11920px;
+		height: 100%;
+	}
+
+	.seoul { 
+		width: 20460px;
+		height: 100%;
+	}
+
+	.interior {
+		width: 6500px;
+		height: 100%;
+	}
+
+	.portraits {
+		width: 10800px;
+		height: 100%;
+	}
 }
 
 /*small screens*/
