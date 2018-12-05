@@ -2,8 +2,9 @@
 
 html {
 	font-family: "Lato", sans-serif;
-	color: #ddd;
+	color: #333;
 	cursor: default;
+	overflow-x: hidden;
 }
 
 ul {
@@ -15,7 +16,7 @@ ul {
 /*normal screens*/
 @media (min-width:768px) {
 	body {
-		background-color: #333;
+		background-color: #efefef;
 		text-align: center;
 		padding: 0px;
 		margin: 0px;
@@ -29,7 +30,7 @@ ul {
 		padding: 5px;
 		position: fixed;
 		z-index: 4;
-		background-color: #333;
+		background-color: #efefef;
 	}
 	
 	.menu {
@@ -43,7 +44,7 @@ ul {
 	
 	.menuItem .title {
 		font-size: 28pt;
-		color: #ddd;
+		color: #333;
 	} 
 	
 	.menuItem .title:hover {
@@ -54,14 +55,14 @@ ul {
 	
 	.menuItem a:hover {
 		cursor: pointer;
-		color: #ddd;
+		color: #333;
 		font-size: 24pt;
 		-webkit-transition: font-size 0.1s;
     	transition: font-size 0.1s;
 	}
 	
 	.menuItem a {
-		color: #ddd;
+		color: #333;
 		text-decoration: none;
 		font-size: 20pt;
 		-webkit-transition: font-size 0.1s;
@@ -98,7 +99,7 @@ ul {
 		width: 50%;
 		height: 100%;
 		float: left;
-		background-color: #333;
+		background-color: #ddd;
 		opacity: 0.8;
 		-webkit-transition: 0.1s;
     	transition: 0.1s;
@@ -106,26 +107,27 @@ ul {
 	
 	.workOverlay a {
 		text-decoration: none;
-		color: #ddd;
+		color: #333;
 		font-size: 18pt;
 	}
 	
 	.workOverlay > ul li:hover {
-		background-color: #ddd; 
+		background-color: #333; 
 		-webkit-transition: 0.1s;
     	transition: 0.1s;
 	}
 	
 	.workOverlay > ul li:hover a {
-		color: #333;
+		color: #ddd;
 		-webkit-transition: 0.1s;
     	transition: 0.1s;
 		top: 50px;
 	}
 	
-	.menuDesign, .menuPersonal {
+	.menuDesign, .menuPhotos {
 		display: none;
-		top: 130px;
+		top: 80px;
+		height: 80px;
 	}
 	
 	.workOverlay > ul > li > a {
@@ -134,8 +136,10 @@ ul {
 		text-decoration: overline;
 	}
 	
-	.workOverlay > ul li:hover .menuDesign, .workOverlay > ul li:hover .menuPersonal {
+	.workOverlay > ul li:hover .menuDesign, .workOverlay > ul li:hover .menuPhotos {
 		display: block;
+		position: relative;
+		height: 82%;
 	}
 	
 	.aboutContainer {
@@ -147,7 +151,7 @@ ul {
 	}
 	
 	.about a {
-		color: #ddd;
+		color: #333;
 	}
 	
 	.about {
@@ -276,7 +280,7 @@ ul {
 	
 	.menuItem .title {
 		font-size: 28pt;
-		color: #ddd;
+		color: #333;
 	} 
 	
 	.menuItem .title:hover {
@@ -287,14 +291,14 @@ ul {
 	
 	.menuItem a:hover {
 		cursor: pointer;
-		color: #ddd;
+		color: #333;
 		font-size: 24pt;
 		-webkit-transition: font-size 0.1s;
     	transition: font-size 0.1s;
 	}
 	
 	.menuItem a {
-		color: #ddd;
+		color: #333;
 		text-decoration: none;
 		font-size: 20pt;
 		-webkit-transition: font-size 0.1s;
@@ -312,21 +316,21 @@ ul {
 		width: 100%;
 	}
 	
-	.menuPersonal, .menuDesign {
+	.menuPhotos, .menuDesign {
 		padding: 10px;
 	}
 	
-	.menuPersonal li, .menuDesign li {
+	.menuPhotos li, .menuDesign li {
 		padding: 10px;
 	}
 	
 	.workOverlay > ul > li > a {
-		text-decoration: underline;
+		text-decoration: line-through;
 	}
 	
-	.menuPersonal a, .menuDesign a {
+	.menuPhotos a, .menuDesign a {
 		text-decoration: none;
-		color: #ddd;
+		color: #333;
 	}
 	
 	.aboutContainer {
@@ -337,8 +341,9 @@ ul {
 	}
 	
 	.about {
-		width: 70%;
+		width: 100%;
 		margin: 0px auto;
+		text-align: left;
 	}
 	
 	.aboutImg {
@@ -347,6 +352,19 @@ ul {
 	
 	.about a {
 		text-decoration: none;
-		color: #ddd;
+		color: #333;
+	}
+	
+	div > img {
+		position: relative;
+		z-index: 4;
+		top: 120px;
+		width: 97%;
+		margin: 0 auto;
+		padding-bottom: 5px;
+	}
+	
+	.galleryBody {
+		background-image: none;
 	}
 }
