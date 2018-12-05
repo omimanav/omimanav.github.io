@@ -2,7 +2,7 @@
 
 html {
 	font-family: "Lato", sans-serif;
-	color: #333;
+	color: #ddd;
 	cursor: default;
 	overflow-x: hidden;
 }
@@ -16,7 +16,7 @@ ul {
 /*normal screens*/
 @media (min-width:768px) {
 	body {
-		background-color: #efefef;
+		background-color: #333;
 		text-align: center;
 		padding: 0px;
 		margin: 0px;
@@ -30,7 +30,7 @@ ul {
 		padding: 5px;
 		position: fixed;
 		z-index: 4;
-		background-color: #efefef;
+		background-color: #333;
 	}
 	
 	.menu {
@@ -44,7 +44,7 @@ ul {
 	
 	.menuItem .title {
 		font-size: 28pt;
-		color: #333;
+		color: #efefef;
 	} 
 	
 	.menuItem .title:hover {
@@ -55,14 +55,14 @@ ul {
 	
 	.menuItem a:hover {
 		cursor: pointer;
-		color: #333;
+		color: #ddd;
 		font-size: 24pt;
 		-webkit-transition: font-size 0.1s;
     	transition: font-size 0.1s;
 	}
 	
 	.menuItem a {
-		color: #333;
+		color: #efefef;
 		text-decoration: none;
 		font-size: 20pt;
 		-webkit-transition: font-size 0.1s;
@@ -99,7 +99,7 @@ ul {
 		width: 50%;
 		height: 100%;
 		float: left;
-		background-color: #ddd;
+		background-color: #333;
 		opacity: 0.8;
 		-webkit-transition: 0.1s;
     	transition: 0.1s;
@@ -107,12 +107,12 @@ ul {
 	
 	.workOverlay a {
 		text-decoration: none;
-		color: #333;
+		color: #efefef;
 		font-size: 18pt;
 	}
 	
 	.workOverlay > ul li:hover {
-		background-color: #333; 
+		background-color: #3f3f3f; 
 		-webkit-transition: 0.1s;
     	transition: 0.1s;
 	}
@@ -151,7 +151,7 @@ ul {
 	}
 	
 	.about a {
-		color: #333;
+		color: #efefef;
 	}
 	
 	.about {
@@ -259,7 +259,7 @@ ul {
 		left: 0;
 		position: fixed;
 		z-index: 4;
-		background-color: #efefef;
+		background-color: #333;
 		top: 0;
 		height: 100%;
 	}
@@ -280,7 +280,7 @@ ul {
 	
 	.menuItem .title {
 		font-size: 28pt;
-		color: #333;
+		color: #efefef;
 	} 
 	
 	.menuItem .title:hover {
@@ -291,14 +291,14 @@ ul {
 	
 	.menuItem a:hover {
 		cursor: pointer;
-		color: #333;
+		color: #ddd;
 		font-size: 24pt;
 		-webkit-transition: font-size 0.1s;
     	transition: font-size 0.1s;
 	}
 	
 	.menuItem a {
-		color: #333;
+		color: #efefef;
 		text-decoration: none;
 		font-size: 20pt;
 		-webkit-transition: font-size 0.1s;
@@ -330,7 +330,7 @@ ul {
 	
 	.menuPhotos a, .menuDesign a {
 		text-decoration: none;
-		color: #333;
+		color: #efefef;
 	}
 	
 	.aboutContainer {
@@ -352,7 +352,7 @@ ul {
 	
 	.about a {
 		text-decoration: none;
-		color: #333;
+		color: #efefef;
 	}
 	
 	div > img {
