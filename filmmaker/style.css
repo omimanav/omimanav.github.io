@@ -264,7 +264,7 @@ a {
 	}
 	
 	.reelcontainer {
-		top: 20px;
+		top: 250px;
 		width: 90%;
 		position: relative;
 		margin: 0 auto;
@@ -354,7 +354,7 @@ a {
 	}
 	
 	.about {
-		padding-top: 50px;
+		padding-top: 150px;
 		color: #efefef;
 		font-size: 12pt;
 		width: 90%;
@@ -382,7 +382,7 @@ a {
 	.videocontainer .video {
 		position: relative;
 		width: 95%;
-		height: calc(100% - 10px);
+		height: calc(90% - 10px);
 		bottom: 18px;
 		margin: 5px auto;
 		border-bottom: 1px solid #efefef;
