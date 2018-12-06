@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i');
+@import url('http://fonts.googleapis.com/css?family=Ubuntu:300,300i');
 
 html {
 	font-family: "Ubuntu", sans-serif;
@@ -36,8 +36,8 @@ a {
 	footer img {
 		cursor: pointer;
 		margin-left: 20px;
-		width: 27px;
-		height: 20px;
+		width: 12px;
+		height: 12px;
 		float: left;
 	}
 	
@@ -191,9 +191,9 @@ a {
 	
 	.videogallery {
 		position: absolute;
-		top: 10px;
+		top: 0;
 		left: 230px;
-		height: 135vh;
+		height: 100%;
 		width: calc(100% - 230px);
 		display: block;
 	}
@@ -202,15 +202,16 @@ a {
 		width: 80%;
 		position: relative;
 		z-index: 2;
-		float: left;
 		padding-top: 10px;
 		padding-left: 10px;
 		border-bottom: 1px solid #efefef;
+		max-width: 1080px;
+		margin-bottom: 15px;
 	}
 	
 	.videogallery .video {
 		width: 100%;
-		max-width: 1080px;
+		position: relative;
 	}
 	
 	.info {
@@ -294,11 +295,15 @@ a {
 	}
 	
 	.menubar {
-		margin: 0 auto;
 		padding: 0;
-		position: relative;
-		z-index: 2;
+		position: fixed;
+		z-index: 4;
+		margin: 0 auto;
 		text-align: center;
+		background-color: #222;
+		opacity: 0.9;
+		width: 100%;
+		top: 0;
 	}
 	
 	.menubar a {
@@ -352,5 +357,39 @@ a {
 		width: 200px;
 		float: right;
 		padding: 20px;
+	}
+	
+	.videogallery {
+		position: absolute;
+		z-index: 3;
+		width: 100%;
+		left: 0;
+		margin: 0 auto;
+		text-align: center;
+		top: 130px;
+	}
+	
+	.videogallery .video {
+		position: relative;
+		width: 95%;
+		height: calc(100% - 10px);
+		bottom: 18px;
+		margin: 5px auto;
+		border-bottom: 1px solid #efefef;
+	}
+	
+	.videogallery video {
+		position: relative;
+		width: 100%;
+	}
+	
+	.videogallery .info {
+		color: #efefef;
+		font-size: 10pt;
+		margin-bottom: 5px;
+	}
+	
+	.videogallery .info br {
+		display: none;
 	}
 }
