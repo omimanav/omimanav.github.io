@@ -30,6 +30,7 @@ a {
 		left: 0;
 		font-size: 10pt;
 		text-align: center;
+		display: block;
 	}
 	
 	footer img {
@@ -46,7 +47,7 @@ a {
 		margin: 0;
 		top: 0;
 		padding-left: 10px;
-		position: absolute;;
+		position: fixed;
 		z-index: 2;
 	}
 	
@@ -186,21 +187,44 @@ a {
 		max-height: 300px;
 		padding: 20px;
 		float: right;
-		
 	}
 	
 	.videogallery {
-		background-color: #333;
 		position: absolute;
-		top: 0;
+		top: 10px;
 		left: 230px;
-		height: 100%;
+		height: 135vh;
 		width: calc(100% - 230px);
-		padding-top: 20px;
+		display: block;
 	}
 	
 	.videogallery video {
-		
+		width: 80%;
+		position: relative;
+		z-index: 2;
+		float: left;
+		padding-top: 10px;
+		padding-left: 10px;
+		border-bottom: 1px solid #efefef;
+	}
+	
+	.videogallery .video {
+		width: 100%;
+		max-width: 1080px;
+	}
+	
+	.info {
+		position: relative;
+		z-index: 3;
+		color: #efefef;
+		text-align: left;
+		background-color: #222;
+		font-size: 12pt;
+		max-width: 150px;
+		-webkit-transition: 0.1s linear;
+    	transition: 0.1s linear;
+		float: left;
+		padding-top: 10px;
 	}
 }
 
