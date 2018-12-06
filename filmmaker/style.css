@@ -41,12 +41,12 @@ a {
 	}
 	
 	.menubar {
-		width: 230px;
+		width: 200px;
 		height: 100%;
 		margin: 0;
 		top: 0;
-		padding-left: 15px;
-		position: fixed;
+		padding-left: 10px;
+		position: absolute;;
 		z-index: 2;
 	}
 	
@@ -63,25 +63,33 @@ a {
     	transition: 0.1s;
 		font-size: 12.5pt;
 		color: #fefefe;
+		padding-left: 5px;
+		padding-right: 5px;
 		border-right: 1px solid #ddd;
 		border-left: 1px solid #ddd;
 	}
 	
+	.submenu a:hover {
+		border-right: none;
+	}
+	
 	.title {
 		text-align: center;
-		border: 0px;
+		border: none;
 	}
 	
 	.title a {
 		font-size: 25pt;
+		display: block;
 	}
 	
 	.title a:hover {
+		display: block;
 		color: #fefefe;
 		-webkit-transition: 0.1s;
     	transition: 0.1s;
 		font-size: 25pt;
-		border: 0;
+		border: none;
 	}
 	
 	.undertitle {
@@ -93,22 +101,21 @@ a {
 	}
 	
 	.submenu {
-		width: 35%;
+		width: 50%;
 	}
 	
 	.submenu ul {
 		opacity: 0.1;
 		position: absolute;
 		visibility: hidden;
-		width: 100%;
 		text-align: center;
-		padding-bottom: 5px;
+		z-index: 5;
 		-webkit-transition: 0.1s linear;
     	transition: 0.1s linear;
+		width: 120px;
 	}
 	
 	.submenu:hover ul {
-		display: block;
 		visibility: visible;
 		background-color: #222;
 		-webkit-transition: 0.1s linear;
@@ -126,7 +133,7 @@ a {
 		border-left: 1px solid #ddd;
 	}
 	
-	.recent {
+	.reel {
 		max-height: 1080px;
 		width: 66vw;
 		position: fixed;
@@ -136,7 +143,7 @@ a {
 		left: 250px;
 	}
 	
-	.recentoverlay {
+	.reeloverlay {
 		padding: 0;
 		font-size: 16pt;
 		background-color: #333;
@@ -152,7 +159,7 @@ a {
     	transition: 0.1s linear;
 	}
 	
-	.recentcontainer:hover .recentoverlay {
+	.reelcontainer:hover .reeloverlay {
 		opacity: 0.8;
 		-webkit-transition: 0.1s linear;
     	transition: 0.1s linear;
@@ -180,5 +187,146 @@ a {
 		padding: 20px;
 		float: right;
 		
+	}
+	
+	.videogallery {
+		background-color: #333;
+		position: absolute;
+		top: 0;
+		left: 230px;
+		height: 100%;
+		width: calc(100% - 230px);
+		padding-top: 20px;
+	}
+	
+	.videogallery video {
+		
+	}
+}
+
+@media (max-width:768px) and (min-width:0px) {
+	.hide {
+		display: none;
+	}
+	
+	footer {
+		position: fixed;
+		z-index: 5;
+		width: 100%;
+		margin: 0;
+		padding-bottom: 5px;
+		color: #efefef;
+		background-color: #222;
+		opacity: 0.8;
+		bottom: 0;
+		left: 0;
+		font-size: 10pt;
+		text-align: center;
+	}
+	
+	footer img {
+		display: none;
+	}
+	
+	.reelcontainer {
+		top: 20px;
+		width: 90%;
+		position: relative;
+		margin: 0 auto;
+	}
+	
+	.reel {
+		position: absolute;
+		width: 100%;
+		z-index: 3;
+	}
+	
+	.reeloverlay {
+		position: absolute;
+		width: 100%;
+		z-index: 4;
+		top: 30px;
+		background-color: #222;
+		color: #efefef;
+		text-align: center;
+		opacity: 0.0;
+		font-size: 12pt;
+	}
+	
+	.reelcontainer:hover .reeloverlay {
+		opacity: 0.8;
+	}
+	
+	.menubar br {
+		display: none;
+	}
+	
+	.undertitle {
+		font-size: 10pt;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		text-decoration: overline;
+	}
+	
+	.menubar {
+		margin: 0 auto;
+		padding: 0;
+		position: relative;
+		z-index: 2;
+		text-align: center;
+	}
+	
+	.menubar a {
+		text-decoration: none;
+		font-size: 16pt;
+	}
+	
+	.menuitem > a {
+		border-left: 1px solid #efefef;
+		border-right: 1px solid #efefef;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	
+	.title {
+		padding: 0;
+		margin: 0;
+		height: 60px;
+	}
+	
+	.title a {
+		font-size: 25pt;
+		border: 0;
+	}
+	
+	.submenu ul li a {
+		font-size: 13pt;
+	}
+	
+	.submenu ul {
+		text-align: right;
+		margin: 0 auto;
+		width: 110px;
+	}
+	
+	.submenu > a {
+		border-right: 0;
+	}
+	
+	.about {
+		padding-top: 50px;
+		color: #efefef;
+		font-size: 12pt;
+		width: 90%;
+		margin: 0 auto;
+		text-align: justify;
+		min-width: 400px;
+	}
+	
+	.about img {
+		width: 200px;
+		float: right;
+		padding: 20px;
 	}
 }
