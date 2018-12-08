@@ -268,16 +268,17 @@ a {
 	}
 	
 	.infoitemoverlay {
-		font-size: 10pt;
+		font-size: 11pt;
 		background-color: #222;
 		opacity: 0.8;
 		position: absolute;
 		color: #efefef;
 		width: 20vw;
-		height: 20vh;
+		height: 19vh;
 		z-index: 3;
 		-webkit-transition: 0.1s;
     	transition: 0.1s;
+		padding-top: 10px;
 	}
 	
 	.toggleitemoverlay {
