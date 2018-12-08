@@ -249,8 +249,8 @@ a {
 	}
 	
 	.galleryitem {
-		width: 240px;
-		height: 135px;
+		width: 20vw;
+		height: 20vh;
 		position: relative;
 		display: inline-block;
 		float: left;
@@ -272,8 +272,8 @@ a {
 		opacity: 0.8;
 		position: absolute;
 		color: #efefef;
-		width: 240px;
-		height: 135px;
+		width: 20vw;
+		height: 20vh;
 		z-index: 3;
 		-webkit-transition: 0.1s;
     	transition: 0.1s;
@@ -281,8 +281,8 @@ a {
 	
 	.toggleitemoverlay {
 		position: absolute;
-		width: 240px;
-		height: 135px;
+		width: 20vw;
+		height: 20vh;
 		cursor: pointer;
 		opacity: 0.0;
 		z-index: 4;
