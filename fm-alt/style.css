@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i');
+
+* {
+	font-family: "Lato";
+	text-decoration: none;
+	color: #efefef;
+	cursor: default;
+	transition: 0.1s;
+	-webkit-transition: 0.1s;
+}
+
+a {
+	cursor: pointer;
+}
+
+html {
+	background-color: #222;
+}
+
+@media (min-width: 768px) {
+	footer {
+		position: fixed;
+		z-index: 5;
+		width: 100%;
+		margin: 0;
+		padding-bottom: 5px;
+		color: #efefef;
+		background-color: #222;
+		opacity: 0.8;
+		bottom: 0;
+		left: 0;
+		font-size: 1em;
+		text-align: center;
+		display: block;
+	}
+	
+	.titlecontainer {
+		width: 100%;
+		position: fixed;
+		z-index: 9;
+		text-align: center;
+		background-color: #222;
+		opacity: 0.8;
+	}
+	
+	.title {
+		position: relative;
+		font-size: 2.5em;
+		width: 250px;
+		margin: 0 auto;
+		z-index: 3;
+		opacity: 0.9;
+	}
+	
+	.undertitle {
+		font-size: 0.36em;
+		margin: 0 auto;
+		padding: 0;
+		position: relative;
+		text-decoration: overline;
+	}
+	
+	.title:hover {
+		opacity: 1;
+		color: #fefefe;
+	}
+	
+	.menu {
+		position: fixed;
+		z-index: 2;
+		margin: 0 auto;
+		padding: 0;
+		top: 90px;
+		list-style: none;
+		text-align: center;
+		width: 100%;
+		font-size: 1.8em;
+	}
+	
+	.menuitem {
+		margin: 0 auto;
+		padding-top: 2px;
+		padding-bottom: 5px;
+		width: 234px;
+		display: inline-block;
+	}
+	
+	.selected {
+		background-color: #efefef;
+	}
+	
+	.selected a {
+		color: #222;
+		position: relative;
+	}
+	
+	.menuitem:hover {
+		background-color: #efefef;
+		opacity: 0.9;
+	}
+	
+	.menuitem:hover a {
+		color: #222;
+		position: relative;
+		width: 100%;
+		height: 100%;
+	}
+	
+	.reelcontainer {
+		position: fixed;
+		top: 25%;
+		width: 100%;
+		height: 70%;
+		text-align: center;
+	}
+	
+	.reelcontainer iframe {
+		position: relative;
+		width: 50vw;
+		height: calc(50vw / 1.78);
+	}
+	
+	.gallerycontainer {
+		widows: 100%;
+		height: calc(100% - 185px);
+		position: fixed;
+		top: 150px;
+		background-color: #fff;
+		
+	}
+}
