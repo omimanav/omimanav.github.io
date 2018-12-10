@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,300i');
 
+* {
+	-webkit-transition: 0.1s linear;
+    transition: 0.1s linear;
+}
+
 html {
 	font-family: "Lato", sans-serif;
 	color: #333;
@@ -48,8 +53,8 @@ ul {
 	} 
 	
 	.menuItem .title:hover {
-		-webkit-transition: font-size 0.1s;
-    	transition: font-size 0.1s;
+		
+    	
 		font-size: 30pt;
 	}
 	
@@ -57,16 +62,12 @@ ul {
 		cursor: pointer;
 		color: #333;
 		font-size: 24pt;
-		-webkit-transition: font-size 0.1s;
-    	transition: font-size 0.1s;
 	}
 	
 	.menuItem a {
 		color: #333;
 		text-decoration: none;
 		font-size: 20pt;
-		-webkit-transition: font-size 0.1s;
-    	transition: font-size 0.1s;
 	}
 	
 	.homeImg {
@@ -101,8 +102,8 @@ ul {
 		float: left;
 		background-color: #ddd;
 		opacity: 0.8;
-		-webkit-transition: 0.1s;
-    	transition: 0.1s;
+		
+    	
 	}
 	
 	.workOverlay a {
@@ -113,14 +114,10 @@ ul {
 	
 	.workOverlay > ul li:hover {
 		background-color: #333; 
-		-webkit-transition: 0.1s;
-    	transition: 0.1s;
 	}
 	
 	.workOverlay > ul li:hover a {
 		color: #ddd;
-		-webkit-transition: 0.1s;
-    	transition: 0.1s;
 		top: 50px;
 	}
 	
@@ -284,8 +281,6 @@ ul {
 	} 
 	
 	.menuItem .title:hover {
-		-webkit-transition: font-size 0.1s;
-    	transition: font-size 0.1s;
 		font-size: 30pt;
 	}
 	
@@ -293,16 +288,12 @@ ul {
 		cursor: pointer;
 		color: #333;
 		font-size: 24pt;
-		-webkit-transition: font-size 0.1s;
-    	transition: font-size 0.1s;
 	}
 	
 	.menuItem a {
 		color: #333;
 		text-decoration: none;
 		font-size: 20pt;
-		-webkit-transition: font-size 0.1s;
-    	transition: font-size 0.1s;
 	}
 	
 	.homeImg {
