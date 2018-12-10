@@ -219,12 +219,14 @@ html {
 		float: left;
 		width: 50vw;
 		text-align: justify;
+		display: inline-block;
 	}
 	
 	.about img {
-		width: 30vw;
+		width: 25vw;
 		max-width: 500px;
 		float: right;
+		display: inline-block;
 	}
 	
 	.fixed {
@@ -364,5 +366,25 @@ html {
 		position: relative;
 		width: 100vw;
 		height: calc(100vw / 1.78);
+	}
+	
+	.about {
+		font-size: 0.7em;
+		text-align: center;
+		margin-left: 10px;
+		margin-right: 10px;
+		left: 0;
+	}
+	
+	.about p {
+		text-align: justify;
+	}
+	
+	.about img {
+		height: 200px;
+		margin: 20px auto;
+		top: 0;
+		left: 0;
+		position: relative;
 	}
 }
