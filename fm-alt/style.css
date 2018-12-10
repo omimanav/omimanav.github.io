@@ -120,7 +120,7 @@ html {
 		height: calc(50vw / 1.78);
 	}
 	
-	.gallerycontainer {
+	.container {
 		width: 100%;
 		height: calc(100% - 185px);
 		margin: 0 auto;
@@ -207,6 +207,27 @@ html {
 	}
 	
 	.about {
-		
+		left: 0;
+		top: 0;
+		margin: 0 auto;
+		position: relative;
+		width: 80vw;
+		height: 70vh;
+	}
+	
+	.about p {
+		float: left;
+		width: 50vw;
+		text-align: justify;
+	}
+	
+	.about img {
+		width: 30%;
+		max-width: 500px;
+		float: right;
+	}
+	
+	.fixed {
+		position: fixed;
 	}
 }
