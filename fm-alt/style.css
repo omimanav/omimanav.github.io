@@ -222,12 +222,147 @@ html {
 	}
 	
 	.about img {
-		width: 30%;
+		width: 30vw;
 		max-width: 500px;
 		float: right;
 	}
 	
 	.fixed {
 		position: fixed;
+	}
+}
+
+@media (max-width:768px) {
+	footer {
+		position: fixed;
+		z-index: 5;
+		width: 100vw;
+		margin: 0;
+		padding-bottom: 5px;
+		color: #efefef;
+		background-color: #222;
+		opacity: 0.8;
+		bottom: 0;
+		left: 0;
+		font-size: 0.5em;
+		text-align: center;
+		display: block;
+	}
+	
+	.hide {
+		display: none;
+	}
+	
+	.titlecontainer {
+		width: 100vw;
+		position: fixed;
+		z-index: 9;
+		text-align: center;
+		background-color: #222;
+		opacity: 0.8;
+		left: 0;
+		top: 0;
+	}
+	
+	.title {
+		position: relative;
+		font-size: 2em;
+		width: 250px;
+		margin: 0 auto;
+		z-index: 3;
+		opacity: 0.9;
+		left: 0;
+	}
+	
+	.undertitle {
+		font-size: 0.355em;
+		margin: 0 auto;
+		padding: 0;
+		position: relative;
+		text-decoration: overline;
+	}
+	
+	.title:hover {
+		opacity: 1;
+		color: #fefefe;
+	}
+	
+	.menu {
+		list-style: none;
+		padding: 0;
+		width: 100vw;
+		top: 35px;
+		left: 0;
+		position: fixed;
+		z-index: 9;
+	}
+	
+	.menuitem {
+		position: relative;
+		text-align: center;
+		left: 0;
+		width: 40vw;
+		margin: 10px auto;
+		padding: 10px;
+	}
+	
+	.menuitem a {
+		position: relative;
+		text-align: center;
+	}
+	
+	.selected {
+		background-color: #efefef;
+	}
+	
+	.selected a {
+		color: #222;
+	}
+	
+	.reelcontainer {
+		position: fixed;
+		top: 50vh;
+		width: 100vw;
+		left: 0;
+	}
+	
+	.reelcontainer iframe {
+		width: 100vw;
+		height: calc(100vw / 1.78);
+	}
+	
+	.container {
+		position: absolute;
+		left: 0;
+		height: calc(100vh - 120px);
+		width: 100vw;
+		top:120px;
+		
+	}
+	
+	input, .overlay {
+		display: none;
+	}
+	
+	.gallery {
+		position: relative;
+		background-color: #efefef;
+		width: 100vw;
+		height: calc(100vh - 120px);
+	}
+	
+	.item {
+		position: relative;
+		display: block;
+		width: 100vw;
+		margin: 0 auto;
+		background-color: #222;
+	}
+	
+	.item iframe {
+		margin: 0 auto;
+		position: relative;
+		width: 100vw;
+		height: calc(100vw / 1.78);
 	}
 }
