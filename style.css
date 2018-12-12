@@ -9,7 +9,6 @@ html {
 	font-family: "Lato", sans-serif;
 	color: #333;
 	cursor: default;
-	overflow-x: hidden;
 }
 
 ul {
@@ -102,8 +101,6 @@ ul {
 		float: left;
 		background-color: #ddd;
 		opacity: 0.8;
-		
-    	
 	}
 	
 	.workOverlay a {
@@ -170,7 +167,7 @@ ul {
 		overflow-y: hidden;
 		position: relative;
 	}
-
+	
 	.d1010 {
 		width: 3595px;
 		height: 100%;
