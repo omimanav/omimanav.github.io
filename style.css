@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,300i');
 
 * {
-	-webkit-transition: 0.1s linear;
-    transition: 0.1s linear;
+	-webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
 }
 
 html {
