@@ -60,7 +60,7 @@ a {
 	}
 	
 	.container:nth-child(1) {
-		background-image: url('http://beerandcamera.com/brand/content/1.jpg');
+		background-image: url('http://beerandcamera.com/brand/content/1.heic');
 		background-position: center;
 		background-size: cover;
 		background-origin: border-box;
@@ -69,7 +69,7 @@ a {
 	}
 	
 	.container:nth-child(2) {
-		background-image: url('http://beerandcamera.com/brand/content/2.jpg');
+		background-image: url('http://beerandcamera.com/brand/content/5.heic');
 		background-position: center;
 		background-size: cover;
 		background-origin: content-box;
