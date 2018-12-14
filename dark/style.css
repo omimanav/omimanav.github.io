@@ -238,6 +238,24 @@ ul {
 		width: 10800px;
 		height: 100%;
 	}
+	
+	footer {
+		position: fixed;
+		width: 100vw;
+		bottom: 0;
+		cursor: default;
+		text-align: center;
+	}
+	
+	footer p {
+		width: 100vw;
+		font-size: 10pt;
+	}
+	
+	footer * {
+		text-decoration: none;
+		color: #efefef;
+	}
 }
 
 /*small screens*/

@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,300i');
 
 * {
-	-webkit-transition: 0.3s ease;
-    transition: 0.3s ease;
+	-webkit-transition: 0.1s ease;
+    transition: 0.1s ease;
 }
 
 html {
@@ -231,6 +231,24 @@ ul {
 	.portraits {
 		width: 10800px;
 		height: 100%;
+	}
+	
+	footer {
+		position: fixed;
+		width: 100vw;
+		bottom: 0;
+		cursor: default;
+		text-align: center;
+	}
+	
+	footer p {
+		width: 100vw;
+		font-size: 10pt;
+	}
+	
+	footer * {
+		text-decoration: none;
+		color: #222;
 	}
 }
 
