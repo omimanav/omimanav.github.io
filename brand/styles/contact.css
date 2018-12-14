@@ -37,7 +37,7 @@ a {
 	color: #222;
 }
 
-@media (min-width:768px) {
+@media (min-width:800px) {
 	footer {
 		text-align: center;
 		position: absolute;
@@ -107,5 +107,12 @@ a {
 		-webkit-backdrop-filter: blur(0px);
 		filter: blur(0px);
 		-webkit-filter: blur(0px);
+	}
+	
+	.contact {
+		width: 100vw;
+		height: 100vh;
+		line-height: 20vh;
+		text-align: center;
 	}
 }
