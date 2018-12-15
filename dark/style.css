@@ -5,6 +5,8 @@ html {
 	color: #ddd;
 	cursor: default;
 	overflow-x: hidden;
+	-webkit-transition: 0.2s ease;
+    transition: 0.2s ease;
 }
 
 ul {
@@ -48,25 +50,23 @@ ul {
 	} 
 	
 	.menuItem .title:hover {
-		-webkit-transition: font-size 0.1s;
-    	transition: font-size 0.1s;
-		font-size: 30pt;
+		font-size: 28pt;
 	}
 	
 	.menuItem a:hover {
 		cursor: pointer;
 		color: #ddd;
 		font-size: 24pt;
-		-webkit-transition: font-size 0.1s;
-    	transition: font-size 0.1s;
+		
+    	
 	}
 	
 	.menuItem a {
 		color: #efefef;
 		text-decoration: none;
 		font-size: 20pt;
-		-webkit-transition: font-size 0.1s;
-    	transition: font-size 0.1s;
+		
+    	
 	}
 	
 	.homeImg {
@@ -302,8 +302,8 @@ ul {
 	} 
 	
 	.menuItem .title:hover {
-		-webkit-transition: font-size 0.1s;
-    	transition: font-size 0.1s;
+		
+    	
 		font-size: 30pt;
 	}
 	
@@ -311,16 +311,16 @@ ul {
 		cursor: pointer;
 		color: #ddd;
 		font-size: 24pt;
-		-webkit-transition: font-size 0.1s;
-    	transition: font-size 0.1s;
+		
+    	
 	}
 	
 	.menuItem a {
 		color: #efefef;
 		text-decoration: none;
 		font-size: 20pt;
-		-webkit-transition: font-size 0.1s;
-    	transition: font-size 0.1s;
+		
+    	
 	}
 	
 	.homeImg {
