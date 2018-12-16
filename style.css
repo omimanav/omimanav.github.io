@@ -18,7 +18,7 @@ ul {
 }
 
 /*normal screens*/
-@media (min-width:768px) {
+@media (min-width:800px) {
 	body {
 		background-color: #efefef;
 		text-align: center;
@@ -251,7 +251,7 @@ ul {
 }
 
 /*small screens*/
-@media (max-width:768px) {
+@media (max-width:800px) {
 	body {
 		background-image: url(http://beerandcamera.com/img/home.jpg);
 		background-position: center;
