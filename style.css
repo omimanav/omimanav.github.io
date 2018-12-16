@@ -9,6 +9,10 @@ html {
 	font-family: "Lato", sans-serif;
 	color: #333;
 	cursor: default;
+	background-image: url("http://beerandcamera.com/img/bg.jpg");
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-position: center;
 }
 
 ul {
@@ -20,7 +24,6 @@ ul {
 /*normal screens*/
 @media (min-width:800px) {
 	body {
-		background-color: #efefef;
 		text-align: center;
 		padding: 0px;
 		margin: 0px;
@@ -34,7 +37,6 @@ ul {
 		padding: 5px;
 		position: fixed;
 		z-index: 4;
-		background-color: #efefef;
 	}
 	
 	.menu {
