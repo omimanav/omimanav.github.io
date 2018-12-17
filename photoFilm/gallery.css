@@ -149,6 +149,8 @@ ul, li {
 		position: relative;
 		padding-top: 10px;
 		margin: 0 auto;
+		max-width: 100%;
+		width: 75vw;
 		padding-right: calc((100% - 700px) / 2);
 	}
 	
