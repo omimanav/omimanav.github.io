@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+* {
+	transition: 0.2s ease;
+	-webkit-transition: 0.2s ease;
+}
+
+html {
+	font-family: "Poiret One";
+	color: #efefef;
+	background-image: url("http://beerandcamera.com/img/bg-dark.jpg");
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-position: center;
+}
+
+a {
+	text-decoration: none;
+	color: #efefef;
+}
+
+ul, li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+@media (min-width:800px) {
+	footer {
+		display: block;
+		position: fixed;
+		z-index: 9;
+		text-align: center;
+		width: 100vw;
+		height: 24px;
+		bottom: 0;
+		left: 0;
+		background-color: #efefef;
+		opacity: 0.7;
+	}
+	
+	footer p {
+		padding: 0;
+		margin: 0;
+		position: relative;
+		display: block;
+		width: 100vw;
+		line-height: 24px;
+	}
+	
+	.bar {
+		position: fixed;
+		z-index: 8;
+		display: block;
+		top: 0;
+		left: 0;
+		width: 20vw;
+		height: 100vh;
+		text-align: center;
+		opacity: 0.7;
+	}
+	
+	.logoContainer {
+		position: relative;
+		top: 40px;
+		left: 0;
+		height: 100px;
+		width: 100%;
+		text-align: center;
+		display: block;
+	}
+	
+	#logo {
+		position: relative;
+		height: 100px;
+	}
+	
+	.menu {
+		display: block;
+		position: absolute;
+		top: 30%;
+		width: 20vw;
+		z-index: 8;
+		text-align: center;
+	}
+	
+	.menu > .menuitem {
+		padding-top: 25px;
+		font-size: 18pt;
+		display: block;
+	}
+	
+	.dd > .menuitem {
+		padding-top: 10px;
+		display: block;
+		font-size: 18pt;
+	}
+	
+	.dd {
+		opacity: 0;
+		height: 0px;
+		visibility: hidden;
+		text-align: center;
+		margin: 0 auto;
+	}
+	
+	.dd-container {
+		margin: 0 auto;
+		width: 100px;
+		text-align: left;
+	}
+	
+	#dd-checkbox {
+		position: absolute;
+		z-index: 9;
+		height: 24px;
+		width: 100px;
+		padding: 0;
+		display: inline;
+		float: left;
+		opacity: 0;
+		cursor: pointer;
+	}
+	
+	.dd-button {
+		position: relative;
+		display: block;
+		z-index: 8;
+	}
+	
+	#dd-checkbox:checked ~ .dd {
+		visibility: visible;
+		opacity: 1.0;
+		height: 70px;
+	}
+	
+	.gallery {
+		display: block;
+		position: absolute;
+		height: calc(100vh - 24px);
+		width: 80vw;
+		top: 10px;
+		right: 0;
+		text-align: center;
+		column-count: 1;
+	}
+	
+	.gallery img {
+		position: relative;
+		padding-top: 10px;
+		margin: 0 auto;
+		max-width: 100%;
+		width: 75vw;
+		padding-right: calc((100% - 700px) / 2);
+	}
+	
+	img:last-child {
+		padding-bottom: 30px;
+	}
+}
+
+@media (max-width:800px) {
+	footer {
+		display: block;
+		position: fixed;
+		z-index: 9;
+		text-align: center;
+		width: 100vw;
+		height: 20px;
+		bottom: 0;
+		left: 0;
+	}
+	
+	footer p {
+		padding: 0;
+		margin: 0;
+		position: relative;
+		display: block;
+		width: 100vw;
+		line-height: 20px;
+		font-size: 8pt;
+	}
+	
+	.logoContainer {
+		position: absolute;
+		left: 5px;
+		width: 100%;
+		display: none;
+	}
+	
+	#logo {
+		height: 100px;
+	}
+	
+	.menu {
+		position: fixed;
+		margin: 0 auto;
+		top: 0;
+		left: calc((100vw - 190px) / 2);
+		background-image: url("http://beerandcamera.com/img/bg.jpg");
+		
+		opacity: 0.7;
+		z-index: 8;
+	}
+	
+	#dd-checkbox {
+		display: inline;
+		position: absolute;
+		z-index: 9;
+		width: 60px;
+		opacity: 0;
+		cursor: pointer;
+	}
+	
+	.dd {
+		visibility: hidden;
+		height: 0px;
+		opacity: 0;
+	}
+	
+	#dd-checkbox:checked ~ .dd {
+		visibility: visible;
+		opacity: 1.0;
+		height: 70px;
+	}
+	
+	.menu > .menuitem {
+		padding-right: 10px;
+		float: left;
+	}
+	
+	.dd > .menuitem {
+		padding-top: 10px;
+	}
+	
+	.gallery {
+		width: 100vw;
+		position: absolute;
+		text-align: center;
+		padding: 0;
+		left: 0;
+		height: calc(100vh - 30px);
+	}
+	
+	img {
+		margin-top: 10px;
+		left: 0;
+		width: 90vw;
+	}
+	
+	img:last-child {
+		margin-bottom: 20px;
+	}
+	
+	
+}
