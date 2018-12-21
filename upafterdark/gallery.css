@@ -26,28 +26,6 @@ ul, li {
 }
 
 @media (min-width:800px) {
-	footer {
-		display: block;
-		position: fixed;
-		z-index: 9;
-		text-align: center;
-		width: 100vw;
-		height: 24px;
-		bottom: 0;
-		left: 0;
-		background-color: #efefef;
-		opacity: 0.7;
-	}
-	
-	footer p {
-		padding: 0;
-		margin: 0;
-		position: relative;
-		display: block;
-		width: 100vw;
-		line-height: 24px;
-	}
-	
 	.bar {
 		position: fixed;
 		z-index: 8;
@@ -145,42 +123,27 @@ ul, li {
 		column-count: 1;
 	}
 	
-	.gallery img {
-		position: relative;
-		padding-top: 10px;
-		margin: 0 auto;
-		max-width: 100%;
-		width: 75vw;
-		padding-right: calc((100% - 700px) / 2);
-	}
-	
-	img:last-child {
+	.post:last-child {
 		padding-bottom: 30px;
 	}
+	
+	.post {
+		position:relative;
+		display:block;
+		width:90%;
+		max-width:1280px;
+		float:left;
+	}
+	
+	.postImg {
+		position:relative;
+		margin: 0 auto;
+		width:85%;
+	}
+	
 }
 
 @media (max-width:800px) {
-	footer {
-		display: block;
-		position: fixed;
-		z-index: 9;
-		text-align: center;
-		width: 100vw;
-		height: 20px;
-		bottom: 0;
-		left: 0;
-	}
-	
-	footer p {
-		padding: 0;
-		margin: 0;
-		position: relative;
-		display: block;
-		width: 100vw;
-		line-height: 20px;
-		font-size: 8pt;
-	}
-	
 	.logoContainer {
 		position: absolute;
 		left: 5px;
@@ -197,7 +160,7 @@ ul, li {
 		margin: 0 auto;
 		top: 0;
 		left: calc((100vw - 190px) / 2);
-		background-image: url("http://beerandcamera.com/img/bg.jpg");
+		background-image: url("http://beerandcamera.com/img/bg-dark.jpg");
 		
 		opacity: 0.7;
 		z-index: 8;
