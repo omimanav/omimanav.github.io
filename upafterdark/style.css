@@ -26,24 +26,9 @@ ul, li {
 }
 
 @media (min-width:800px) {
-	footer {
-		display: block;
-		position: fixed;
-		z-index: 9;
-		text-align: center;
-		width: 100vw;
-		height: 24px;
-		bottom: 0;
-		left: 0;
-	}
-	
-	footer p {
-		padding: 0;
-		margin: 0;
-		position: relative;
-		display: block;
-		width: 100vw;
-		line-height: 24px;
+	iframe {
+		width:240px;
+		height:80px;
 	}
 	
 	.bar {
@@ -139,25 +124,9 @@ ul, li {
 }
 
 @media (max-width:800px) {
-	footer {
-		display: block;
-		position: fixed;
-		z-index: 9;
-		text-align: center;
-		width: 100vw;
-		height: 20px;
-		bottom: 0;
-		left: 0;
-	}
-	
-	footer p {
-		padding: 0;
-		margin: 0;
-		position: relative;
-		display: block;
-		width: 100vw;
-		line-height: 20px;
-		font-size: 8pt;
+	iframe {
+		width:80px;
+		height:80px;
 	}
 	
 	.bar {

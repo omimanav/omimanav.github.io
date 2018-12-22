@@ -27,6 +27,11 @@ ul, li {
 }
 
 @media (min-width:800px) {
+	iframe {
+		width:240px;
+		height:80px;
+	}
+	
 	.bar {
 		position: fixed;
 		z-index: 8;
@@ -140,6 +145,11 @@ ul, li {
 }
 
 @media (max-width:800px) {
+	iframe {
+		width:80px;
+		height:80px;
+	}
+	
 	.logoContainer {
 		position: absolute;
 		left: 5px;
