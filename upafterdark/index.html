@@ -1,37 +1,52 @@
+<!-- if you've made it this far its probably for the code or photos - in which case, feel free to use either with credit given; a link to my website or instagram. ta. -->
+
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
-	<title>HOME</title>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<title>hi</title>
 </head>
 
 <body>
-	<div class="bar">
-		<a class="logoContainer" href="index"><img id="logo" src="logo.png"></a>
-		
-		<ul class="menu">
-			<li class="menuitem">
-				<div class="dd-container">
-					<input id="dd-checkbox" type="checkbox">
-					<div class="dd-button">GALLERY/</div>
-					<ul class="dd">
-						<li class="menuitem">
-							<a href="walks">walks</a>
-						</li>
-						<li class="menuitem">
-							<a href="rides">rides</a>
-						</li>
-					</ul>
-				</div>
-			</li>
-			<li class="menuitem">
-				<a href="about">ABOUT</a>
-			</li>
-		</ul>
+	<span class="loading">
+		<p>Hang on a sec, getting this ready.</p>
+	</span>
+	
+	<div class="enterTitle">
+		<a onclick="reset();">up after dark</a>
 	</div>
 	
-	<iframe src="https://open.spotify.com/embed/user/12187206826/playlist/4sDwmLSu3MGkqZStQRNObb" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+	<div class="menu">
+		<div><a onclick="about();">about</a></div>
+		<div><a onclick="photos();">wanderings</a></div>
+	</div>
+	
+	<p class="about">
+		Anon, wandering. For prints and commerical enquiries, please email me at <a href="mailto:noctuanon@gmail.com">noctuanon@gmail.com</a> otherwise find me on instagram <a href="https://instagram.com/_upafterdark">@_upafterdark</a> 
+		<br>
+		<br>
+		<i> &amp; I know, a lot of whitespace here.</i>
+	</p>
+	
+	<div class="photos small">
+		<span class="photo"></span>
+		<span class="photosMenu">
+			<img src="http://beerandcamera.com/img/sdc/sdc10.jpg">
+			<img src="http://beerandcamera.com/img/hebei01/hebei11.jpg">
+			<img src="http://beerandcamera.com/img/kef/kef13.jpg">
+			<img src="http://beerandcamera.com/img/kef/kef2.jpg">
+			<img src="http://beerandcamera.com/img/kef/kef12.jpg">
+			<img src="http://beerandcamera.com/img/n-i/n-i-3.jpg">
+			<img src="http://beerandcamera.com/img/n-i/n-i-10.jpg">
+			<img src="http://beerandcamera.com/img/seoul/seoul16.jpg">
+			<img src="http://beerandcamera.com/img/seoul/seoul18.jpg">
+			<img src="http://beerandcamera.com/img/seoul/seoul12.jpg">
+			<img src="http://beerandcamera.com/img/seoul/seoul4.jpg">
+		</span>
+	</div>
 </body>
 </html>

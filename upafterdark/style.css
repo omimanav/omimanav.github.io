@@ -1,165 +1,273 @@
-@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
 
 * {
-	transition: 0.2s ease;
-	-webkit-transition: 0.2s ease;
+	font-family: "Major Mono Display", monospace;
+	transition: 1s ease;
+	-webkit-transition: 1s ease;
 }
 
-html {
-	font-family: "Poiret One";
-	color: #efefef;
-	background-image: url("http://beerandcamera.com/img/bg-dark.jpg");
-	background-attachment: fixed;
-	background-repeat: repeat;
-	background-position: center;
+*::-webkit-scrollbar {
+	width: 0 !important;
+	display: none;
 }
 
-a {
+a, p {
 	text-decoration: none;
 	color: #efefef;
-}
-
-ul, li {
-	list-style: none;
-	padding: 0;
-	margin: 0;
+	font-weight: 400;
 }
 
 @media (min-width:800px) {
-	iframe {
-		width:240px;
-		height:80px;
+	.loading {
+		text-align: center;
+		width: 20vw;
+		left: 40vw;
+		display: block;
+		position: fixed;
+		z-index: 9;
+		top: 25vh;
+		text-shadow: 0 0px 0px #fff;
+		font-size: 20pt;
 	}
 	
-	.bar {
+	html {
+		background-color: #222;
+		background-image: url("http://beerandcamera.com/img/sdc/sdc9.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: fixed;
+		background-size: cover;
 		position: fixed;
-		z-index: 8;
+		z-index: 1;
 		display: block;
-		top: 0;
-		left: 0;
 		width: 100vw;
 		height: 100vh;
-		text-align: center;
-		opacity: 0.7;
-	}
-	
-	.logoContainer {
-		position: relative;
-		top: 40px;
+		top: 0;
 		left: 0;
-		height: 100px;
-		width: 100%;
-		text-align: center;
-		display: block;
 	}
 	
-	#logo {
-		position: relative;
-		height: 100px;
-	}
-	
-	.menu {
-		display: block;
-		position: absolute;
-		top: 30%;
-		width: 100vw;
+	.enterTitle {
+		position: fixed;
 		z-index: 8;
 		text-align: center;
-	}
-	
-	.menu > .menuitem {
-		padding-top: 25px;
-		font-size: 18pt;
-		display: block;
-	}
-	
-	.dd > .menuitem {
-		padding-top: 10px;
-		display: block;
-		font-size: 18pt;
-	}
-	
-	.dd {
-		opacity: 0;
-		height: 0px;
-		visibility: hidden;
-		text-align: center;
-		margin: 0 auto;
-	}
-	
-	.dd-container {
-		margin: 0 auto;
-		width: 100px;
-		text-align: left;
-	}
-	
-	#dd-checkbox {
-		position: absolute;
-		z-index: 9;
-		height: 24px;
-		width: 100px;
-		padding: 0;
-		display: inline;
-		float: left;
+		width: 100vw;
+		left: 0;
+		top: 0;
 		opacity: 0;
 	}
 	
-	input:hover {
+	.enterTitle a {
+		font-size: 31pt;
+		line-height: 25vh;
 		cursor: pointer;
 	}
 	
-	.dd-button {
-		position: relative;
-		display: block;
-		z-index: 8;
-	}
-	
-	#dd-checkbox:checked ~ .dd {
-		visibility: visible;
-		opacity: 1.0;
-		height: 70px;
-	}
-	
-	
-}
-
-@media (max-width:800px) {
-	iframe {
-		width:80px;
-		height:80px;
-	}
-	
-	.bar {
-		text-align: center;
-		width: 100%;
-	}
-	
-	.logoContainer {
-		position: absolute;
-		left: 5px;
-		width: 100%;
-	}
-	
-	#logo {
-		height: 100px;
-	}
-	
 	.menu {
-		position: absolute;
-		top: 30%;
+		position: fixed;
+		z-index: 8;
+		text-align: center;
+		top: 25%;
 		left: 0;
-		width: 100%;
+		line-height: 5vh;
+		opacity: 0;
+		width: 100vw;
+		font-size: 15pt;
 	}
 	
-	#dd-checkbox {
+	.menu div {
+		border-radius: 2px;
+		left: 0;
+	}
+	
+	.menu a {
+		text-shadow: 0 0px 0px #fff;
+		padding: 10px;
+		cursor: pointer;
+	}
+	
+	.menu a:hover {
+		text-shadow: 0 0px 20px #fff;
+	}
+	
+	.about, .photos {
+		position: absolute;
+		z-index: 7;
+		left: 0;
+		opacity: 0;
 		display: none;
 	}
 	
-	.menu > .menuitem {
-		padding-bottom: 25px;
+	.about a {
+		text-decoration: underline;
 	}
 	
-	.dd > .menuitem {
-		padding-top: 10px;
+	.about {
+		top: 25vh;
+		padding: 0;
+		width: 300px;
+		left: calc((100vw - 300px) / 2);
+		text-align: center;
+	}
+	
+	.photos {
+		position: absolute;
+		z-index: 7;
+		margin-top: 15vh;
+		left: 0;
+		height: 85vh;
+		width: 100vw;
+	}
+	
+	.photosMenu {
+		text-align: center;
+		position: relative;
+		z-index: 8;
+		width: 100vw;
+		display: block;
+		left: 0;
+	}
+	
+	.photosMenu img {
+		position: relative;
+		cursor: pointer;
+		width: calc(100vw / 6);
+		max-width: 300px;
+		padding: 3px;
+		margin: 0;
+		display: inline;
+	}
+	
+	.photo {
+		position: fixed;
+		display: none;
+		z-index: 2;
+		opacity: 0;
+		top: 0;
+		width: 100vw;
+		height: 100vh;
+		background-attachment: fixed;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+}
+
+@media (max-width:800px) {
+	.loading {
+		text-align: center;
+		width: 90vw;
+		left: 5vw;
+		display: block;
+		position: fixed;
+		z-index: 9;
+		top: 25vh;
+		text-shadow: 0 0px 0px #fff;
+		font-size: 20pt;
+	}
+	
+	html {
+		background-color: #222;
+		background-image: url("http://beerandcamera.com/img/sdc/sdc9.jpg");
+		background-repeat: no-repeat;
+		background-position: left;
+		background-attachment: fixed;
+		background-size: cover;
+		z-index: 1;
+		display: block;
+		width: 100vw;
+		height: 100vh;
+		top: 0;
+		left: 0;
+	}
+	
+	.enterTitle {
+		position: fixed;
+		z-index: 7;
+		text-align: center;
+		width: 100vw;
+		left: 0;
+		top: 0;
+		opacity: 0;
+	}
+	
+	.enterTitle a {
+		font-size: 21pt;
+		line-height: 25vh;
+		cursor: pointer;
+	}
+	
+	.menu {
+		position: fixed;
+		z-index: 8;
+		text-align: center;
+		top: 25%;
+		left: 0;
+		line-height: 5vh;
+		opacity: 0;
+		width: 100vw;
+		font-size: 15pt;
+	}
+	
+	.menu div {
+		border-radius: 2px;
+		left: 0;
+	}
+	
+	.menu a {
+		text-shadow: 0 0px 0px #fff;
+		padding: 10px;
+		cursor: pointer;
+	}
+	
+	.menu a:hover {
+		text-shadow: 0 0px 20px #fff;
+	}
+	
+	.about, .photos {
+		position: absolute;
+		z-index: 7;
+		left: 0;
+		opacity: 0;
+		display: none;
+	}
+	
+	.about a {
+		text-decoration: underline;
+	}
+	
+	.about {
+		top: 25vh;
+		padding: 0;
+		width: 300px;
+		left: calc((100vw - 300px) / 2);
+		text-align: center;
+	}
+	
+	.photos {
+		position: absolute;
+		z-index: 8;
+		margin-top: 15vh;
+		left: 0;
+		height: 85vh;
+		width: 100vw;
+		text-align: center;
+	}
+	
+	.photo {
+		display: none;
+	}
+	
+	.photosMenu {
+		text-align: center;
+		position: relative;
+		z-index: 8;
+		width: 100vw;
+		display: inline-block;
+		left: 0;
+	}
+	
+	.photosMenu img {
+		width: 95vw;
+		margin-bottom: 5px;
 	}
 }
