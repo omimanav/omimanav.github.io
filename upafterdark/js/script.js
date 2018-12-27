@@ -7,24 +7,26 @@ window.onload = function () {
 	$(".enterTitle").animate({opacity:1}, 1000);
 	$(".menu").animate({opacity:1}, 1500);
 	
-	$(".photosMenu img").click(function () {
-		var url = $(this).attr("src");
-		console.log(url);
-		$(".photo").css({
-			zIndex:9,
-			opacity:1,
-			backgroundImage: "url(" + url + ")",
-			display:"block"
-		});
-		$(".photosMenu").css({opacity:0});
-	});
-	$(".photo").click(function () {
-		$(".photo").css({
-			opacity:0,
-			zIndex:2
-		});
-		$(".photosMenu").animate({opacity:1},500);
-	});
+	if ($(window).width() > 800) {
+			$(".photosMenu img").click(function () {
+				var url = $(this).attr("src");
+				console.log(url);
+				$(".photo").css({
+					zIndex:9,
+					opacity:1,
+					backgroundImage: "url(" + url + ")",
+					display:"block"
+				});
+				$(".photosMenu").css({opacity:0});
+			});
+			$(".photo").click(function () {
+				$(".photo").css({
+					opacity:0,
+					zIndex:2
+				});
+				$(".photosMenu").animate({opacity:1},500);
+			});
+		}
 }
 
 function reset() {
