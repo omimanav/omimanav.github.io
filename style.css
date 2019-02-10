@@ -115,12 +115,12 @@ ul {
 	
 	.workOverlay > ul li:hover a {
 		color: #ddd;
-		top: 50px;
+		top: 10px;
 	}
 	
 	.menuDesign, .menuPhotos {
 		display: none;
-		top: 80px;
+		top: 10px;
 		height: 80px;
 	}
 	
@@ -253,7 +253,7 @@ ul {
 	
 	footer p {
 		width: 100vw;
-		font-size: 10pt;
+		font-size: 9pt;
 	}
 	
 	footer * {
@@ -275,7 +275,7 @@ ul {
 	
 	footer p {
 		width: 100vw;
-		font-size: 10pt;
+		font-size: 8pt;
 	}
 	
 	footer * {
