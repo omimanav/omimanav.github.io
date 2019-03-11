@@ -9,7 +9,7 @@ html {
 	font-family: "Lato", sans-serif;
 	color: #333;
 	cursor: default;
-	background-image: url("http://beerandcamera.com/img/bg.jpg");
+	background-image: url("http://omimanav.tk/img/bg.jpg");
 	background-attachment: fixed;
 	background-repeat: repeat;
 	background-position: center;
@@ -76,7 +76,7 @@ ul {
 	}
 	
 	.workOverlay {
-		background-image: url(http://beerandcamera.com/img/home.jpg);
+		background-image: url(http://omimanav.tk/img/home.jpg);
 		width: 100vw;
 		height:100vh;
 		max-height: 600px;
@@ -284,7 +284,7 @@ ul {
 	}
 	
 	body {
-		background-image: url(http://beerandcamera.com/img/home.jpg);
+		background-image: url(http://omimanav.tk/img/home.jpg);
 		background-position: center;
 		background-size:cover;
 		background-attachment:fixed;
