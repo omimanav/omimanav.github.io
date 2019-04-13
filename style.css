@@ -292,17 +292,18 @@ ul {
 		text-align: center;
 		padding: 0px;
 		margin: 0px;
+		height: 65em;
 	}
 	
 	.menuContainer {
-		opacity: 0.9;
+		opacity: 0.8;
 		width: 100%;
 		left: 0;
 		position: fixed;
 		z-index: 4;
 		background-color: #efefef;
 		top: 0;
-		height: 100%;
+		height: 150%;
 	}
 	
 	.hide {
@@ -349,10 +350,12 @@ ul {
 		z-index: 4;
 		top: 100px;
 		width: 100%;
+		display: inline-block;
 	}
 	
 	.menuPhotos, .menuDesign {
 		padding: 10px;
+		height: 100%;
 	}
 	
 	.menuPhotos li, .menuDesign li {
