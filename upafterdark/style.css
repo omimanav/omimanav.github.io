@@ -32,7 +32,7 @@ a, p {
 	
 	html {
 		background-color: #222;
-		background-image: url("http://omimanav.tk/img/sdc/sdc9.jpg");
+		background-image: url("http://omimanav.com/img/sdc/sdc9.jpg");
 		background-repeat: no-repeat;
 		background-position: center;
 		background-attachment: fixed;
@@ -104,9 +104,10 @@ a, p {
 	.about {
 		top: 25vh;
 		padding: 0;
-		width: 300px;
+		width: 350px;
 		left: calc((100vw - 300px) / 2);
 		text-align: center;
+		font-size: 15pt;
 	}
 	
 	.photos {
@@ -167,7 +168,7 @@ a, p {
 	
 	html {
 		background-color: #222;
-		background-image: url("http://omimanav.tk/img/sdc/sdc9.jpg");
+		background-image: url("http://omimanav.com/img/sdc/sdc9.jpg");
 		background-repeat: no-repeat;
 		background-position: left;
 		background-attachment: fixed;
@@ -205,7 +206,7 @@ a, p {
 		line-height: 5vh;
 		opacity: 0;
 		width: 100vw;
-		font-size: 15pt;
+		font-size: 20pt;
 	}
 	
 	.menu div {
