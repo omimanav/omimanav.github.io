@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300,300i');
+@font-face {
+	font-family: "Lato";
+	src: url("http://omimanav.com/fonts/lato/Lato-Light.ttf");
+}
 
 * {
 	-webkit-transition: 0.1s linear;
@@ -6,7 +9,7 @@
 }
 
 html {
-	font-family: "Lato", sans-serif;
+	font-family: "Lato", sans-serif !important;
 	color: #333;
 	cursor: default;
 	background-image: url("http://omimanav.com/img/bg.jpg");
