@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+@font-face {
+	font-family: "Major Mono Display";
+	src: "http://omimanav.com/fonts/mmd/MMD-Regular.ttf";
+}
 
 * {
 	font-family: "Major Mono Display", monospace;
