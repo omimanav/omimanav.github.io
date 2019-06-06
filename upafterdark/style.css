@@ -108,7 +108,7 @@ a, p {
 		top: 25vh;
 		padding: 0;
 		width: 350px;
-		left: calc((100vw - 300px) / 2);
+		left: calc((100vw - 335px) / 2);
 		text-align: center;
 		font-size: 15pt;
 	}
