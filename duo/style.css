@@ -158,10 +158,26 @@ body {
 		padding: 0;
 		overflow: scroll;
 	}
-	
-	
+
+	#mobile {
+		display: none;
+	}
 }
 
 @media(max-width:800px) {
-	
+	div, ul, a {
+		display: none;
+	}
+
+	#mobile {
+		position: absolute;
+		display: block;
+		font-size: 45pt;
+		color: #efefef;
+		top: 0;
+		left: 0;
+		height: 100vh;
+		width: 100vw;
+		background-color: rgba(255,255,255,0.2);
+	}
 }
