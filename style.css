@@ -1,21 +1,26 @@
+/*
+if you've made it this far it's probably for the code or photos - 
+in which case, feel free to use either with credit given; 
+a link to my website or instagram.
+
+ta.
+*/
+
 @font-face {
 	font-family: "Lato";
 	src: url("http://omimanav.com/fonts/lato/Lato-Light.ttf");
 }
 
 * {
-	-webkit-transition: 0.1s linear;
-    transition: 0.1s linear;
+	-webkit-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
 }
 
 html {
 	font-family: "Lato", sans-serif !important;
-	color: #333;
+	color: #efefef;
 	cursor: default;
-	background-image: url("http://omimanav.com/img/bg.jpg");
-	background-attachment: fixed;
-	background-repeat: repeat;
-	background-position: center;
+	background-color: #333;
 }
 
 ul {
@@ -26,10 +31,22 @@ ul {
 
 /*normal screens*/
 @media (min-width:800px) {
+	* {
+		overflow-y: hidden;
+	}
+
 	body {
 		text-align: center;
 		padding: 0px;
 		margin: 0px;
+		top: 0;
+		height: 100vh;
+		width: 100vw;
+		background-image: url(http://omimanav.com/img/home-lg.jpg);
+		background-size: cover;
+		background-position: center right;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
 	}
 	
 	.menuContainer {
@@ -47,13 +64,12 @@ ul {
 	}
 	
 	.menuItem {
-		padding: 5px;
 		display: inline;
 	}
 	
 	.menuItem .title {
 		font-size: 28pt;
-		color: #333;
+		color: #efefef;
 	} 
 	
 	.menuItem .title:hover {
@@ -62,30 +78,26 @@ ul {
 	
 	.menuItem a:hover {
 		cursor: pointer;
-		color: #333;
-		font-size: 24pt;
+		color: #efefef;
+		text-shadow: 0 0 10px #efefef;
 	}
 	
 	.menuItem a {
-		color: #333;
+		padding: 10px;
+		color: #efefef;
 		text-decoration: none;
 		font-size: 20pt;
 	}
 	
-	.homeImg {
-		margin-top: 6%;
-		top: 0;
-		left: 0;
-	}
-	
 	.workOverlay {
-		background-image: url(http://omimanav.com/img/home.jpg);
+		background-image: url(http://omimanav.com/img/home-lg.jpg);
+		background-size: cover;
+		background-position: bottom;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
 		width: 100vw;
 		height:100vh;
-		max-height: 600px;
-		max-width: 1067px;
 		z-index: 2;
-		margin-top: 6%;
 		top: 0;
 		left: 0;
 		display: inline-block;
@@ -93,7 +105,7 @@ ul {
 	
 	.workOverlay ul {
 		width: 100%;
-		height: 600px;
+		height: 100%;
 		position: relative;
 		text-align: center;
 	}
@@ -102,53 +114,53 @@ ul {
 		width: 50%;
 		height: 100%;
 		float: left;
-		background-color: #ddd;
+		background-color: #222;
 		opacity: 0.8;
 	}
 	
 	.workOverlay a {
 		text-decoration: none;
-		color: #333;
+		color: #efefef;
 		font-size: 18pt;
 	}
 	
 	.workOverlay > ul li:hover {
-		background-color: #333; 
+		background-color: #222; 
 	}
 	
-	.workOverlay > ul li:hover a {
-		color: #ddd;
-		top: 10px;
+	.workOverlay > ul > li:hover > a {
+		line-height: 20vh;
 	}
 	
 	.menuDesign, .menuPhotos {
 		display: none;
-		top: 10px;
-		height: 80px;
+		top: 0;
 	}
 	
 	.workOverlay > ul > li > a {
 		position: relative;
-		top: 200px;
+		line-height: 100vh;
+		top: 0;
 		text-decoration: overline;
 	}
 	
 	.workOverlay > ul li:hover .menuDesign, .workOverlay > ul li:hover .menuPhotos {
 		display: block;
 		position: relative;
-		height: 82%;
+		height: 80vh;
 	}
 	
 	.aboutContainer {
 		position: relative;
-		margin: auto;
-    	width: 50%;
-		top: 50px;
-		overflow: hidden;
+    	width: 100vw;
+		height: 100vh;
+		background-color: rgba(22, 22, 22, 0.8);
+		padding-left: 25vw;
+		padding-top: 5vh;
 	}
 	
 	.about a {
-		color: #333;
+		color: #efefef;
 	}
 	
 	.about {
@@ -261,7 +273,7 @@ ul {
 	
 	footer * {
 		text-decoration: none;
-		color: #333;
+		color: #efefef;
 	}
 }
 
@@ -287,15 +299,15 @@ ul {
 	}
 	
 	body {
-		background-image: url(http://omimanav.com/img/home.jpg);
-		background-position: center;
+		background-image: url(http://omimanav.com/img/home-lg.jpg);
+		background-position: bottom;
 		background-size:cover;
 		background-attachment:fixed;
 		background-repeat:no-repeat;
 		text-align: center;
 		padding: 0px;
 		margin: 0px;
-		height: 65em;
+		height: 100vh;
 	}
 	
 	.menuContainer {
@@ -306,7 +318,7 @@ ul {
 		z-index: 4;
 		background-color: #efefef;
 		top: 0;
-		height: 150%;
+		height: 100vh;
 	}
 	
 	.hide {
@@ -319,8 +331,7 @@ ul {
 	}
 	
 	.menuItem {
-		padding-top: 15%;
-		padding-bottom: 50px;
+		line-height: 30vh;
 	}
 	
 	.menuItem .title {
@@ -328,30 +339,16 @@ ul {
 		color: #333;
 	} 
 	
-	.menuItem .title:hover {
-		font-size: 30pt;
-	}
-	
-	.menuItem a:hover {
-		cursor: pointer;
-		color: #333;
-		font-size: 24pt;
-	}
-	
 	.menuItem a {
 		color: #333;
 		text-decoration: none;
 		font-size: 20pt;
 	}
 	
-	.homeImg {
-		display: none;
-	}
-	
 	.workOverlay {
 		position: relative;
 		z-index: 4;
-		top: 100px;
+		top: 180px;
 		width: 100%;
 		display: inline-block;
 	}
