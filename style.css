@@ -192,13 +192,12 @@ ul {
 		background-color: #1f1f1f;
 	}
 
-	div img {
+	.galleryBody img {
 		left: 15px;
 		padding-right: 15px;
 		height: 600px;
 		z-index: 1;
 		float: left;
-		top: 10vh;
 		overflow-y: hidden;
 		position: relative;
 	}
