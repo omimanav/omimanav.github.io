@@ -93,7 +93,7 @@ ul {
 	.workOverlay {
 		background-image: url(http://omimanav.com/img/home-lg.jpg);
 		background-size: cover;
-		background-position: bottom;
+		background-position: right;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		width: 100vw;
