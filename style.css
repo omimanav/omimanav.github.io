@@ -229,7 +229,7 @@ ul {
 }
 
 /* medium screens */
-@media (max-width:1400px) {
+@media (max-width:1400px) and (min-width: 800px) {
 		* {
 		overflow-y: hidden;
 	}
@@ -388,7 +388,7 @@ ul {
 	
 	.galleryBody {
 		position: absolute;
-		top: calc((100vh - 630px) / 2);
+		top: calc((100vh - 700px) / 2);
 		background-image: none;
 		background-color: #1f1f1f;
 	}
