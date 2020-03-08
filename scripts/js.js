@@ -11,9 +11,4 @@ window.onload = function() {
 			"width":width.toString()
 		});
 	}
-	
-	$("body").mousewheel(function(event, delta) {
-		this.scrollleft -= (delta * 50);
-		event.preventDefault();
-	})
 }
