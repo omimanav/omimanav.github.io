@@ -438,7 +438,7 @@ ul {
 }
 
 /*small screens*/
-@media (max-aspect-ratio:1/1) or (max-height:640px) {
+@media (orientation:portrait) or (max-aspect-ratio:1/1) or (max-height:640px) {
 	footer {
 		position: fixed;
 		width: 100vw;
