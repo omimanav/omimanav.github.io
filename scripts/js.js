@@ -1,5 +1,5 @@
 window.onload = function() {
-	if ($(document).width() > 800) {
+	if ($(document).width() > 640) {
 		$(".galleryBody img").css({
 			"top":"calc(50vh - 300px)"
 		})

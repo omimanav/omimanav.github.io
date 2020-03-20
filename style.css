@@ -28,8 +28,6 @@ ul {
 	margin: 0px;
 }
 
-
-
 /*full HD screens*/
 @media (min-height:1080px) or (min-width:1600px) {
 	* {
@@ -234,7 +232,7 @@ ul {
 	}
 }
 
-@media (min-aspect-ratio:1/1) and (min-height:640px) {
+@media (orientation:landscape) {
 	* {
 		overflow-y: hidden;
 	}
@@ -438,7 +436,7 @@ ul {
 }
 
 /*small screens*/
-@media (orientation:portrait) or (max-aspect-ratio:1/1) or (max-height:640px) {
+@media (orientation:portrait) {
 	footer {
 		position: fixed;
 		width: 100vw;
@@ -477,7 +475,8 @@ ul {
 	
 	.d1010, .n1010, .kef, .n-i, .s-i, .hebei01, .hebei02, .gor, .dxb, .ind, .gbi, .sdc, .seoul, .interior, .portraits {
 		position: absolute;
-		margin-top: calc(10vh + 10px);
+		margin-top: 11vh;
+		margin-bottom: 1vh;
 	}
 	
 	div > img {
