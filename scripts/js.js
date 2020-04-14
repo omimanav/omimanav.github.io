@@ -96,7 +96,7 @@ if (isMobile) {
 		
 		$(".tab").css({
 			"width":"100vw"
-			,"height":"6vh"
+			,"height":"7vh"
 			,"top":"5vh"
 		});
 		
