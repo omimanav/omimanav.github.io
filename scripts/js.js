@@ -58,7 +58,7 @@ if (isMobile) {
 		var i = galleryname == "hebei02" ? 14 : 0;
 		
 		for (i;i<gallerycount[galleryname]; i++) {
-			document.getElementById("gallery").innerHTML += '<img src=' + photourl+i+".jpg" + "/>";
+			document.getElementById("gallery").innerHTML += "<img src='" + photourl+i+".jpg'" + "/>";
 		}
 	}
 	
