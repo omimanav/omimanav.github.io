@@ -128,10 +128,10 @@
 	
 		top: 13vh;
 		left: 0;
-	
 		max-height: 650px;
 		height: 70vh;
 		width: 101vw;
+	
 		overflow: auto;
 	} #gallery img {
 		display: block;
@@ -225,10 +225,9 @@
 		position: relative;
 		display: block;
 		
-		margin: 0 auto;
+		margin: 10px auto;
+		border: solid #fff 5px;
 		bottom: 0;
-		padding-top: 10px;
-		
 		width: 90vw;
 		height: auto;
 	}
