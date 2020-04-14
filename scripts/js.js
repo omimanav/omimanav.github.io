@@ -16,43 +16,23 @@ const gallerycount = {
 	,"portraits":11
 };
 
-if (isMobile) {
-	function photoGallery(galleryname){
-		$(".tab button").css({
-			"display":"none"
-		});
-		
-		$("#"+galleryname).css({
-			"display":"block"
-		});
-		
-		$("#gallery").css({
-			"opacity":"1"
-			,"z-index":"3"
-		});
-		
-		document.getElementById("gallery").scrollTop = 0;
-		
-		var photourl = "https://omimanav.com/img/" 
-			+ galleryname 
-			+ "/" 
-			+ (galleryname.indexOf("hebei") == -1 ? galleryname : "hebei");
-		var photolist = [], key = [];
-		var i = galleryname == "hebei02" ? 14 : 0;
-		
-		for (i;i<gallerycount[galleryname]; i++) {
-			key.push(i);
-			photolist.push(photourl+i+".jpg");
-		}
-		
-		const photos = photolist.map((photo) => <img className="photo" src={photo}/>);
-		
-		ReactDOM.render(
-			photos,
-			document.getElementById("gallery")
-		);
-	}
+function loader() {
+	//smooth opening
 	
+	$("#title").css({
+		"opacity":"1"
+	});
+	
+	$(".tabtitle").css({
+		"opacity":"1"
+	});
+	
+	$("#about").css({
+		"opacity":"1"
+	});
+}
+
+if (isMobile) {
 	function showmenu(id, notid) {
 		[id, notid] = $(notid).css("width")=="0px" ? [notid, id] : [id, notid];
 		$(notid).css({
@@ -121,49 +101,7 @@ if (isMobile) {
 	console.log("Is mobile.");
 } 
 
-if (!isMobile) { 
-
-	function photoGallery(galleryname) {
-		$("#gallery").css({
-			"opacity":"1"
-			,"z-index":"2"
-		});
-		
-		document.getElementById("gallery").scrollTop = 0;
-		
-		var photourl = "https://omimanav.com/img/" 
-			+ galleryname 
-			+ "/" 
-			+ (galleryname.indexOf("hebei") == -1 ? galleryname : "hebei");
-		var photolist = [], key = [];
-		var i = galleryname == "hebei02" ? 14 : 0;
-		
-		for (i;i<gallerycount[galleryname]; i++) {
-			key.push(i);
-			photolist.push(photourl+i+".jpg");
-		}
-		
-		const photos = photolist.map((photo) => <img className="photo" src={photo}/>);
-		
-		$(".tab").css({
-			"right":"0vw"
-			,"width":"12.5vw"
-		});
-		
-		$("#science").css({
-			"right":"-30vw"
-		});
-		
-		$("#title").css({
-			"font-size":"5vw"
-		});
-		
-		ReactDOM.render(
-			photos,
-			document.getElementById("gallery")
-		);
-	}
-
+if (!isMobile) {
 	function reset() {
 		//reset to homepage
 		$(".tab").css({
