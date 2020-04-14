@@ -1,81 +1,418 @@
-<!-- if you've made it this far it's probably for the code or photos - in which case, feel free to use either with credit given; a link to my website or instagram. ta. -->
 <!DOCTYPE html>
-<html>
-<head><link rel="shortcut icon" type="image/png" href="/img/favicon.png"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta charset="utf-8">
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-104938819-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<html lang="en">
+	<head>
+		<link rel="shortcut icon" type="image/png" href="/img/favicon.png"/>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="description" content="Auckland, New Zealand based photographer and programmer. Contact:  @omimanav | omimanav@icloud.com"/>
+		
+		<title>OMI MANAV</title>
+		
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-104938819-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
 
-  gtag('config', 'UA-104938819-1');
-</script>
-	<link rel="stylesheet" href="style.css">
-    <script src="scripts/jq.js"></script>
-    <script src="scripts/js.js"></script>
-	<title>omi manav</title>
-</head>
+			gtag('config', 'UA-104938819-1');
+		</script>
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+		<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+		<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+		<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+		<script crossorigin  src="https://omimanav.com/scripts/jq.js"></script>
+		<script type="text/babel">
+			var isMobile = navigator.userAgent.match("iPhone|iPad|iPod|Android");
+			
+			const gallerycount = {
+				"1010n":7
+				,"1010d":7
+				,"n-i":12
+				,"s-i":17
+				,"dxb":11
+				,"kef":13
+				,"seoul":19
+				,"gor":14
+				,"hebei01":13
+				,"hebei02":23
+				,"ind":15
+				,"sdc":11
+				,"portraits":11
+			};
+			
+			function loader() {
+				//smooth opening
+				
+				$("#title").css({
+					"opacity":"1"
+				});
+				
+				$(".tabtitle").css({
+					"opacity":"1"
+				});
+				
+				$("#about").css({
+					"opacity":"1"
+				});
+			}
+			
+			if (isMobile) {
+				function photoGallery(galleryname){
+					$(".tab button").css({
+						"display":"none"
+					});
+					
+					$("#"+galleryname).css({
+						"display":"block"
+					});
+					
+					$("#gallery").css({
+						"opacity":"1"
+						,"z-index":"3"
+					});
+					
+					document.getElementById("gallery").scrollTop = 0;
+					
+					var photourl = "https://omimanav.com/img/" 
+						+ galleryname 
+						+ "/" 
+						+ (galleryname.indexOf("hebei") == -1 ? galleryname : "hebei");
+					var photolist = [], key = [];
+					var i = galleryname == "hebei02" ? 14 : 0;
+					
+					for (i;i<gallerycount[galleryname]; i++) {
+						key.push(i);
+						photolist.push(photourl+i+".jpg");
+					}
+					
+					const photos = photolist.map((photo) => <img className="photo" src={photo}/>);
+					
+					ReactDOM.render(
+						photos,
+						document.getElementById("gallery")
+					);
+				}
+				
+				function showmenu(id, notid) {
+					[id, notid] = $(notid).css("width")=="0px" ? [notid, id] : [id, notid];
+					$(notid).css({
+						"width":"0vw"
+						,"height":"0vh"
+					});
+					
+					$(id).css({
+						"width":"auto"
+						,"height":"75vh"
+					});
+					
+					$(id + " button").css({
+						"display":"block"
+					});
+					
+					$("#about").css({
+						"width":"0vw"
+					});
+					
+					$("#gallery").css({
+						"z-index":"0"
+						,"opacity":"0"
+					});
+				}
+				
+				function reset() {
+					$("#gallery").css({
+						"z-index":"0"
+						,"opacity":"0"
+					});
+					
+					$(".tab").css({
+						"width":"100vw"
+						,"height":"6vh"
+						,"top":"5vh"
+					});
+					
+					$("#about").css({
+						"width":"35vw"
+						,"height":"auto"
+						,"top":"20vh"
+					});
+					
+					$("#aboutp").css({
+						"height":"0vh"
+						,"padding":"0px"
+					});
+				}
+				
+				function about() {
+					$(".tab").css({
+						"width":"0vw"
+						,"top":"-6vh"
+					});
+					
+					$("#about").css({
+						"top":"1.5vh"
+					});
+					
+					$("#aboutp").css({
+						"height":"auto"
+						,"padding":"10px"
+					});
+				}
+			} else { 
+				console.log("Is desktop.");
 
-<body>
-	<div class="menuContainer" style="display:none;">
-		<ul class="menu">
-			<li class="menuItem active">
-				<a href="index">WORK</a>
-			</li>
-			<li class="menuItem hide">
-				<a href="about">ABOUT</a>
-			</li>
-		</ul>
-	</div>
-	
-	<span style="position:fixed;display:block;font-size:10vh;height:100vh;width:100vw;">Under Construction, please visit later, meanwhile check out my <a href="https://instagram.com/omimanav">instagram</a> for photography works.</span>
-	
-	<div style="display:none" class="workOverlay">
-		<ul>
-			<li>
-				<!--<a>📷</a>-->
-				<a class="title omi">OMI</a>
-				<ul class="menuPhotos">
-					<li><a href="1010n">1010n</a></li>
-					<li><a href="1010d">1010d</a></li>
-					<li><a href="n-i">n-i</a></li>
-					<li><a href="s-i">s-i</a></li>
-					<li><a href="dxb">dubai halt</a></li>
-					<!--<li><a href="gbi">g-b-i</a></li>-->
-					<li><a href="kef">akl-kef</a></li>
-					<li><a href="seoul">akl-icn</a></li>
-					<li><a href="gor">akl-mlb</a></li>
-					<li><a href="hebei01">akl-pek-01</a></li>
-					<li><a href="hebei02">akl-pek-02</a></li>
-					<li><a href="ind">akl-bdq</a></li>
-					<!--<li><a href="ind">akl-cdg</a></li>-->
-					<li><a href="sdc">akl-sdc</a></li>
-					<br>
-					<li><a href="portraits">portraits</a></li>
-				</ul>
-			</li>
-			<li>
-				<!--<a>💻</a>-->
-				<a class="title manav">MANAV</a>
-				<ul class="menuDesign">
-					<li><a href="upafterdark/">un-gallery</a></li>
-					<li><a href="duo/">duo.mono</a></li>
-					<li><a href="http://omimanav.com/startpage/pt/">pink twilight</a></li>
-					<br>
-					<li><a href="https://github.com/omimanav/texteditor"><i>python text editor</i></a></li>
-					<li><a href="https://github.com/omimanav/basic-filemanager"><i>python file manager</i></a></li>
-					<li><a href="https://github.com/PaulAtKeyboard/OpenCCTV"><i>auckland cctv/speedcam locations</i></a></li>
-					<br>
-					<a><u></u></a>
-				</ul>
-			</li>
-		</ul>
-	</div>
-	 <footer>
-		<p><a href="mailto:omimanav@icloud.com">Omi Manav</a> | <a href="http://omimanav.com/work">Experientials</a></p>
-	</footer>
-</body>
+				function photoGallery(galleryname) {
+					$("#gallery").css({
+						"opacity":"1"
+						,"z-index":"2"
+					});
+					
+					document.getElementById("gallery").scrollTop = 0;
+					
+					var photourl = "https://omimanav.com/img/" 
+						+ galleryname 
+						+ "/" 
+						+ (galleryname.indexOf("hebei") == -1 ? galleryname : "hebei");
+					var photolist = [], key = [];
+					var i = galleryname == "hebei02" ? 14 : 0;
+					
+					for (i;i<gallerycount[galleryname]; i++) {
+						key.push(i);
+						photolist.push(photourl+i+".jpg");
+					}
+					
+					const photos = photolist.map((photo) => <img className="photo" src={photo}/>);
+					
+					$(".tab").css({
+						"right":"0vw"
+						,"width":"12.5vw"
+					});
+					
+					$("#science").css({
+						"right":"-30vw"
+					});
+					
+					$("#title").css({
+						"font-size":"5vw"
+					});
+					
+					ReactDOM.render(
+						photos,
+						document.getElementById("gallery")
+					);
+				}
+
+				function reset() {
+					//reset to homepage
+					$(".tab").css({
+						"right":"1vw"
+						,"height":"6vw"
+						,"width":"auto"
+					});
+					
+					$("#title").css({
+						"font-size":"12vw"
+					});
+					
+					$(".tabtitle").css({
+						"right":"0vw"
+					});
+					
+					$("#aboutp").css({
+						"width":"0vw"
+					});
+					
+					window.setTimeout(
+						function () {
+							$("#aboutp").css({
+								"display":"none"
+							});
+							
+							$("#gallery").css({
+								"opacity":"0"
+								,"z-index":"2"
+							});
+						}
+						,50
+					);
+				}
+				
+				function showmenu(id, notid) {
+					//clear and show relevant menu
+					
+					$("#gallery").css({
+						"opacity":"0"
+						,"z-index":"0"
+					});
+					
+					$(".tab").css({
+						"right":"1vw"
+						,"width":"auto"
+					});
+					
+					$(".tabtitle").css({
+						"right":"0vw"
+					});
+					
+					$("#title").css({
+						"font-size":"12vw"
+					});
+					
+					$(notid).css({
+						"height":"6vw"
+						,"color":"#000"
+					});
+					
+					$(id).css({
+						"color":"#fff"
+						,"right":"10vw"
+					});
+					
+					window.setTimeout(
+						function () {
+							$(notid).css({
+								"right":"-30vw"
+							});
+						}
+						,200
+					);
+					
+					window.setTimeout(
+						function () {
+							$(id).css({
+								"height":"80vh"
+							});
+						}
+						,500
+					);
+					
+					$("#aboutp").css({
+						"width":"0vw"
+					});
+					
+					window.setTimeout(
+						function () {
+							$("#aboutp").css({
+								"display":"none"
+							});
+						}
+						,50
+					);
+				}
+				
+				function about() {
+					$("#gallery").css({
+						"opacity":"0"
+						,"z-index":"0"
+					});
+					
+					$(".tab").css({
+						"height":"6vw"
+						,"width":"auto"
+					});
+					
+					$("#title").css({
+						"font-size":"9vw"
+					});
+					
+					window.setTimeout(
+						function () {
+							$(".tab").css({
+								"right":"-30vw"
+							});
+							
+							$(".tabtitle").css({
+								"right":"0vw"
+							});
+						}
+						,200
+					);
+					
+					$("#aboutp").css({
+						"display":"inline-block"
+						,"width":"50vw"
+					});
+				}
+			}
+		</script>
+	</head>
+	<body onload="loader();">
+		<span onclick="reset();" id="title">OMI<br>MANAV</span><!--make loading screen animation-->
+		
+		<span class="tab" id="art">
+			<span onclick='showmenu("#art", "#science");' class="tabtitle">PHOTOGRAPHY</span>
+			<button onclick=photoGallery("1010n") id="1010n">
+				1010n
+			</button>
+			<button onclick=photoGallery("1010d") id="1010d">
+				1010d
+			</button>
+			<button onclick=photoGallery("n-i") id="n-i">
+				nz-n
+			</button>
+			<button onclick=photoGallery("s-i") id="s-i">
+				nz-s
+			</button>
+			<button onclick=photoGallery("dxb") id="dxb">
+				a dubai halt
+			</button>
+			<button onclick=photoGallery("kef") id="kef">
+				akl-kef
+			</button>
+			<button onclick=photoGallery("seoul") id="seoul">
+				akl-icn
+			</button>
+			<button onclick=photoGallery("gor") id="gor">
+				akl-mel
+			</button>
+			<button onclick=photoGallery("hebei01") id="hebei01">
+				akl-pek-01
+			</button>
+			<button onclick=photoGallery("hebei02") id="hebei02">
+				akl-pek-02
+			</button>
+			<button onclick=photoGallery("ind") id="ind">
+				akl-bdq
+			</button>
+			<button onclick=photoGallery("sdc") id="sdc">
+				akl-scl
+			</button>
+			<button onclick=photoGallery("portraits") id="portraits">
+				<i>portraits</i>
+			</button>
+		</span>
+		
+		<span class="tab" id="science">
+			<span onclick='showmenu("#science", "#art");' class="tabtitle">PROGRAMMING</span>
+			<button onclick="window.location.href = 'duo/';">
+				duo.mono
+			</button>
+			<button onclick="window.location.href = '/startpage/pt/';">
+				pink twilight
+			</button>
+			<button onclick="window.location.href = 'https://github.com/omimanav/texteditor';">
+				<i>python text editor</i>
+			</button>
+			<button onclick="window.location.href = 'https://github.com/omimanav/basic-filemanager';">
+				<i>python file manager</i>
+			</button>
+			<button onclick="window.location.href = 'https://github.com/PaulAtKeyboard/OpenCCTV';">
+				<i>akl cctv/speedcam areas</i>
+			</button>
+		</span>
+		
+		<span onclick="about();" id="about">
+			ABOUT
+		</span>
+		
+		<p id="aboutp">
+			New Zealand based photographer and computer scientist, tutoring and training in various fields.
+			<br><br>
+			Enquiries regarding formal matters please email me at <a href="mailto:omimanav@icloud.com">omimanav@icloud.com</a>
+			<br>
+			otherwise connect with me through instagram - <a href="https://instagram.com/omimanav">@omimanav</a>
+		</p>
+		
+		<span id="gallery"></span>
+	</body>
 </html>
