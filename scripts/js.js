@@ -135,7 +135,8 @@ if (isMobile) {
 			,"z-index":"2"
 		});
 		
-		document.getElementById("gallery").scrollTop = 0;
+		console.log(galleryname);
+		document.getElementById("gallery").innerHTML = "";
 		
 		var photourl = "https://omimanav.com/img/" 
 			+ galleryname 
