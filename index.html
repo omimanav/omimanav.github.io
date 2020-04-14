@@ -21,7 +21,23 @@
 		<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
 		<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
 		<script src="https://omimanav.com/scripts/jq.js"></script>
-		<script type="text/babel" src="https://omimanav.com/scripts/js.js"></script>
+		<script type="text/javascript">
+			function loader() {
+	//smooth opening
+	
+	$("#title").css({
+		"opacity":"1"
+	});
+	
+	$(".tabtitle").css({
+		"opacity":"1"
+	});
+	
+	$("#about").css({
+		"opacity":"1"
+	});
+}
+		</script>
 	</head>
 	<body onload="loader();">
 		<span onclick="reset();" id="title">OMI<br>MANAV</span><!--make loading screen animation-->
@@ -101,5 +117,6 @@
 		</p>
 		
 		<span id="gallery"></span>
+		<script type="text/babel" src="https://omimanav.com/scripts/js.js"></script>
 	</body>
 </html>

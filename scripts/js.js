@@ -16,22 +16,6 @@ const gallerycount = {
 	,"portraits":11
 };
 
-function loader() {
-	//smooth opening
-	
-	$("#title").css({
-		"opacity":"1"
-	});
-	
-	$(".tabtitle").css({
-		"opacity":"1"
-	});
-	
-	$("#about").css({
-		"opacity":"1"
-	});
-}
-
 if (isMobile) {
 	function photoGallery(galleryname){
 		$(".tab button").css({
