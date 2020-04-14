@@ -47,7 +47,7 @@ if (isMobile) {
 			,"z-index":"3"
 		});
 		
-		document.getElementById("gallery").scrollTop = 0;
+		document.getElementById("gallery").innerHTML = "";
 		
 		var photourl = "https://omimanav.com/img/" 
 			+ galleryname 
