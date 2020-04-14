@@ -63,7 +63,7 @@ if (isMobile) {
 		
 		const photos = photolist.map((photo) => <img className="photo" src={photo}/>);
 		
-		React.render(
+		ReactDOM.render(
 			photos,
 			document.getElementById("gallery")
 		);
