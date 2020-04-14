@@ -33,6 +33,34 @@ function loader() {
 }
 
 if (isMobile) {
+	function photoGallery(galleryname){
+		$(".tab button").css({
+			"display":"none"
+		});
+		
+		$("#"+galleryname).css({
+			"display":"block"
+		});
+		
+		$("#gallery").css({
+			"opacity":"1"
+			,"z-index":"3"
+		});
+		
+		document.getElementById("gallery").scrollTop = 0;
+		
+		var photourl = "https://omimanav.com/img/" 
+			+ galleryname 
+			+ "/" 
+			+ (galleryname.indexOf("hebei") == -1 ? galleryname : "hebei");
+
+		var i = galleryname == "hebei02" ? 14 : 0;
+		
+		for (i;i<gallerycount[galleryname]; i++) {
+			document.getElementById("gallery").innerHTML += '<img src=' + photourl+i+".jpg" + "/>";
+		}
+	}
+	
 	function showmenu(id, notid) {
 		[id, notid] = $(notid).css("width")=="0px" ? [notid, id] : [id, notid];
 		$(notid).css({
@@ -99,9 +127,39 @@ if (isMobile) {
 		});
 	}
 	console.log("Is mobile.");
-} 
-
-if (!isMobile) {
+} else {
+	function photoGallery(galleryname) {
+		$("#gallery").css({
+			"opacity":"1"
+			,"z-index":"2"
+		});
+		
+		document.getElementById("gallery").scrollTop = 0;
+		
+		var photourl = "https://omimanav.com/img/" 
+			+ galleryname 
+			+ "/" 
+			+ (galleryname.indexOf("hebei") == -1 ? galleryname : "hebei");
+		var photolist = [], key = [];
+		var i = galleryname == "hebei02" ? 14 : 0;
+		
+		for (i;i<gallerycount[galleryname]; i++) {
+			document.getElementById("gallery").innerHTML += "<img src='" + photourl+i+".jpg'" + "/>";
+		}
+		$(".tab").css({
+			"right":"0vw"
+			,"width":"12.5vw"
+		});
+		
+		$("#science").css({
+			"right":"-30vw"
+		});
+		
+		$("#title").css({
+			"font-size":"5vw"
+		});
+	}
+	
 	function reset() {
 		//reset to homepage
 		$(".tab").css({
