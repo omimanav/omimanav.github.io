@@ -135,6 +135,8 @@ if (isMobile) {
 			,"z-index":"2"
 		});
 		
+		document.getElementById("gallery").focus();
+		
 		console.log(galleryname);
 		document.getElementById("gallery").innerHTML = "";
 		
