@@ -1,4 +1,4 @@
-const isMobile = navigator.appVersion.match(/iPhone|iPad|iPod|Android/i);
+const isMobile = navigator.appVersion.match(/iPhone|iPod|Android/i);
 
 const gallerycount = {
 	"1010n":7
