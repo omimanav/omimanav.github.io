@@ -23,7 +23,7 @@ function loader() {
 		"opacity":"1"
 	});
 	
-	$(".tabtitle").css({
+	$(".tab").css({
 		"opacity":"1"
 	});
 	
@@ -34,20 +34,21 @@ function loader() {
 
 if (isMobile) {
 	function photoGallery(galleryname){
-		$(".tab button").css({
-			"display":"none"
-		});
-		
-		$("#"+galleryname).css({
-			"display":"block"
+		console.log(galleryname);
+		$("#title").css({
+			"font-size":"5vh"
 		});
 		
 		$("#gallery").css({
-			"opacity":"1"
-			,"z-index":"3"
+			"display":"block"
+			,"z-index":1
+			,"opacity":1
 		});
 		
-		console.log(galleryname);
+		$("#aboutp").css({
+			"display": "none"
+		});
+		
 		document.getElementById("gallery").innerHTML = "";
 		
 		var photourl = "https://omimanav.com/img/" 
@@ -63,82 +64,66 @@ if (isMobile) {
 	}
 	
 	function showmenu(id, notid) {
-		[id, notid] = $(notid).css("width")=="0px" ? [notid, id] : [id, notid];
-		$(notid).css({
-			"width":"0vw"
-			,"height":"0vh"
+		[id, notid] = $(id).children("button").css("font-size")!="0px" ? [notid, id] : [id, notid];
+		$(id).children("button").css({
+			"font-size":"3vh"
+		});
+
+		$(notid).children("button").css({
+			"font-size":"0vh"
 		});
 		
-		$(id).css({
-			"width":"auto"
-			,"height":"75vh"
-		});
-		
-		$(id + " button").css({
-			"display":"block"
-		});
-		
-		$("#about").css({
-			"width":"0vw"
-		});
-		
-		$("#gallery").css({
-			"z-index":"0"
-			,"opacity":"0"
+		$("#aboutp").css({
+			"display":"none"
 		});
 	}
 	
 	function reset() {
+		$("#title").css({
+			"font-size":"8vh"
+		});
+		
 		$("#gallery").css({
-			"z-index":"0"
-			,"opacity":"0"
+			"display":"none"
+			,"z-index":0
 		});
 		
-		$(".tab").css({
-			"width":"100vw"
-			,"height":"7vh"
-			,"top":"5vh"
-		});
-		
-		$("#about").css({
-			"width":"35vw"
-			,"height":"auto"
-			,"top":"20vh"
+		$(".tab button").css({
+			"font-size":"0vh"
 		});
 		
 		$("#aboutp").css({
-			"height":"0vh"
-			,"padding":"0px"
+			"display": "block"
 		});
 	}
 	
 	function about() {
-		$(".tab").css({
-			"width":"0vw"
-			,"top":"-6vh"
-		});
-		
-		$("#about").css({
-			"top":"1.5vh"
-		});
-		
-		$("#aboutp").css({
-			"height":"auto"
-			,"padding":"10px"
-		});
-	}
-	console.log("Is mobile.");
+		console.log("why did you do this lmfao");
+	} 
 } else {
 	function photoGallery(galleryname) {
-		$("#gallery").css({
-			"opacity":"1"
-			,"z-index":"2"
-		});
-		
-		document.getElementById("gallery").focus();
-		
 		console.log(galleryname);
 		document.getElementById("gallery").innerHTML = "";
+		$("#gallery").scrollTop(0);
+		
+		$("#aboutp").css({
+			"width":"0vw"
+			,"z-index":"1"
+		});
+		
+		$("#title").css({
+			"font-size":"6.66vw"
+		});
+		
+		$("#gallery").css({
+			"display":"block"
+		});
+		
+		$(".tab").css({
+			"width":"125vw"
+		}); $(".tab button").css({
+			"font-size":"0vh"
+		});
 		
 		var photourl = "https://omimanav.com/img/" 
 			+ galleryname 
@@ -150,150 +135,65 @@ if (isMobile) {
 		for (i;i<gallerycount[galleryname]; i++) {
 			document.getElementById("gallery").innerHTML += "<img src='" + photourl+i+".jpg'" + "/>";
 		}
-		$(".tab").css({
-			"right":"0vw"
-			,"width":"12.5vw"
-		});
-		
-		$("#science").css({
-			"right":"-30vw"
-		});
-		
-		$("#title").css({
-			"font-size":"5vw"
-		});
 	}
 	
 	function reset() {
 		//reset to homepage
 		$(".tab").css({
-			"right":"1vw"
-			,"height":"6vw"
-			,"width":"auto"
+			"width":"100vw"
 		});
 		
 		$("#title").css({
 			"font-size":"12vw"
 		});
 		
-		$(".tabtitle").css({
-			"right":"0vw"
+		$("#gallery").css({
+			"display":"none"
 		});
 		
 		$("#aboutp").css({
 			"width":"0vw"
+			,"z-index":"1"
 		});
-		
-		window.setTimeout(
-			function () {
-				$("#aboutp").css({
-					"display":"none"
-				});
-				
-				$("#gallery").css({
-					"opacity":"0"
-					,"z-index":"2"
-				});
-			}
-			,50
-		);
 	}
 	
 	function showmenu(id, notid) {
 		//clear and show relevant menu
-		
 		$("#gallery").css({
-			"opacity":"0"
-			,"z-index":"0"
+			"display":"none"
 		});
-		
 		$(".tab").css({
-			"right":"1vw"
-			,"width":"auto"
+			"width":"100vw"
 		});
 		
-		$(".tabtitle").css({
-			"right":"0vw"
+		$(id).children("button").css({
+			"font-size":"1.77vw"
 		});
 		
-		$("#title").css({
-			"font-size":"12vw"
+		$(notid).children("button").css({
+			"font-size":"0vw"
 		});
-		
-		$(notid).css({
-			"height":"6vw"
-			,"color":"#000"
-		});
-		
-		$(id).css({
-			"color":"#fff"
-			,"right":"10vw"
-		});
-		
-		window.setTimeout(
-			function () {
-				$(notid).css({
-					"right":"-30vw"
-				});
-			}
-			,200
-		);
-		
-		window.setTimeout(
-			function () {
-				$(id).css({
-					"height":"80vh"
-				});
-			}
-			,500
-		);
 		
 		$("#aboutp").css({
 			"width":"0vw"
+			,"z-index":"1"
 		});
-		
-		window.setTimeout(
-			function () {
-				$("#aboutp").css({ 
-					"display":"none"
-				});
-			}
-			,50
-		);
 	}
 	
 	function about() {
+		$("#aboutp").css({
+			"width":"25vw"
+			,"z-index":"3"
+		});
+		
 		$("#gallery").css({
-			"opacity":"0"
-			,"z-index":"0"
+			"display":"none"
 		});
 		
 		$(".tab").css({
-			"height":"6vw"
-			,"width":"auto"
-		}); 
-		
-		$("#title").css({
-			"font-size":"9vw"
-		});
-		
-		window.setTimeout(
-			function () {
-				$(".tab").css({
-					"right":"-30vw"
-				});
-				
-				$(".tabtitle").css({
-					"right":"0vw"
-				});
-			}
-			,200
-		);
-		
-		$("#aboutp").css({
-			"display":"inline-block"
-			,"width":"50vw"
+			"width":"125vw"
+		}); $(".tab button").css({
+			"font-size":"0vh"
 		});
 	}
-	console.log("Is desktop.");
 }

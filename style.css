@@ -52,27 +52,24 @@
 	} 
 	
 	.tab {
-		position: absolute;
+		position: relative;
 		z-index: 4;
 		display: block;
 		
 		right: 1vw;
-		height: 6vw;
-		
+		height: auto;
+		width:100vw;
+		top: 2vh;
 		overflow: hidden;
 	} .tabtitle {
 		position: relative;
 		display: block;
+		float: right;
 		
 		color: #efefef;
 		font-size: 5vw;
 		font-weight: 800;
 		cursor: pointer;
-		opacity: 0;
-	} #science {
-		top: 2vh;
-	} #art {
-		top: 15vh;
 	} .tab button {
 		display: block;
 		
@@ -80,13 +77,13 @@
 		clear: right;
 		
 		font-weight: 800;
-		color: #efefef;
+		color: #eeeeee;
 		background: none;
 		border: none;
-		font-size: 1.77vw;
+		font-size: 0vw;
 		cursor: pointer;
 	} .tab:hover button {
-		color: #efefef; 
+		color: #fff; 
 	}
 	
 	#about {
@@ -104,13 +101,12 @@
 		cursor: pointer;
 	} #aboutp {
 		position: absolute;
-		z-index: 3;
-		display: none;
+		z-index: 1;
+		display: inline-block;
 		
-		left:20vw;
-		top: 8.5vh;
+		left:26vw;
+		top: 17vh;
 		width: 0vw;
-		padding: 5vw;
 		margin: 0;
 		
 		font-size: 2vw;
@@ -124,7 +120,7 @@
 	
 	#gallery {
 		position: absolute;
-		display: block;
+		display: none;
 	
 		top: 13vh;
 		left: 0;
@@ -165,58 +161,60 @@
 	
 	#title {
 		display: inline-block;
-		position: absolute;
+		position: relative;
 		z-index: 5;
 		
 		left: 1vw;
-		bottom: 5vh;
+		top: 3vh;
 		
 		color: #efefef;
 		font-size: 8vh;
 		font-weight: 800;
 		opacity: 0;
 	}
-	
+
 	.tab {
 		position: relative;
 		display: block;
 		z-index: 1;
 		
-		top: 5vh;
-		left: 0;
-		margin: 0 auto;
-		padding: 0;
-		height: 7vh;
-		width: 100vw;
+		top: 8vh;
+		left: 1vw;
 		
+		opacity: 0;
+	} .tabtitle {
 		color: #efefef;
-		text-align: center;
-		overflow: hidden;
+		font-size: 5vh;
+		font-weight: 800;
 	} .tab button {
 		display: block;
-		
-		padding-top: 5px;
-		margin: 0 auto;
-		
-		font-size: 6vw;
+		font-size: 0vh;
+		color: #efefef;
 		border: none;
 		background: none;
+	}
+	
+	#about {
+		display: none;
+	} #aboutp {
+		position: relative;
+		display: block;
+		top: 10vh;
+		
+		font-size: 3vh;
 		color: #efefef;
-	} .tabtitle {
-		display: inline-block;
-		
-		margin: 0 auto;
-		
-		font-weight: 800;
-		font-size: 10vw;
+		padding: 10px;
+	} #aboutp a {
+		text-decoration: none;
+		color: #efefef;
 	}
 	
 	#gallery {
 		z-index: 0;
 		position: absolute;
 		
-		top: 20vh;
-		height: 55vh;
+		top: 15vh;
+		height: 75vh;
 		width: 100vw;
 		
 		opacity: 0;
@@ -226,32 +224,9 @@
 		display: block;
 		
 		margin: 10px auto;
-		border: solid #fff 5px;
+		border: solid #efefef 5px;
 		bottom: 0;
 		width: 90vw;
 		height: auto;
-	}
-	
-	#about{
-		display: block;
-		z-index: 1;
-		position: relative;
-		
-		top: 20vh;
-		margin: 0 auto;
-		width: 35vw;
-		
-		font-size: 10vw;
-		color: #efefef;
-		overflow: hidden;
-	} #aboutp {
-		padding: 0px;
-		
-		height: 0vh;
-		overflow: hidden;
-		font-size: 5vw;
-		color: #efefef;
-	} #aboutp a {
-		color: #efefef;
 	}
 }
