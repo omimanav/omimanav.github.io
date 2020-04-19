@@ -1,4 +1,4 @@
-var isMobile = navigator.userAgent.match("iPhone|iPad|iPod|Android");
+const isMobile = navigator.appVersion.match(/iPhone|iPad|iPod|Android/i);
 
 const gallerycount = {
 	"1010n":7
@@ -141,6 +141,8 @@ if (isMobile) {
 		//reset to homepage
 		$(".tab").css({
 			"width":"100vw"
+		}); $(".tab button").css({
+			"font-size":"0vw"
 		});
 		
 		$("#title").css({
@@ -168,10 +170,12 @@ if (isMobile) {
 		
 		$(id).children("button").css({
 			"font-size":"1.77vw"
+			,"margin-right":"9vw"
 		});
 		
 		$(notid).children("button").css({
 			"font-size":"0vw"
+			,"margin-right":"auto"
 		});
 		
 		$("#aboutp").css({
