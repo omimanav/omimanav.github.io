@@ -2,6 +2,8 @@ window.onload = function () {
 	document.getElementById("mainTitle").style.opacity = "1";
 	document.getElementById("aboutTitle").style.opacity = "1";
 	document.getElementById("artTitle").style.opacity = "1";
+	document.getElementsByTagName("hr")[0].style.width = "70vw";
+	document.getElementById("menu").style.width = window.innerWidth >= 900 ? "65vw" : "100vw";
 }
 
 const aboutText = `
@@ -10,8 +12,6 @@ const aboutText = `
 	`;
 
 if (window.innerWidth >= 900) {
-	document.getElementsByTagName("hr")[0].style.width = "70vw";
-	document.getElementById("menu").style.width = "65vw";
 	function showArt() {
 		document.getElementById("container").innerHTML = "";
 		for (let i=0; i<10;i++) {
