@@ -1,0 +1,157 @@
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap');
+
+/*styles*/
+* {
+	transition: 0.5s ease-out;
+	-moz-transition: 0.5s ease-out;
+	-webkit-transition: 0.5s ease-out;
+}
+
+a {
+	text-decoration: none;
+}
+
+button {
+	outline: none;
+}
+
+@media(min-width:900px) {
+	body {
+		z-index: 1;
+		display: block;
+		position: absolute;
+		
+		height: 100vh;
+		width: 100vw;
+		top: 0;
+		left: 0;
+		padding: 0;
+		margin: 0;
+		
+		background-color: #ffa0cb;
+		background-image: url("./img/iris.png"), linear-gradient(to top left, #00ffff -95%, #ff90cb 95%);
+		background-size: auto 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		overflow: hidden;
+	}
+	
+	/* Menu */
+	#menu {
+		z-index: 5;
+		display: block;
+		position: relative;
+		
+		height: auto;
+		width: 30vw;
+		margin: 2vh auto;
+		
+		text-align: center;
+	} #mainTitle {
+		position: relative;
+		display: inline-block;
+		
+		margin: 0 auto;
+		
+		color: #e0e0e0;
+		font-family: "Raleway", sans-serif;
+		font-size: 5vh;
+		font-weight: 200;
+		opacity: 0;
+	} #mainTitle:hover {
+		color: #fff;
+	} #aboutTitle {
+		position: relative;
+		display: inline-block;
+		
+		float: right;
+		
+		color: #e0e0e0;
+		font-family: "Raleway", sans-serif;
+		font-size: 5vh;
+		font-weight: 200;
+		border: none;
+		background: none;
+		opacity: 0;
+	} #aboutTitle:hover {
+		color: #fff;
+		cursor: pointer;
+	} #artTitle {
+		position: relative;
+		display: inline-block;
+		
+		float: left;
+		
+		color: #e0e0e0;
+		font-family: "Raleway", sans-serif;
+		font-size: 5vh;
+		font-weight: 200;
+		border: none;
+		background: none;
+		opacity: 0;
+	} #artTitle:hover {
+		color: #fff;
+		cursor: pointer;
+	} hr {
+		position: relative;
+		display: block;
+		z-index: 5;
+		
+		height: 1px;
+		width: 0vw;
+		margin: 0 auto;
+		
+		border: 0;
+		background-color: #fff;
+	}
+	
+	/* Art and About container */
+	#container {
+		display: grid;
+		position: relative;
+		z-index: 2;
+		
+		grid-gap: 0px 0px;
+		grid-template-columns: 50% 50%;
+		height: 80vh;
+		width: 101vw;
+		
+		text-align: center;
+		text-align: -webkit-center;
+		overflow-y: auto;
+		overflow-x: hidden;
+	} .art {
+		height: 42vh;
+		width: auto;
+		
+		opacity: 1;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: auto 100%;
+	} .artImage {
+		height: 100%;
+		width: auto;
+		
+		opacity: 0;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: auto 100%;
+	} .about {
+		margin: auto 10%;
+		width: 70%;
+		height: auto;
+
+		font-family: "Raleway", sans-serif;
+		font-size: 3vh;
+	} #iris {
+		text-align: right;
+		color: #cacaff;
+	} #contact {
+		text-align: left;
+		color: #ffcaca;
+	} .about a {
+		color: #efefef;
+	}
+}
