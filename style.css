@@ -1,12 +1,9 @@
 @font-face {
 	font-family: "Lato";
-	src: url("https://omimanav.com/fonts/lato/Lato-Light.ttf");
+	src: url("https://omimanav.com/fonts/lato/Lato-Regular.ttf");
 }
 
 * {
-	-webkit-transition: 0.5s ease;
-	-moz-transition: 0.5s ease;
-    transition: 0.5s ease;
 	 -webkit-overflow-scrolling: touch;
 	font-family: Lato, sans-serif;
 }
@@ -38,14 +35,13 @@
 
 	#title {
 		position: absolute;
-		z-index: 2;
+		z-index: 9;
 		display: inline-block;
 		
 		left: 1vw;
 		bottom: 0;
 		
 		cursor: pointer;
-		font-weight: 800;
 		font-size: 12vw;
 		color: #efefef;
 		opacity: 0;
@@ -68,7 +64,6 @@
 		
 		color: #efefef;
 		font-size: 5vw;
-		font-weight: 800;
 		cursor: pointer;
 	} .tab button {
 		display: block;
@@ -77,7 +72,6 @@
 		clear: right;
 		margin-right: 9vw;
 
-		font-weight: 800;
 		color: #eeeeee;
 		background: none;
 		border: none;
@@ -96,7 +90,6 @@
 		right: 1vw;
 		
 		font-size: 5vw;
-		font-weight: 800;
 		color: #efefef;
 		opacity: 0;
 		cursor: pointer;
@@ -111,10 +104,10 @@
 		margin: 0;
 		
 		font-size: 2vw;
-		font-weight: 800;
 		color: #efefef;
 		overflow: hidden;
 	} a {
+		font-style: italic;
 		text-decoration: none;
 		color: #efefef;
 	}
@@ -135,7 +128,7 @@
 		
 		height: 60vh;
 		max-height: 600px;
-		border: solid #fff 10px;
+		border: solid #111 10px;
 		margin: 10px auto;
 	}
 }
@@ -170,7 +163,6 @@
 		
 		color: #efefef;
 		font-size: 8vh;
-		font-weight: 800;
 		opacity: 0;
 	}
 
@@ -186,7 +178,6 @@
 	} .tabtitle {
 		color: #efefef;
 		font-size: 5vh;
-		font-weight: 800;
 	} .tab button {
 		display: block;
 		font-size: 0vh;
