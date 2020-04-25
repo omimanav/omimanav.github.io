@@ -35,7 +35,7 @@
 
 	#title {
 		position: absolute;
-		z-index: 9;
+		z-index: 5;
 		display: inline-block;
 		
 		left: 1vw;

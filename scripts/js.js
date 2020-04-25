@@ -182,8 +182,8 @@ if (isMobile) {
 	
 	function about() {
 		$("#aboutp").css({
-			"width":"25vw"
-			,"z-index":"3"
+			"width":"50vw"
+			,"z-index":"6"
 		});
 		
 		$("#gallery").css({
