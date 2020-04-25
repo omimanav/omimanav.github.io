@@ -19,7 +19,6 @@
 		<link href="style.css" rel="stylesheet" type="text/css"/>
 		<script src="https://omimanav.com/scripts/jq.js"></script>
 		<!--<script src="https://omimanav.com/scripts/js.js"></script>-->
-		<script src="scripts/js.js"></script>
 	</head>
 	<body onload="loader();">
 		<span onclick="reset();" id="title">OMI<br>MANAV</span><!--make loading screen animation-->
@@ -69,10 +68,13 @@
 		
 		<span class="tab" id="science">
 			<span onclick='showmenu("#science", "#art");' class="tabtitle">PROGRAMMING</span>
-			<button onclick="window.location.href = 'duo/';">
-				portfolio.duo.mono
+			<button onclick="window.location.href = 'arinano/';">
+				portfolio.arinano
 			</button>
-			<button onclick="window.location.href = '/startpage/null/';">
+			<button onclick="window.location.href = 'duo/';">
+				portfolio.duo
+			</button>
+			<button onclick="window.location.href = 'startpage/null/';">
 				startpage.null
 			</button>
 			<button onclick="window.location.href = 'https://github.com/omimanav/texteditor';">
@@ -99,5 +101,7 @@
 		</p>
 		
 		<span id="gallery"></span>
+		
+		<script src="scripts/js.js"></script>
 	</body>
-</html>
+	</html>

@@ -121,8 +121,7 @@ if (isMobile) {
 		
 		$(".tab").css({
 			"width":"125vw"
-		}); $(".tab button").css({
-			"font-size":"0vh"
+			,"height":"5.5vw"
 		});
 		
 		var photourl = "https://omimanav.com/img/" 
@@ -141,8 +140,7 @@ if (isMobile) {
 		//reset to homepage
 		$(".tab").css({
 			"width":"100vw"
-		}); $(".tab button").css({
-			"font-size":"0vw"
+			,"height":"5.5vw"
 		});
 		
 		$("#title").css({
@@ -168,16 +166,14 @@ if (isMobile) {
 			"width":"100vw"
 		});
 		
-		$(id).children("button").css({
-			"font-size":"1.77vw"
-			,"margin-right":"9vw"
+		$(id).css({
+			"height":"auto"
 		});
-		
-		$(notid).children("button").css({
-			"font-size":"0vw"
-			,"margin-right":"auto"
+
+		$(notid).css({
+			"height":"5.5vw"
 		});
-		
+
 		$("#aboutp").css({
 			"width":"0vw"
 			,"z-index":"1"
@@ -196,8 +192,7 @@ if (isMobile) {
 		
 		$(".tab").css({
 			"width":"125vw"
-		}); $(".tab button").css({
-			"font-size":"0vh"
+			,"height":"5.5vw"
 		});
 	}
 }

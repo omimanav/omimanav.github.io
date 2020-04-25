@@ -57,7 +57,7 @@
 		display: block;
 		
 		right: 1vw;
-		height: auto;
+		height: 5.5vw;
 		width:100vw;
 		top: 2vh;
 		overflow: hidden;
@@ -72,15 +72,16 @@
 		cursor: pointer;
 	} .tab button {
 		display: block;
-		
+
 		float: right;
 		clear: right;
-		
+		margin-right: 9vw;
+
 		font-weight: 800;
 		color: #eeeeee;
 		background: none;
 		border: none;
-		font-size: 0vw;
+		font-size: 1.77vw;
 		cursor: pointer;
 	} .tab:hover button {
 		color: #fff; 
