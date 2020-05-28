@@ -6,6 +6,7 @@
 * {
 	 -webkit-overflow-scrolling: touch;
 	font-family: Lato, sans-serif;
+	transition-duration: 0.1s;
 }
 
 *::selection {
