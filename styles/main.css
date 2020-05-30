@@ -37,7 +37,7 @@
 
 	background-color: var(--generalBG);
 	background-image: url(https://omimanav.com/img/home-lg.jpg);
-	background-position: top;
+	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
