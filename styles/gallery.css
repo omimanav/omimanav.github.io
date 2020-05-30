@@ -20,6 +20,7 @@
 		row-gap: 10px;
 
 		word-wrap: normal;
+		overflow: visible;
 	} #art {
 		top: calc(var(--titleFS) * 2);
 		right: 90vw;
@@ -60,7 +61,7 @@
 		width: 100vw;
 
 		backdrop-filter: blur(25px);
-		-moz-backdrop-filter: blur(25px);
+		-webkit-backdrop-filter: blur(25px);
 	} .menubutton {
 		display: inline;
 

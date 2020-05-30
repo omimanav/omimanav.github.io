@@ -5,6 +5,8 @@
 
 * {
 	transition-duration: 0.2s;
+	scroll-behavior: smooth;
+	-webkit-scroll-behavior: smooth;
 }
 
 :root {
@@ -12,10 +14,10 @@
 	--generalBG: #222;
 	--generalFG: #efefef;
 	/*font-size*/
-	--titleFS: 32pt;
-	--subtitleFS: 28pt;
-	--categoryFS: 18pt;
-	--contentFS: 16pt;
+	--titleFS: 28pt;
+	--subtitleFS: 24pt;
+	--categoryFS: 16pt;
+	--contentFS: 14pt;
 	/*font-family*/
 	--titleFF: mmd;
 	--generalFF: Courier;

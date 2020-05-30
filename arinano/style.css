@@ -194,7 +194,7 @@ button {
 		overflow: hidden;
 		opacity: 0;
 		backdrop-filter: blur(15px);
-		-moz-backdrop-filter: blur(15px);
+		-webkit-backdrop-filter: blur(15px);
 		-webkit-backdrop-filter: blur(15px);
 	}#mainTitle, #artTitle, #aboutTitle {
 		display: block;
@@ -230,7 +230,7 @@ button {
 		overflow-y: auto;
 		overflow-x: hidden;
 		backdrop-filter: blur(20px);
-		-moz-backdrop-filter: blur(20px);
+		-webkit-backdrop-filter: blur(20px);
 		-webkit-backdrop-filter: blur(20px);
 	} .art {
 		display: block;

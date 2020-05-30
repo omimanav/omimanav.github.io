@@ -1,7 +1,7 @@
-@media (min-width:800px) {
+@media (min-width: 800px) {
 	#menubar {
 		backdrop-filter: blur(25px);
-		-moz-backdrop-filter: blur(25px);
+		-webkit-backdrop-filter: blur(25px);
 	} #about hr {
 		width: 90%;
 	}	#work:hover hr {
@@ -23,7 +23,7 @@
 		color: var(--generalFG);
 		font-size: var(--contentFS);
 		backdrop-filter: blur(25px);
-		-moz-backdrop-filter: blur(25px);
+		-webkit-backdrop-filter: blur(25px);
 	} #aboutContent a {
 		color: var(--generalFG);
 		text-decoration: underline;
@@ -49,7 +49,7 @@
 		width: auto;
 
 		backdrop-filter: blur(25px);
-		-moz-backdrop-filter: blur(25px);
+		-webkit-backdrop-filter: blur(25px);
 	} .menubutton {
 		display: inline;
 
@@ -74,7 +74,7 @@
 		color: var(--generalFG);
 		font-size: var(--contentFS);
 		backdrop-filter: blur(25px);
-		-moz-backdrop-filter: blur(25px);
+		-webkit-backdrop-filter: blur(25px);
 	} #aboutContent a {
 		color: var(--generalFG);
 		text-decoration: underline;

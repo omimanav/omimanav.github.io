@@ -27,8 +27,8 @@
 }
 
 @media (max-width: 800px) {
-	body {
-		position: absolute;
+	body, html {
+		overflow-y: scroll;
 	}
 
 	#menubar {
@@ -36,7 +36,7 @@
 		width: auto;
 
 		backdrop-filter: blur(25px);
-		-moz-backdrop-filter: blur(25px);
+		-webkit-backdrop-filter: blur(25px);
 	} .menubutton {
 		display: inline;
 
