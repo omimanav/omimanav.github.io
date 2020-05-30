@@ -18,12 +18,13 @@
 
 		grid-template-columns: 100%;
 		row-gap: 10px;
+		left: 10px;
 
-		word-wrap: normal;
 		overflow: visible;
 	} #art {
+		width: 120px;
 		top: calc(var(--titleFS) * 2);
-		right: 90vw;
+		left: 15px;
 		justify-items: left;
 	} #science {
 		display: none;
@@ -52,37 +53,5 @@
 }
 
 @media (max-width: 800px) {
-	html, body {
-		overflow-y: scroll;
-	}
 
-	#menubar {
-		height: auto;
-		width: 100vw;
-
-		backdrop-filter: blur(25px);
-		-webkit-backdrop-filter: blur(25px);
-	} .menubutton {
-		display: inline;
-
-		font-size: var(--categoryFS);
-		line-height: normal;
-	} #work {
-		font-weight: 600;
-	} #art {
-		display: none;
-	}
-
-	.gallery {
-		position: absolute;
-		display: grid;
-		z-index: 3;
-
-		width: 100%;
-		height: auto;
-		padding-top: var(--titleFS);
-	} .gallery img {
-		max-width: 100%;
-		height: auto;
-	}
 }

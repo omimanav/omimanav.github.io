@@ -13,6 +13,7 @@
 		display: grid;
 		z-index: 3;
 
+		min-height: 600px;
 		height: 100vh;
 		width: 100vw;
 		left: 0;
@@ -40,50 +41,51 @@
 }
 
 @media (max-width: 800px) {
-	html, body {
-		overflow-y: scroll;
-	}
-
 	#menubar {
-		height: auto;
-		width: auto;
+		position: -webkit-sticky;
+		position: sticky;
+		display: grid;
+		z-index: 5;
 
+		grid-template-columns: auto auto auto;
+		grid-template-rows: auto auto;
+		padding-top: 10pt;
+		align-items: center;
+		top: 0;
+		left: 0;
+
+		font-family: var(--titleFF);
+		font-size: var(--categoryFS);
 		backdrop-filter: blur(25px);
 		-webkit-backdrop-filter: blur(25px);
+		color: var(--generalFG);
 	} .menubutton {
-		display: inline;
+		display: block;
 
-		font-size: var(--categoryFS);
-		line-height: normal;
+		color: var(--generalFG);
+	} .menubutton hr {
+		display: none;
 	} #about {
-		font-weight: 600;
+		font-weight: 800;
 	}
 
 	#aboutContent {
-		position: absolute;
+		position: relative;
 		display: grid;
 		z-index: 3;
 
-		min-height: 100vh;
-		width: 100vw;
-		left: 0;
-		top: 0;
 		grid-template-rows: auto auto;
-		padding-top: calc(var(--subtitleFS) * 2);
+		padding-bottom: var(--titleFS);
 
 		color: var(--generalFG);
-		font-size: var(--contentFS);
 		backdrop-filter: blur(25px);
 		-webkit-backdrop-filter: blur(25px);
-	} #aboutContent a {
-		color: var(--generalFG);
-		text-decoration: underline;
+		font-size: var(--contentFS);
 	} .works, .skills {
+		text-align: right;
 		list-style: none;
-		padding-bottom: 10px;
-	} #summary {
-		text-align: center;
-	} #skillset {
+		padding: 5px 0px;
+	} #skillset, #workHistory {
 		padding: 0;
 	}
 }
