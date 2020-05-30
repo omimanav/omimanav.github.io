@@ -24,7 +24,7 @@
 	} #art {
 		top: calc(var(--titleFS) * 2);
 		right: 90vw;
-		justify-items: right;
+		justify-items: left;
 	} #science {
 		display: none;
 	} .button {
