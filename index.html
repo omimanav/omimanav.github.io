@@ -1,107 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<link rel="shortcut icon" type="image/png" href="https://omimanav.com/img/favicon.png"/>
-		<meta charset="UTF-8"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<meta name="description" content="Auckland, New Zealand based photographer and programmer. Contact:  @omimanav | omimanav@icloud.com"/>
-		
-		<title>OMI MANAV</title>
-		
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-104938819-1"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-
-			gtag('config', 'UA-104938819-1');
-		</script>
-		<link href="style.css" rel="stylesheet" type="text/css"/>
-		<script src="https://omimanav.com/scripts/jq.js"></script>
-		<!--<script src="https://omimanav.com/scripts/js.js"></script>-->
-	</head>
-	<body onload="loader();">
-		<span onclick="reset();" id="title">OMI<br>MANAV</span><!--make loading screen animation-->
-		
-		<span class="tab" id="art">
-			<span onclick='showmenu("#art", "#science");' class="tabtitle">PHOTOGRAPHY</span>
-			<button onclick='photoGallery("1010n")' id="1010n">
-				1010n
-			</button>
-			<button onclick='photoGallery("1010d")' id="1010d">
-				1010d
-			</button>
-			<button onclick='photoGallery("n-i")' id="n-i">
-				nz-n
-			</button>
-			<button onclick='photoGallery("s-i")' id="s-i">
-				nz-s
-			</button>
-			<button onclick='photoGallery("dxb")' id="dxb">
-				a dubai halt
-			</button>
-			<button onclick='photoGallery("kef")' id="kef">
-				akl-kef
-			</button>
-			<button onclick='photoGallery("seoul")' id="seoul">
-				akl-icn
-			</button>
-			<button onclick='photoGallery("gor")' id="gor">
-				akl-mel
-			</button>
-			<button onclick='photoGallery("hebei01")' id="hebei01">
-				akl-pek-01
-			</button>
-			<button onclick='photoGallery("hebei02")' id="hebei02">
-				akl-pek-02
-			</button>
-			<button onclick='photoGallery("ind")' id="ind">
-				akl-bdq
-			</button>
-			<button onclick='photoGallery("sdc")' id="sdc">
-				akl-scl
-			</button>
-			<button onclick='photoGallery("portraits")' id="portraits">
-				portraits
-			</button>
-		</span>
-		
-		<span class="tab" id="science">
-			<span onclick='showmenu("#science", "#art");' class="tabtitle">PROGRAMMING</span>
-			<button onclick="window.location.href = 'duo/';">
-				portfolio.duo
-			</button>
-			<button onclick="window.location.href = 'arinano/';">
-				portfolio.arinano
-			</button>
-			<button onclick="window.location.href = 'startpage/null/';">
-				startpage.null
-			</button>
-			<button onclick="window.location.href = 'https://github.com/omimanav/texteditor';">
-				python text editor
-			</button>
-			<button onclick="window.location.href = 'https://github.com/omimanav/basic-filemanager';">
-				python file manager
-			</button>
-			<button onclick="window.location.href = 'https://github.com/PaulAtKeyboard/OpenCCTV';">
-				akl cctv/speedcam areas
-			</button>
-		</span>
-		
-		<span onclick="about();" id="about">
-			ABOUT
-		</span>
-		
-		<p id="aboutp">
-			New Zealand based photographer and computer scientist, tutoring and training in various fields.
-			<br><br>
-			Enquiries regarding formal matters please email me at <a href="mailto:omimanav@icloud.com">omimanav@icloud.com</a>
-			<br>
-			otherwise connect with me through instagram - <a href="https://instagram.com/omimanav">@omimanav</a>
-		</p>
-		
-		<span id="gallery"></span>
-		
-		<script src="scripts/js.js"></script>
-	</body>
-	</html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>omi manav</title>
+	<link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+	<span id="menubar">
+		<a href="/work.html" id="work" class="menubutton">work<hr></a>
+		<a href="/" id="title" class="menubutton">omi manav<hr></a>
+		<a href="/about.html" id="about" class="menubutton">about<hr></a>
+	</span>
+</body>
+</html>

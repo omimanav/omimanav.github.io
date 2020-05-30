@@ -1,0 +1,87 @@
+@media (min-width: 800px) {
+	body {
+		backdrop-filter: blur(25px);
+	}
+
+	#menubar {
+		backdrop-filter: blur(25px);
+	} #work hr {
+		width: 60%;
+	} #work:hover hr {
+		width: 80%;
+	}
+
+	.container {
+		position: fixed;
+		display: inline-grid;
+		z-index: 4;
+
+		grid-template-columns: 100%;
+		row-gap: 10px;
+
+		word-wrap: normal;
+	} #art {
+		top: calc(var(--titleFS) * 2);
+		right: 90vw;
+		justify-items: right;
+	} #science {
+		display: none;
+	} .button {
+		color: var(--generalFG);
+		font-size: var(--categoryFS);
+	}
+
+	.gallery {
+		display: inline-grid;
+		position: absolute;
+		z-index: 3;
+
+		padding-top: calc(var(--titleFS) * 2);
+		left: 0;
+		width: 100vw;
+		height: calc(100vh - (var(--titleFS) * 2));
+		justify-content: center;
+		overflow-y: scroll;
+	} .gallery img {
+		border: var(--imageBorder);
+		margin-bottom: 20px;
+		max-height: 600px;
+		max-width: 70vw;
+	}
+}
+
+@media (max-width: 800px) {
+	html, body {
+		overflow-y: scroll;
+	}
+
+	#menubar {
+		height: auto;
+		width: 100vw;
+
+		backdrop-filter: blur(25px);
+		-moz-backdrop-filter: blur(25px);
+	} .menubutton {
+		display: inline;
+
+		font-size: var(--categoryFS);
+		line-height: normal;
+	} #work {
+		font-weight: 600;
+	} #art {
+		display: none;
+	}
+
+	.gallery {
+		position: absolute;
+		display: grid;
+		z-index: 3;
+
+		width: 100%;
+		height: auto;
+		padding-top: var(--titleFS);
+	} .gallery img {
+		max-width: 100%;
+		height: auto;
+	}
+}

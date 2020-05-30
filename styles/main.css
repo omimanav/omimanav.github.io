@@ -1,0 +1,93 @@
+@font-face {
+	font-family: mmd;
+	src: url(https://omimanav.com/fonts/mmd/MMD-Regular.ttf);
+}
+
+* {
+	transition-duration: 0.2s;
+}
+
+:root {
+	/*colour*/
+	--generalBG: #222;
+	--generalFG: #efefef;
+	/*font-size*/
+	--titleFS: 32pt;
+	--subtitleFS: 28pt;
+	--categoryFS: 18pt;
+	--contentFS: 16pt;
+	/*font-family*/
+	--titleFF: mmd;
+	--generalFF: Courier;
+	/*gallery*/
+	--imageBorder: 10px #efefef solid;
+} html {
+	top: 0;
+	left: 0;
+} body {
+	position: fixed;
+	display: block;
+	z-index: 1;
+	
+	min-height: 100vh;
+	width: 100vw;
+	margin: 0;
+	top: 0;
+	left: 0;
+
+	background-color: var(--generalBG);
+	background-image: url(https://omimanav.com/img/home-lg.jpg);
+	background-position: top;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+} a {
+	text-decoration: none;
+}
+
+@media (min-width: 800px) {
+	#menubar {
+		display: grid;
+		position: fixed;
+		z-index: 5;
+
+		height: auto;
+		width: 100%;
+		grid-template-columns: auto auto auto;
+		grid-template-rows: 100%;
+		grid-gap: 100px;
+		justify-content: center;
+	} .menubutton {
+		font-size: var(--subtitleFS);
+		font-family: var(--titleFF);
+		font-weight: 800;
+		color: var(--generalFG);
+	} hr {
+		border-width: 2px;
+	} .menubutton:not([id="title"]) hr {
+		width: 25%;
+	} .menubutton:hover:not([id="title"]) hr {
+		width: 80%;
+	}
+}
+
+@media (max-width: 800px) {
+	#menubar {
+		position: fixed;
+		display: block;
+		z-index: 5;
+
+		height: 100vh;
+		width: 100vw;
+
+		font-family: var(--titleFF);
+		font-size: var(--subtitleFS);
+	} .menubutton {
+		display: block;
+
+		line-height: 30vh;
+		color: var(--generalFG);
+	} .menubutton hr {
+		display: none;
+	}
+}
