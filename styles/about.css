@@ -48,8 +48,6 @@
 		z-index: 5;
 
 		grid-template-columns: auto auto auto;
-		grid-template-rows: auto auto;
-		padding-top: 10pt;
 		align-items: center;
 		top: 0;
 		left: 0;
@@ -61,8 +59,10 @@
 		color: var(--generalFG);
 	} .menubutton {
 		display: block;
+		grid-row-start: 2;
+		grid-row-end: 3;
 
-		color: var(--generalFG);
+		color: var(--generalFG); 
 	} .menubutton hr {
 		display: none;
 	} #about {

@@ -34,8 +34,6 @@
 		z-index: 5;
 
 		grid-template-columns: auto auto auto;
-		grid-template-rows: auto auto;
-		padding-top: 10pt;
 		align-items: center;
 		top: 0;
 		left: 0;
@@ -47,11 +45,28 @@
 		color: var(--generalFG);
 	} .menubutton {
 		display: block;
+		grid-row-start: 2;
+		grid-row-end: 3;
 
-		color: var(--generalFG);
+		color: var(--generalFG); 
 	} .menubutton hr {
 		display: none;
 	} #work {
 		font-weight: 800;
+	}
+
+	.container {
+		display: inline-grid;
+		position: absolute;
+
+		grid-template-rows: auto auto;
+	}	#science {
+		right: 0;
+		justify-items: right;
+	} #art {
+		left: 0;
+	} .button {
+		padding: 2px 10px;
+		font-size: var(--contentFS);
 	}
 }

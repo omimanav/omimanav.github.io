@@ -1,6 +1,6 @@
 @font-face {
 	font-family: mmd;
-	src: url(https://omimanav.com/fonts/mmd/MMD-Regular.ttf);
+	src: url(../fonts/mmd/MMD-Regular.ttf);
 }
 
 * {
@@ -42,7 +42,7 @@
 		left: 0;
 	
 		background-color: var(--generalBG);
-		background-image: url(https://omimanav.com/img/home-lg.jpg);
+		background-image: url(../img/home-lg.jpg);
 		background-position: center;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
@@ -78,12 +78,12 @@
 	body {
 		top: 0;
 		left: 0;
-		height: 100vh;
+		min-height: 100vh;
 		width: 100vw;
 		padding: 0;
 		margin: 0;
 
-		background-image: url(https://omimanav.com/img/home-lg.jpg);
+		background-image: url(../img/home-lg.jpg);
 		background-color: var(--generalBG);
 		background-position: center;
 		background-size: cover;

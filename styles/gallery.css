@@ -53,5 +53,53 @@
 }
 
 @media (max-width: 800px) {
+	#menubar {
+		position: -webkit-sticky;
+		position: sticky;
+		display: grid;
+		z-index: 5;
 
+		grid-template-columns: auto auto auto;
+		align-items: center;
+		top: 0;
+		left: 0;
+
+		font-family: var(--titleFF);
+		font-size: var(--categoryFS);
+		backdrop-filter: blur(25px);
+		-webkit-backdrop-filter: blur(25px);
+		color: var(--generalFG);
+	} .menubutton {
+		display: block;
+		grid-row-start: 2;
+		grid-row-end: 3;
+
+		color: var(--generalFG); 
+	} .menubutton hr {
+		display: none;
+	} #work {
+		font-weight: 800;
+	}
+
+	.container {
+		display: none;
+	}
+	
+	.gallery {
+		position: relative;
+		display: grid;
+		z-index: 2;
+
+		width: 100vw;
+		grid-template-rows: repeat(auto-fill, auto);
+		grid-template-columns: auto;
+		row-gap: 20px;
+		-webkit-backdrop-filter: blur(25px);
+		backdrop-filter: blur(25px);
+	} .gallery img {
+		max-width: calc(100vw - 10px);
+		height: auto;
+
+		border: var(--imageBorder);
+	}
 }
