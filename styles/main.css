@@ -19,7 +19,7 @@
 	--contentFS: 14pt;
 	/*font-family*/
 	--titleFF: mmd;
-	--generalFF: Courier;
+	--generalFF: Courier, Georgia;
 	/*gallery*/
 	--imageBorder: 5px #efefef solid;
 } a {
