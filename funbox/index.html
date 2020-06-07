@@ -1,0 +1,103 @@
+<html>
+<head>
+	<title>BEBE & BEBE'S</title>
+	<link href="https://fonts.googleapis.com/css2?family=Dokdo&display=swap" rel="stylesheet">
+	<style>
+		* {
+			font-family: "Dokdo", sans-serif;
+		}
+		
+		body {
+		 background: #333;
+		 color: #cacaff;
+		}
+		
+		a {
+			text-decoration: none;
+			color: #ffcaca;
+		}
+	
+		ul, ol {
+			display: inline-block;
+			padding: 0;
+			top: 0;
+		} ul li {
+			padding: 0;
+			list-style: none;
+			font-size: 24pt;
+		} ol li {
+			padding: 0;
+			font-size: 24pt;
+		}
+		
+		input, ::placeholder {
+			border: 0;
+			outline: none;
+			font-size: 24pt;
+			color: #ffcaca;
+			background: #333;
+		} button {
+			border: 0;
+			outline: none;
+			font-size: 18pt;
+			color: green;
+			background: #ffcaca;
+			border-radius: 5px;
+		}
+		
+		u {
+			font-size: 24pt;
+			text-decoration: wavy underline;
+		}
+		
+		span {
+			font-size: 20pt;
+		} #fap {
+			position: absolute;
+			display: inline-block;
+			top: 0;
+			right: 0;
+		}
+	</style>
+	<script>
+		window.onload = function() {
+			let fap = Math.ceil(Math.random() * 10);
+			document.getElementsByTagName("span")[1].innerText += (fap > 6) ? "Yes" : "No";
+			document.getElementsByTagName("span")[1].style.color += (fap > 6) ? "green" : "red";
+		}
+	
+		function search(key) {
+			if (document.getElementById("movie").value && event.key == "Enter")
+				window.open(`https://duckduckgo.com/?q=${document.getElementById("movie").value}+putlocker`);
+		}
+		
+		function decider() {
+			let num = Math.ceil(Math.random()*10);
+			for (i of document.querySelectorAll("ol li")) i.style.background = "none";
+			document.querySelectorAll("ol li")[num%5].style.background = "green";
+		}
+	</script>
+</head>
+
+<body>
+	<h1>BEBE & BEBE'S HUBUBUBUB</h1>
+	<ul>
+		<u>links</u>
+		<li><a href="https://boardgamearena.com/lobby">board games</a></li>
+		<li><a href="https://skribbl.io/">skribbl.io</a></li>
+		<li><a href="https://www.sporcle.com/">quizzzeeesss</a></li>
+		<li><input id="movie" type="text" onkeypress="search(event.key)" placeholder="Movie or Show..."></li>
+	</ul>
+	
+	<ol>
+		<u>stuffs to doo</u>
+		<li><a>fashion show</a></li>
+		<li><a>watch a mooovie</a></li>
+		<li><a>board games</a></li>
+		<li><a>news, rants</a></li>
+		<li><a>questions</a></li>
+	</ol>
+	<button onclick="decider()">Decide what to do</button>
+	<span id="fap">fap today:&nbsp;<span></span></span>
+</body>
+</html>
