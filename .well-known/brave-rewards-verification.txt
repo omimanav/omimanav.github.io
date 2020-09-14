@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: omimanav.com
+Token: 21c9b983c311dbc386a278c562493b750a9913549ac6c3362926e5a4a7b73df9
