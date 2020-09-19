@@ -46,9 +46,12 @@
 		overflow-y: scroll;
 	} .gallery img {
 		border: var(--imageBorder);
-		margin-bottom: 20px;
+		margin-bottom: 25px;
 		max-height: 600px;
 		max-width: 70vw;
+
+		border-radius: var(--imageBorderRadius);
+		box-shadow: var(--imageShadow);
 	}
 }
 
@@ -93,7 +96,7 @@
 		width: 100vw;
 		grid-template-rows: repeat(auto-fill, auto);
 		grid-template-columns: auto;
-		row-gap: 20px;
+		row-gap: 25px;
 		-webkit-backdrop-filter: blur(25px);
 		backdrop-filter: blur(25px);
 	} .gallery img {
@@ -101,5 +104,7 @@
 		height: auto;
 
 		border: var(--imageBorder);
+		border-radius: var(--imageBorderRadius);
+		box-shadow: var(--imageShadow);
 	}
 }
