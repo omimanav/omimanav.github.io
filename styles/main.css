@@ -25,13 +25,15 @@
 	--titleFF: mmd;
 	--generalFF: Courier, Georgia;
 	/*gallery*/
-	--imageBorder: 0px #efefef solid;
-	--imageShadow: 
+	--imageBorder: 0px /*0px #efefef solid*/;
+	--imageShadow: 0px;
+	/*
 		6px 6px 5px #666
 		,-5px -5px 5px #ccc
 		,-5px 5px 5px #999
 		,5px -5px 5px #999;
-	--imageBorderRadius: 10px;
+	*/
+	--imageBorderRadius: 0px;
 } a {
 	text-decoration: none;
 	color: var(--generalFG);
