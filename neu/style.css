@@ -1,0 +1,84 @@
+* {
+	transition-duration: 0.5s;
+	font-family: "Helvetica";
+	font-weight: bold;
+	font-size: 18pt;
+}
+
+body {
+	background-color: #222;
+	padding: 0;
+	margin: 0;
+}
+
+@media (min-width:800px) {
+	#buttTable {
+		display: grid;
+		grid-template-columns: 33% 67%;
+		
+		margin-top: 50px;
+		width: 100vw;
+	} #buttTable > * {
+		display: inline-block;
+		justify-self: center;
+		
+		height: 100px;
+		
+		background-color: #222;
+		padding: 0;
+	} 
+	
+	#button1 {
+		width: 100px;
+		text-align: center;
+		line-height: 100px;
+		
+		color: #ccc;
+		border-radius: 10px;
+		background: linear-gradient(145deg,#222, #111);
+		box-shadow:  10px 10px 25px #111, -10px -10px 25px #333;
+	} #button1:hover {
+		background: linear-gradient(145deg, #222, #151515);
+		box-shadow: 1px 1px 10px #111, -2px -2px 10px #333;
+	} #button1:active {
+		color: #aaa;
+		background: linear-gradient(145deg, #101010, #1a1a1a);
+		box-shadow: 0px 0px 0px #000, -0px -0px 0px #333;
+	}
+}
+
+@media (max-width:800px) {
+	#buttTable {
+		display: grid;
+		grid-template-columns: 100%;
+		
+		margin-top: 50px;
+		width: 100vw;
+	} #buttTable > * {
+		display: block;
+		justify-self: center;
+		
+		height: 100px;
+		
+		background-color: #222;
+		padding: 0;
+	} 
+	
+	#button1 {
+		width: 60%;
+		text-align: center;
+		line-height: 100px;
+		
+		color: #ccc;
+		border-radius: 10px;
+		background: linear-gradient(145deg,#222, #111);
+		box-shadow:  10px 10px 25px #111, -10px -10px 25px #333;
+	} #button1:hover {
+		background: linear-gradient(145deg, #222, #151515);
+		box-shadow: 1px 1px 10px #111, -2px -2px 10px #333;
+	} #button1:active {
+		color: #aaa;
+		background: linear-gradient(145deg, #101010, #1a1a1a);
+		box-shadow: 0px 0px 0px #000, -0px -0px 0px #333;
+	}
+}

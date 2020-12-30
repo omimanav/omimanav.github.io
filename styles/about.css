@@ -1,8 +1,5 @@
 @media (min-width: 800px) {
-	#menubar {
-		backdrop-filter: blur(25px);
-		-webkit-backdrop-filter: blur(25px);
-	} #about hr {
+	#about hr {
 		width: 90%;
 	}	#work:hover hr {
 		width: 80%;
@@ -54,8 +51,6 @@
 
 		font-family: var(--titleFF);
 		font-size: var(--categoryFS);
-		backdrop-filter: blur(25px);
-		-webkit-backdrop-filter: blur(25px);
 		color: var(--generalFG);
 	} .menubutton {
 		display: block;

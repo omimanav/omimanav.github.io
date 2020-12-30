@@ -1,11 +1,10 @@
 @media (min-width: 800px) {
 	body {
 		backdrop-filter: blur(25px);
+		-webkit-backdrop-filter: blur(25px);
 	}
 
-	#menubar {
-		backdrop-filter: blur(25px);
-	} #work hr {
+	#work hr {
 		width: 60%;
 	} #work:hover hr {
 		width: 80%;
@@ -18,7 +17,6 @@
 
 		grid-template-columns: 100%;
 		row-gap: 10px;
-		left: 10px;
 
 		overflow: visible;
 	} #art {
@@ -29,6 +27,8 @@
 	} #science {
 		display: none;
 	} .button {
+		width: fit-content;
+
 		color: var(--generalFG);
 		font-size: var(--categoryFS);
 	}
@@ -69,8 +69,6 @@
 
 		font-family: var(--titleFF);
 		font-size: var(--categoryFS);
-		backdrop-filter: blur(25px);
-		-webkit-backdrop-filter: blur(25px);
 		color: var(--generalFG);
 	} .menubutton {
 		display: block;

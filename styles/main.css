@@ -26,7 +26,7 @@
 	--generalFF: Courier, Georgia;
 	/*gallery*/
 	--imageBorder: 0px /*0px #efefef solid*/;
-	--imageShadow: 0px;
+	--imageShadow: 10px;
 	/*
 		6px 6px 5px #666
 		,-5px -5px 5px #ccc
@@ -34,6 +34,7 @@
 		,5px -5px 5px #999;
 	*/
 	--imageBorderRadius: 0px;
+	--otherBorderRadius: 10px;
 } a {
 	text-decoration: none;
 	color: var(--generalFG);
@@ -72,6 +73,9 @@
 		grid-template-rows: 100%;
 		grid-gap: 100px;
 		justify-content: center;
+
+		backdrop-filter: blur(25px);
+		-webkit-backdrop-filter: blur(25px);
 	} .menubutton {
 		font-size: var(--subtitleFS);
 		font-family: var(--titleFF);
@@ -79,6 +83,7 @@
 		color: var(--generalFG);
 	} hr {
 		border-width: 2px;
+		border-radius: var(--otherBorderRadius);
 	} .menubutton:not([id="title"]) hr {
 		width: 25%;
 	} .menubutton:hover:not([id="title"]) hr {
@@ -114,6 +119,9 @@
 		top: 100pt;
 		left: 0;
 
+		
+		backdrop-filter: blur(25px);
+		-webkit-backdrop-filter: blur(25px);
 		font-family: var(--titleFF);
 		font-size: var(--subtitleFS);
 	} .menubutton {
