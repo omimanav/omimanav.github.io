@@ -16,6 +16,11 @@ section {
 	cosmetics
 }
 for a max depth of 3 children, then a new section (sibling) will begin; keeps code clean, compact, comprehensible
+
+main.css is present in all pages
+menu.css is for the homepage
+food.css is for the food service page
+about.css is for the about page 
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&display=swap');
@@ -77,90 +82,30 @@ a, a:visited {
 		height: 95%;
 	}
 	
-	/* menu container with buttons */
-	#menu {
-		display: grid;
-		justify-self: center;
-		justify-content: center;
-		grid-template-columns: 30% 40% 30%;
-		column-gap: 25px;
-		width: 80vw;
-		max-height: 1000px;
-	} .menuItem {
-		display: grid;
-		align-self: center;
-		grid-template-rows: 20% 30% 30%;
-		row-gap: 5px;
-		align-content: center;
-		align-items: center;
-		height: 80%;
-		
-		color: #eee;
-		text-align: center;
-		padding-left: 20px;
-		padding-right: 20px;
-		border-radius: 20px;
-		background: linear-gradient(310deg, #c10000dd, #cf3d3ddd);
-		box-shadow: -5px -5px 15px #ce8e8e, 5px 5px 15px #9b2929;
-	} .menuItem:hover {
-		cursor: pointer;
-		box-shadow: -3px -3px 15px #ffb1b1, 3px 3px 15px #c03535;
-	} .menuItem:active {
-		height: 79%;
-		cursor: pointer;
-		background: linear-gradient(310deg, #c10000ee, #cf3d3dee);
-		box-shadow: -0px -0px 0px #ffc3c3, 0px 0px 0px #ff4040;
-	} .menuItem .title {
-		font-size: 3vw;
-		font-weight: 700;
-		letter-spacing: 7px;
-	} .menuItem .subtitle {
-		display: grid;
-		row-gap: 15%;
-		font-size: 2vw;
-		font-weight: 300;
-	} .menuItem .description {
-		font-size: 1.5vw;
-		justify-self: bottom;
-	} .menuItem .service {
-		display: grid;
-		align-self: center;
-		justify-self: center;
-		padding: 10px;
-		max-width: 50%;
-
-		background-color: #efefef;
-		border-radius: 10px;
-	} .menuItem .service:nth-child(1) {
-		grid-row: 1;
-		grid-column: 1 / span 2;
-	} .menuItem .service:nth-child(2) {
-		grid-row: 2;
-		grid-column: 1 / span 1;
-	} .menuItem .service:nth-child(3) {
-		grid-row: 2;
-		grid-column: 2 / span 1;
-	} .menuItem .service img {
-		max-width:90%;
-		justify-self: center;
-	}
-
 	/* footer with social media */
 	#footer {
 		display: grid;
-		grid-template-columns: 64px 64px;
-		column-gap: 15px;
-
+		background: linear-gradient(300deg, #e7e7e7f3, #ebebebf3);
+		grid-template-columns: 84px 84px;
 		justify-content: center;
+		align-self: center;
 		justify-self: center;
+		padding: 5px;
+		max-height: 84px;
+		
+		border-radius: 15px;
+	} #footer .social {
+		text-align: center;
+		max-width: 84px;
 	} #footer .social img {
-		max-width: 100%;
+		width: 5vh;
 	}
 }
 /* ------------------------------------------------------- */
 /* phones and landscape view friendly */
 @media (max-width:768px) {
 	body {
+		overflow: hidden;
 		top: 0;
 		left: 0;
 		padding: 0;
@@ -188,51 +133,18 @@ a, a:visited {
 	} #logo img {
 		height: 100%;
 	}
-	
-	/* menu container with buttons */
-	#menu {
-		display: grid;
-		grid-template-rows: 30% 40% 30%;
-		width: 90vw;
-		justify-items: center;
-		align-items: center;
-	} .menuItem {
-		display: grid;
-		row-gap: 5px;
-		align-content: center;
-		align-items: center;
-		height: 80%;
-		width: 80%;
-		
-		color: #eee;
-		text-align: center;
-		padding-left: 20px;
-		padding-right: 20px;
-		border-radius: 20px;
-		background: linear-gradient(310deg, #c10000ee, #cf3d3dee);
-	} .menuItem:active {
-		background: linear-gradient(310deg, #c10000ff, #cf3d3dff);
-		box-shadow: -0px -0px 0px #ffc3c3, 0px 0px 0px #ff4040;
-	} .menuItem .title {
-		font-size: 3vh;
-		font-weight: 700;
-		letter-spacing: 5px;
-	} .menuItem .subtitle {
-		display: none;
-	} .menuItem .description {
-		display: none;
-	}
 
 	/* footer with social media */
 	#footer {
 		display: grid;
-		grid-template-columns: 50px 50px;
-		column-gap: 15px;
-
-		justify-content: bottom;
+		grid-template-columns: 84px 84px;
+		justify-content: center;
 		align-self: center;
+	} #footer .social {
+		text-align: center;
+		max-width: 84px;
 	} #footer .social img {
-		max-width: 100%;
+		width: 60%;
 	}
 }
 
