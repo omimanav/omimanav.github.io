@@ -1,3 +1,23 @@
+/* 
+- this site is using css-grid for layout
+and screensize for device's viewport identification
+- will be assumed to be desktop/tablet > width: 768px > will be assumed to be mobile device
+- no javascript except google analytics, noscript user-base is growing...
+- basic formatting for my css:
+section {
+	positioning
+	dimensions
+
+	cosmetics
+} section (child) {
+	positioning
+	dimensions
+
+	cosmetics
+}
+for a max depth of 3 children, then a new section (sibling) will begin; keeps code clean, compact, comprehensible
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&display=swap');
 /* show a little animation */
 * {
@@ -35,7 +55,8 @@ a, a:visited {
 	font-family: "Barlow", sans-serif;
 }
 
-@media (min-width:800px) {
+/* desktop and ipad friendly */
+@media (min-width:768px) {
 	/* parent container for all content */
 	#main {
 		grid-template-rows: 20% 70% 10%;
@@ -113,13 +134,13 @@ a, a:visited {
 	} .menuItem .service:nth-child(1) {
 		grid-row: 1;
 		grid-column: 1 / span 2;
-	} .menuItem.service:nth-child(2) {
+	} .menuItem .service:nth-child(2) {
 		grid-row: 2;
 		grid-column: 1 / span 1;
-	} .menuItem.service:nth-child(3) {
+	} .menuItem .service:nth-child(3) {
 		grid-row: 2;
 		grid-column: 2 / span 1;
-	} .service img {
+	} .menuItem .service img {
 		max-width:90%;
 		justify-self: center;
 	}
@@ -136,3 +157,67 @@ a, a:visited {
 		max-width: 100%;
 	}
 }
+/* ------------------------------------------------------- */
+/* phones and landscape view friendly */
+@media (max-width:768px) {
+		/* parent container for all content */
+		#main {
+			grid-template-rows: 30% 50% 10%;
+			align-content: center;
+			justify-items: center;
+		}
+		
+		/* header containing logo */
+		#logo {
+			height: 90%;
+		} #logo img {
+			height: 100%;
+		}
+		
+		/* menu container with buttons */
+		#menu {
+			display: grid;
+			grid-template-rows: 30% 40% 30%;
+			width: 90vw;
+			justify-items: center;
+			align-items: center;
+		} .menuItem {
+			display: grid;
+			row-gap: 5px;
+			align-content: center;
+			align-items: center;
+			height: 80%;
+			width: 80%;
+			
+			color: #eee;
+			text-align: center;
+			padding-left: 20px;
+			padding-right: 20px;
+			border-radius: 20px;
+			background: linear-gradient(310deg, #c10000ee, #cf3d3dee);
+		} .menuItem:active {
+			background: linear-gradient(310deg, #c10000ff, #cf3d3dff);
+			box-shadow: -0px -0px 0px #ffc3c3, 0px 0px 0px #ff4040;
+		} .menuItem .title {
+			font-size: 3vh;
+			font-weight: 700;
+			letter-spacing: 5px;
+		} .menuItem .subtitle {
+			display: none;
+		} .menuItem .description {
+			display: none;
+		}
+	
+		/* footer with social media */
+		#footer {
+			display: grid;
+			grid-template-columns: 50px 50px;
+			column-gap: 15px;
+	
+			justify-content: bottom;
+			align-self: center;
+		} #footer .social img {
+			max-width: 100%;
+		}
+}
+
