@@ -122,7 +122,7 @@ a, a:visited {
 
 	/* parent container for all content */
 	#main {
-		grid-template-rows: 30% 50% 10%;
+		grid-template-rows: 25% 60% 5%;
 		align-content: center;
 		justify-items: center;
 	}
@@ -137,14 +137,14 @@ a, a:visited {
 	/* footer with social media */
 	#footer {
 		display: grid;
-		grid-template-columns: 84px 84px;
+		grid-template-columns: 64px 64px;
 		justify-content: center;
 		align-self: center;
 	} #footer .social {
 		text-align: center;
-		max-width: 84px;
+		max-width: 64px;
 	} #footer .social img {
-		width: 60%;
+		width: 80%;
 	}
 }
 

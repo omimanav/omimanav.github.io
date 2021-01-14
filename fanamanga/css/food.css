@@ -69,5 +69,56 @@
 /* ------------------------------------------------------- */
 /* phones and landscape view friendly */
 @media (max-width:768px) {
-	
+	#logo {
+		height: 90%;
+	}
+
+	#food {
+		display: grid;
+		justify-self: center;
+		align-self: center;
+		align-content: center;
+		justify-items: center;
+		row-gap: 10px;
+		height: 90vh;
+	} #food .serviceTitle {
+		font-size: 3vh;
+		display: grid;
+		justify-content: center;
+		align-items: center;
+		padding: 10px;
+
+		border-radius: 10px;
+		color: #eee;
+		background: linear-gradient(310deg, #c42b2bea, #bd3d3dea);
+	} #food .serviceTitle:nth-child(1) {
+		grid-row: 1 / span 1;
+	} #food .serviceTitle:nth-child(2) {
+		grid-row: 4 / span 1;
+	} #food .serviceTitle img {
+		height: 100%;
+		grid-column: 1 / span 1;
+	} #food .serviceTitle u {
+		grid-column: 2 / span 1; 
+	} #food .service {
+		display: grid;
+		align-content: center;
+		justify-items: center;
+		padding: 10px;
+		
+		border-radius: 20px;
+		background: linear-gradient(310deg, #cacacaf9, #ffefeff9);
+		box-shadow: 5px 5px 10px #c28e8e, -5px 5px 10px #f0c5c5;
+	} #food .service:nth-child(3) {
+		grid-row: 2 / span 2;
+		width: 50%;
+	} #food .service:nth-child(4) {
+		grid-row: 5 / span 1;
+		width: 30%;
+	} #food .service:nth-child(5) {
+		grid-row: 6 / span 1;
+		width: 30%;
+	} #food .service img {
+		width: 90%;
+	}
 }
