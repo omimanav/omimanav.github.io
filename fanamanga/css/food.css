@@ -69,6 +69,11 @@
 /* ------------------------------------------------------- */
 /* phones and portrait view friendly */
 @media (max-width:800px) {
+	/* iphone testing is silly, no content on food or homepage that needs to scroll so keeping it static */
+	body {
+		overflow: hidden;
+	}
+
 	#food {
 		display: grid;
 		grid-template-rows: 15% 17% 17% 15% 25%;
