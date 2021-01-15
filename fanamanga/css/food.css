@@ -1,7 +1,7 @@
 /* desktop and ipad friendly */
 @media (min-width:768px) {
 	#main {
-		backdrop-filter: contrast(0.8) blur(1px);
+		backdrop-filter: contrast(0.5) blur(1px);
 		-webkit-backdrop-filter: contrast(0.8) blur(1px);
 	}
 
@@ -67,12 +67,8 @@
 }
 
 /* ------------------------------------------------------- */
-/* phones and landscape view friendly */
+/* phones and portrait view friendly */
 @media (max-width:768px) {
-	#logo {
-		height: 90%;
-	}
-
 	#food {
 		display: grid;
 		justify-self: center;
