@@ -1,7 +1,7 @@
 /* 
 - this site is using css-grid for layout
 and screensize for device's viewport identification
-- will be assumed to be desktop/tablet > width: 768px > will be assumed to be mobile device
+- will be assumed to be desktop/tablet > width: 800px > will be assumed to be mobile device
 - no javascript except google analytics, noscript user-base is growing...
 - basic formatting for my css:
 section {
@@ -46,7 +46,7 @@ a, a:visited {
 }
 
 /* desktop and ipad friendly */
-@media (min-width:768px) {
+@media (min-width:800px) {
 	body {
 		top: 0;
 		left: 0;
@@ -55,7 +55,7 @@ a, a:visited {
 		width: 100vw;
 		height: 100vh;
 	
-		background-color: #fcafaf;
+		background-color: #c71e1e;
 		background-image: url("../assets/bg.jpg");
 		background-position: center;
 		background-repeat: no-repeat;
@@ -103,22 +103,16 @@ a, a:visited {
 }
 /* ------------------------------------------------------- */
 /* phones and landscape view friendly */
-@media (max-width:768px) {
+@media (max-width:800px) {
 	body {
-		overflow-x: hidden;
 		top: 0;
 		left: 0;
 		padding: 0;
 		margin: 0;
 		width: 100vw;
-		height: 100vh;
-	
-		background-color: #fcafaf;
-		background-image: url("../assets/bg.jpg");
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-attachment: fixed;
+		max-height: 100vh;
+
+		background: #c71e1e;
 	}
 
 	/* parent container for all content */
@@ -129,6 +123,13 @@ a, a:visited {
 		row-gap: 10px;
 		overflow-y: scroll;
 		max-width: 100vw;
+
+		background-color: #c71e1e;
+		background-image: url("../assets/bg.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
 	}
 	
 	/* header containing logo */

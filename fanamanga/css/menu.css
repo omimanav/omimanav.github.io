@@ -1,5 +1,5 @@
 /* desktop and ipad friendly */
-@media (min-width:768px) {
+@media (min-width:800px) {
 	#menu {
 		display: grid;
 		justify-self: center;
@@ -71,7 +71,7 @@
 
 /* ------------------------------------------------------- */
 /* phones and landscape view friendly */
-@media (max-width:768px) {
+@media (max-width:800px) {
 	#menu {
 		display: grid;
 		grid-template-rows: 30% 40% 30%;
