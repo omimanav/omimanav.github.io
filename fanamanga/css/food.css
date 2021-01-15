@@ -87,7 +87,7 @@
 	} #food .serviceTitle {
 		font-size: 3vh;
 		display: grid;
-		grid-template-columns: 25% auto;
+		grid-template-columns: 30% auto;
 		justify-content: left;
 		align-items: center;
 		padding: 10px;
@@ -103,6 +103,7 @@
 		grid-row-start: 1;
 		grid-row-end: 2;
 	} #food .serviceTitle img {
+		justify-self: center;
 		height: 100%;
 		grid-column-start: 1;
 		grid-column-end: 2;

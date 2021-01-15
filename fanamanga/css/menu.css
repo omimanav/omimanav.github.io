@@ -76,6 +76,7 @@
 	body {
 		overflow: hidden;
 	}
+
 	#menu {
 		display: grid;
 		grid-template-rows: 30% 40% 30%;
