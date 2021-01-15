@@ -1,0 +1,88 @@
+/* desktop and ipad friendly */
+@media (min-width:800px) {
+	#main {
+		backdrop-filter: contrast(0.5) blur(1px);
+		-webkit-backdrop-filter: contrast(0.8) blur(1px);
+	}
+
+	#about {
+		display: grid;
+		grid-template-columns: 50% 50%;
+		grid-template-rows: 50% 50%;
+		justify-self: center;
+		justify-items: center;
+		align-items: center;
+		width: 80%;
+		height: 100%;
+	}
+
+	#map {
+		grid-row-start: 1;
+		grid-row-end: 2;
+		grid-column-start: 1;
+		grid-column-end: 2;
+		height: 100%;
+		width: 80%;
+	}
+
+	#hours {
+		grid-row-start: 2;
+		grid-row-end: 3;
+		grid-column-start: 1;
+		grid-column-end: 2;
+		padding: 10px;
+		height: 80%;
+
+		cursor: default;
+		border-radius: 0 0 15px 15px;
+		color: #fefefe;
+		background: linear-gradient(310deg, #c10000dd, #cf3d3ddd);
+		font-weight: bold;
+		font-size: 2vmin;
+	} #hours caption {
+		padding: 5px;
+
+		border-radius: 15px 15px 0 0;
+		background: linear-gradient(310deg, #f0f0f0f9, #fff8f8f9);
+		color: #c10000;
+	}
+
+	#info {
+		display: grid;
+		grid-template-rows: 10% auto auto auto;
+		grid-row-start: 1;
+		grid-row-end: 3;
+		grid-column-start: 2;
+		grid-column-end: 3;
+		width: 90%;
+		height: 90%;
+		padding: 10px;
+		overflow-y: auto;
+
+		border-radius: 15px;
+		border: 1px solid red;
+	} #info #options {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		justify-items: center;
+		align-content: center;
+		grid-row-start: 1;
+		grid-row-end: 2;
+	} #info #options a {
+		padding: 10px;
+		
+		color: #c10000;
+		font-size: 2vmin;
+		border-radius: 15px;
+		background: linear-gradient(310deg, #f0f0f0f9, #fff8f8f9);
+	} #info #options a:focus {
+		background: linear-gradient(310deg, #c10000dd, #cf3d3ddd);
+		color: #fefefe;
+	}
+}
+
+/* ------------------------------------------------------- */
+/* phones and portait view friendly */
+@media (max-width:800px) {
+
+}
