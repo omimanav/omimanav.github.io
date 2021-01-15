@@ -75,7 +75,7 @@
 	#menu {
 		display: grid;
 		grid-template-rows: 30% 40% 30%;
-		width: 90vw;
+		width: 80vw;
 		justify-items: center;
 		align-items: center;
 	} .menuItem {
