@@ -122,9 +122,11 @@ a, a:visited {
 
 	/* parent container for all content */
 	#main {
-		grid-template-rows: 25% 60% 5%;
+		grid-template-rows: 25% 50% 10%;
 		align-content: center;
 		justify-items: center;
+		row-gap: 10px;
+		overflow: scroll;
 	}
 	
 	/* header containing logo */

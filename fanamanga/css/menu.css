@@ -80,7 +80,6 @@
 		align-items: center;
 	} .menuItem {
 		display: grid;
-		row-gap: 5px;
 		align-content: center;
 		align-items: center;
 		height: 80%;
@@ -88,8 +87,6 @@
 		
 		color: #eee;
 		text-align: center;
-		padding-left: 20px;
-		padding-right: 20px;
 		border-radius: 20px;
 		background: linear-gradient(310deg, #c10000ee, #cf3d3dee);
 	} .menuItem:active {
