@@ -34,19 +34,19 @@
 		height: 80%;
 
 		cursor: default;
-		border-radius: 0 0 15px 15px;
+		border-radius: 15px;
 		color: #fefefe;
 		background: linear-gradient(310deg, #c10000dd, #cf3d3ddd);
 		font-weight: bold;
 		font-size: 2vmin;
 	} #hours caption {
 		padding: 5px;
-
-		border-radius: 15px 15px 0 0;
-		background: linear-gradient(310deg, #f0f0f0f9, #fff8f8f9);
+		
+		border-radius: 10px;
 		color: #c10000;
+		background: linear-gradient(310deg, #f0f0f0f9, #fff8f8f9);
 	}
-
+	
 	#info {
 		display: grid;
 		grid-template-rows: 10% auto auto auto;
@@ -54,30 +54,74 @@
 		grid-row-end: 3;
 		grid-column-start: 2;
 		grid-column-end: 3;
+		row-gap: 25px;
 		width: 90%;
-		height: 90%;
-		padding: 10px;
+		height: 95%;
 		overflow-y: auto;
 
+		padding: 0 15px;
 		border-radius: 15px;
-		border: 1px solid red;
-	} #info #options {
+		background: linear-gradient(310deg, #f0f0f0fa, #fff8f8fa);
+		/* border: 1px solid red; */
+	} 
+	
+	#options {
 		display: grid;
+		position: sticky;
+		top: 0;
 		grid-template-columns: auto auto auto;
 		justify-items: center;
 		align-content: center;
+		justify-content: center;
+		column-gap: 10px;
 		grid-row-start: 1;
 		grid-row-end: 2;
-	} #info #options a {
+		padding: 35px;
+
+		background: transparent;
+		backdrop-filter: blur(5px);
+		-webkit-backdrop-filter: blur(5px);
+	}	#options a {
 		padding: 10px;
 		
 		color: #c10000;
 		font-size: 2vmin;
-		border-radius: 15px;
-		background: linear-gradient(310deg, #f0f0f0f9, #fff8f8f9);
-	} #info #options a:focus {
+		font-weight: bold;
+		border-radius: 5px;
+		box-shadow: 3px 3px 10px #d3d3d3, -2px -2px 5px #ececec;
+		background: linear-gradient(340deg, #dadadaf9, #fff8f8f9);
+	} #options a:focus {
 		background: linear-gradient(310deg, #c10000dd, #cf3d3ddd);
 		color: #fefefe;
+		box-shadow: none;
+	} 
+	
+	#service {
+		display: grid;
+		grid-template-rows: auto auto auto;
+		font-family: "Lora", serif;
+	} .serviceCards {
+		display: grid;
+		grid-template-columns: 30% 70%;
+		grid-template-rows: 10% 90%;
+	} .serviceCards img {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 1;
+		grid-row-end: 3;
+		align-self: center;
+		width: 90%;
+		height: auto;
+
+		border: 3px solid #c10000;
+	} .serviceCards h2 {
+		padding: 0;
+		margin: 0;
+
+		font-style: italic;
+		font-size: 3vmin;
+	} .serviceCards p {
+		font-size: 2.3vmin;
 	}
 }
 

@@ -24,6 +24,8 @@ about.css is for the about page
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap');
+
 /* show a little animation */
 * {
 	transition-duration: 0.1s;
