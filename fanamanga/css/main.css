@@ -31,6 +31,19 @@ about.css is for the about page
 	transition-duration: 0.1s;
 }
 
+::-webkit-scrollbar {
+	width: 10px;
+}
+::-webkit-scrollbar-track {
+	background-color: #fefefe;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #d20000;
+}
+::-webkit-slider-thumb:hover {
+	background-color: #f00000;
+}
+
 a, a:visited {
 	text-decoration: none;
 	color: #eee;

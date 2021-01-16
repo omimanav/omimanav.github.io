@@ -27,7 +27,7 @@
 
 		border-radius: 10px;
 		color: #eee;
-		background: linear-gradient(310deg, #c42b2bea, #bd3d3dea);
+		background: linear-gradient(310deg, #d22b2bea, #bd3d3dea);
 	} #food .serviceTitle u {
 		grid-column: 2 / span 1;
 	} #food .serviceTitle img {
@@ -95,7 +95,7 @@
 
 		border-radius: 10px;
 		color: #eee;
-		background: linear-gradient(310deg, #c42b2bea, #bd3d3dea);
+		background: linear-gradient(310deg, #d22b2bea, #bd3d3dea);
 	} #food .serviceTitle:nth-child(1) {
 		grid-row-start: 4;
 		grid-row-end: 5;

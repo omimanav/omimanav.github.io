@@ -36,15 +36,9 @@
 		cursor: default;
 		border-radius: 15px;
 		color: #fefefe;
-		background: linear-gradient(310deg, #c10000dd, #cf3d3ddd);
+		background: linear-gradient(310deg, #d20000dd, #eb5151dd);
 		font-weight: bold;
 		font-size: 2vmin;
-	} #hours caption {
-		padding: 5px;
-		
-		border-radius: 10px;
-		color: #c10000;
-		background: linear-gradient(310deg, #f0f0f0f9, #fff8f8f9);
 	}
 	
 	#info {
@@ -61,9 +55,12 @@
 
 		padding: 0 15px;
 		border-radius: 15px;
-		background: linear-gradient(310deg, #f0f0f0fa, #fff8f8fa);
+		background: linear-gradient(310deg, #ebeaeafa, #fff8f8fa);
 		/* border: 1px solid red; */
-	} 
+	} #info ::selection {
+		background-color: #d20000;
+		color: #fefefe;
+	}
 	
 	#options {
 		display: grid;
@@ -84,22 +81,30 @@
 	}	#options a {
 		padding: 10px;
 		
-		color: #c10000;
+		color: #d20000;
 		font-size: 2vmin;
 		font-weight: bold;
 		border-radius: 5px;
 		box-shadow: 3px 3px 10px #d3d3d3, -2px -2px 5px #ececec;
 		background: linear-gradient(340deg, #dadadaf9, #fff8f8f9);
 	} #options a:focus {
-		background: linear-gradient(310deg, #c10000dd, #cf3d3ddd);
+		background: linear-gradient(310deg, #d20000dd, #cf3d3ddd);
 		color: #fefefe;
 		box-shadow: none;
-	} 
+	}
+
+	#contact {
+		display: grid;
+		grid-template-rows: auto auto;
+		justify-self: center;
+		text-align: center;
+	} #contact a {
+		color: #d20000;
+	}
 	
 	#service {
 		display: grid;
 		grid-template-rows: auto auto auto;
-		font-family: "Lora", serif;
 	} .serviceCards {
 		display: grid;
 		grid-template-columns: 30% 70%;
@@ -113,14 +118,15 @@
 		width: 90%;
 		height: auto;
 
-		border: 3px solid #c10000;
+		border: 3px solid #d20000;
 	} .serviceCards h2 {
 		padding: 0;
 		margin: 0;
-
-		font-style: italic;
+		
 		font-size: 3vmin;
+		color: #d20000;
 	} .serviceCards p {
+		font-family: "Lora", serif;
 		font-size: 2.3vmin;
 	}
 }
