@@ -161,7 +161,7 @@
 		padding: 0;
 		margin: 0;
 		
-		font-size: 3vmin;
+		font-size: 3vmin; 
 		letter-spacing: 2px;
 		color: #d20000;
 	} .serviceCards p {
@@ -213,5 +213,35 @@
 /* ------------------------------------------------------- */
 /* phones and portait view friendly */
 @media (max-width:800px) {
+	/*
+	#about
+		#hours
+		#map
+		#info
+			#options
+			.infoCards#contact
+				hr
+				h2
+				p
+				table
+			.infoCards#service
+				.serviceCards x4
+					img
+					h2
+					p
+			.infoCards#history
+				hr
+				img
+				h2
+				p
+	*/
+	#about {
+		display: grid;
+		grid-template-rows: auto auto auto auto;
+		height: 90%;
+	}
 
+	#map {
+		display: none;
+	}
 }

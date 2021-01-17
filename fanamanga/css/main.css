@@ -33,6 +33,7 @@ about.css is for the about page
 
 ::-webkit-scrollbar {
 	width: 10px;
+	height: 5px;
 } ::-webkit-scrollbar-track {
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -115,6 +116,7 @@ a, a:visited {
 		grid-row-start: 1;
 		grid-row-end: 2;
 		justify-self: center;
+		align-self: center;
 		max-width: 48px;
 	} #footer .social img {
 		max-width: 48px;
