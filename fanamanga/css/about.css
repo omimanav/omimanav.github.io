@@ -44,9 +44,9 @@
 		background-color: #fefefe;
 		color: #d20000;
 	} #hours th:nth-child(1) {
-		width: 30%;
+		width: 25%;
 	} #hours th:nth-child(2) {
-		width: 20%;
+		width: 25%;
 	} #hours th:nth-child(3) {
 		width: 50%;
 	}
@@ -64,7 +64,7 @@
 
 		padding: 0 15px;
 		border-radius: 15px;
-		background: linear-gradient(310deg, #ebeaeafa, #fff8f8fa);
+		background: linear-gradient(310deg, #ebeaeafa, #fff8f8f9);
 		/* border: 1px solid red; */
 	} #info ::selection {
 		background-color: #d20000;
@@ -85,9 +85,9 @@
 		grid-row-end: 2;
 		padding: 35px;
 
-		background: transparent;
-		backdrop-filter: blur(5px);
-		-webkit-backdrop-filter: blur(5px);
+		background: linear-gradient(340deg, #dadada22, #fff8f822);
+		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(10px);
 	}	#options a {
 		padding: 10px;
 		
@@ -107,6 +107,9 @@
 	} .infoCards hr {
 		margin-top: 20%;
 		padding: 0;
+		width: 80%;
+
+		border: 1px solid #d20000;
 	}
 
 	#contact {
@@ -120,11 +123,26 @@
 		color: #d20000;
 	} #contact th {
 		color: #d20000;
+	} #contact h2 {
+		padding: 0;
+		margin: 0;
+	
+		font-size: 3vmin;
+		letter-spacing: 2px;
+		color: #d20000;
 	}
 	
 	#service {
 		display: grid;
-		grid-template-rows: auto auto auto;
+		grid-template-rows: auto auto auto auto;
+	} #service > h2 {
+		padding: 0;
+		margin: 0;
+		justify-self: center;
+
+		font-size: 3vmin;
+		letter-spacing: 2px;
+		color: #d20000;
 	} .serviceCards {
 		display: grid;
 		grid-template-columns: 30% 70%;
@@ -138,17 +156,58 @@
 		width: 90%;
 		height: auto;
 
-		border: 3px solid #d20000;
+		border: 2px solid #d20000;
 	} .serviceCards h2 {
 		padding: 0;
 		margin: 0;
 		
 		font-size: 3vmin;
+		letter-spacing: 2px;
 		color: #d20000;
 	} .serviceCards p {
 		font-family: "Lora", serif;
 		font-size: 2.3vmin;
+	} .serviceCards a {
+		color: #d20000;
 	}
+}
+
+#history {
+	display: grid;
+	grid-template-columns: 75% 25%;
+	grid-template-rows: auto auto auto;
+	align-items: center;
+	justify-items: center;
+} #history img {
+	width: 80%;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 4;
+} #history h2 {
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+
+	font-size: 3vmin;
+	letter-spacing: 2px;
+	color: #d20000;
+} #history p {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	font-family: "Lora", serif;
+	font-size: 2.3vmin;
+} #history hr {
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 1;
+	grid-column-end: 3;
 }
 
 /* ------------------------------------------------------- */

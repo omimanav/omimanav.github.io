@@ -33,14 +33,13 @@ about.css is for the about page
 
 ::-webkit-scrollbar {
 	width: 10px;
-}
-::-webkit-scrollbar-track {
-	background-color: #fefefe;
-}
-::-webkit-scrollbar-thumb {
+} ::-webkit-scrollbar-track {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #fefefe2d;
+} ::-webkit-scrollbar-thumb {
 	background-color: #d20000;
-}
-::-webkit-slider-thumb:hover {
+} ::-webkit-scrollbar-thumb:hover {
 	background-color: #f00000;
 }
 
@@ -100,13 +99,13 @@ a, a:visited {
 	/* footer with social media */
 	#footer {
 		display: grid;
-		grid-template-columns: 84px 84px;
+		grid-template-columns: 72px 72px;
 		grid-template-rows: 80% 10%;
 		justify-content: center;
 		align-self: center;
 		justify-self: center;
-		padding: 5px;
-		max-height: 84px;
+		padding-top: 5px;
+		max-height: 64px;
 		
 		background: linear-gradient(300deg, #e7e7e7f3, #ebebebf3);
 		color: #c71010;
@@ -115,9 +114,10 @@ a, a:visited {
 	} #footer .social {
 		grid-row-start: 1;
 		grid-row-end: 2;
-		text-align: center;
-		max-width: 84px;
+		justify-self: center;
+		max-width: 48px;
 	} #footer .social img {
+		max-width: 48px;
 		width: 5vh;
 	} #footer b {
 		grid-column-start: 1;
