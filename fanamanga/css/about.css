@@ -284,6 +284,7 @@
 		margin-top: 20%;
 		padding: 0;
 		width: 80%;
+		height: 0px;
 
 		border: 1px solid #d20000;
 	}
@@ -311,6 +312,7 @@
 	#service {
 		display: grid;
 		grid-template-rows: auto auto auto auto;
+		row-gap: 20px;
 	} #service > h2 {
 		padding: 0;
 		margin: 0;
@@ -325,6 +327,7 @@
 		grid-row-start: 2;
 		grid-row-start: 3;
 		align-self: center;
+		justify-self: center;
 		width: 90%;
 		height: auto;
 
@@ -350,6 +353,7 @@
 		align-items: center;
 		justify-items: center;
 		text-align: justify;
+		padding-bottom: 50px;
 	} #history img {
 		width: 80%;
 		grid-column-start: 2;
@@ -384,5 +388,6 @@
 	
 	#footer {
 		display: none;
+
 	}
 }
