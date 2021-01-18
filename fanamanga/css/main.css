@@ -29,6 +29,7 @@ about.css is for the about page
 /* show a little animation */
 * {
 	transition-duration: 0.1s;
+	-webkit-overflow-scrolling: touch;.
 }
 
 ::-webkit-scrollbar {
