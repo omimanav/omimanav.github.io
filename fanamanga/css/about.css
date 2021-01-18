@@ -65,7 +65,6 @@
 		padding: 0 15px;
 		border-radius: 15px;
 		background: linear-gradient(310deg, #ebeaeafa, #fff8f8f9);
-		/* border: 1px solid red; */
 	} #info ::selection {
 		background-color: #d20000;
 		color: #fefefe;
@@ -213,6 +212,10 @@
 /* ------------------------------------------------------- */
 /* phones and portait view friendly */
 @media (max-width:800px) {
+	::-webkit-scrollbar {
+		width: 0px;
+	}
+
 	/*
 	#about
 		#hours
@@ -237,11 +240,148 @@
 	*/
 	#about {
 		display: grid;
+		max-width: 100%;
 		grid-template-rows: auto auto auto auto;
-		height: 90%;
+		row-gap: 15px;
+	}
+	
+	#hours {
+		grid-row-start: 1;
+		grid-row-end: 2;
+		justify-self: center;
+		padding: 10px;
+		width: 85%;
+		
+		border-radius: 10px;
+		color: #fefefe;
+		background: linear-gradient(310deg, #d20000dd, #eb5151dd);
+		font-weight: bold;
+		font-size: 3vmin;
+	}
+	
+	#map {
+		grid-row-start: 2;
+		grid-row-end: 3;
+		justify-self: center;
+	}
+	
+	#info {
+		display: grid;
+		grid-template-rows: 10% auto auto auto;
+		justify-self: center;
+		grid-row-start: 3;
+		grid-row-end: 4;
+		max-width: 90%;
+
+		padding: 0 15px;
+		border-radius: 15px;
+		background: linear-gradient(310deg, #ebeaeafa, #fff8f8f9);
+	} #options {
+		display: none;
 	}
 
-	#map {
+	.infoCards hr {
+		margin-top: 20%;
+		padding: 0;
+		width: 80%;
+
+		border: 1px solid #d20000;
+	}
+
+	#contact {
+		display: grid;
+		grid-template-rows: auto auto;
+		justify-self: center;
+		text-align: center;
+		
+		font-size: 3.5vmin;
+	} #contact a {
+		color: #d20000;
+	} #contact th {
+		color: #d20000;
+	} #contact h2 {
+		padding: 0;
+		margin: 0;
+	
+		font-size: 4vmin;
+		letter-spacing: 2px;
+		color: #d20000;
+	}
+
+	#service {
+		display: grid;
+		grid-template-rows: auto auto auto auto;
+	} #service > h2 {
+		padding: 0;
+		margin: 0;
+		justify-self: center;
+
+		font-size: 4vmin;
+		letter-spacing: 2px;
+		color: #d20000;
+	} .serviceCards {
+		display: grid;
+	} .serviceCards img {
+		grid-row-start: 2;
+		grid-row-start: 3;
+		align-self: center;
+		width: 90%;
+		height: auto;
+
+		border: 2px solid #d20000;
+	} .serviceCards h2 {
+		padding: 0;
+		margin: 0;
+		
+		font-size: 4vmin; 
+		letter-spacing: 2px;
+		color: #d20000;
+	} .serviceCards p {
+		font-family: "Lora", serif;
+		font-size: 3.5vmin;
+	} .serviceCards a {
+		color: #d20000;
+	}
+
+	#history {
+		display: grid;
+		grid-template-columns: 75% 25%;
+		grid-template-rows: auto auto auto;
+		align-items: center;
+		justify-items: center;
+	} #history img {
+		width: 80%;
+		grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 3;
+		grid-row-end: 4;
+	} #history h2 {
+		padding: 0;
+		margin: 0;
+		grid-column-start: 1;
+		grid-column-end: 3;
+		grid-row-start: 2;
+		grid-row-end: 3;
+	
+		font-size: 4vmin;
+		letter-spacing: 2px;
+		color: #d20000;
+	} #history p {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 3;
+		grid-row-end: 4;
+		font-family: "Lora", serif;
+		font-size: 3.5vmin;
+	} #history hr {
+		grid-row-start: 1;
+		grid-row-end: 2;
+		grid-column-start: 1;
+		grid-column-end: 3;
+		width: 90%;
+	}
+	
+	#footer {
 		display: none;
 	}
 }
