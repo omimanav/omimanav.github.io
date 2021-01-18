@@ -148,7 +148,7 @@ a, a:visited {
 	#main {
 		display: grid;
 		padding-top: 5px;
-		grid-template-rows: 25% 50% 15%;
+		grid-template-rows: 25% 45% 20%;
 		justify-items: center;
 		overflow-y: scroll;
 		max-width: 100vw;

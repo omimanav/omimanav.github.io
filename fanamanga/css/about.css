@@ -216,28 +216,10 @@
 		width: 0px;
 	}
 
-	/*
-	#about
-		#hours
-		#map
-		#info
-			#options
-			.infoCards#contact
-				hr
-				h2
-				p
-				table
-			.infoCards#service
-				.serviceCards x4
-					img
-					h2
-					p
-			.infoCards#history
-				hr
-				img
-				h2
-				p
-	*/
+	#main {
+		row-gap: 15px;
+	}
+
 	#about {
 		display: grid;
 		max-width: 100%;
@@ -297,6 +279,9 @@
 		text-align: center;
 		
 		font-size: 3.5vmin;
+	} #contact table {
+		align-self: center;
+		justify-self: center;
 	} #contact a {
 		color: #d20000;
 	} #contact th {
@@ -313,7 +298,7 @@
 	#service {
 		display: grid;
 		grid-template-rows: auto auto auto auto;
-		row-gap: 20px;
+		row-gap: 10px;
 	} #service > h2 {
 		padding: 0;
 		margin: 0;
