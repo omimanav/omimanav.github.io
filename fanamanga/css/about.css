@@ -293,6 +293,7 @@
 		display: grid;
 		grid-template-rows: auto auto;
 		justify-self: center;
+		align-self: center;
 		text-align: center;
 		
 		font-size: 3.5vmin;
