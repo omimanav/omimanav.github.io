@@ -37,12 +37,12 @@
 		cursor: default;
 		border-radius: 15px;
 		color: #fefefe;
-		background: linear-gradient(310deg, #d20000dd, #eb5151dd);
+		background: linear-gradient(310deg, #c10000dd, #eb5151dd);
 		font-weight: bold;
 		font-size: 2vmin;
 	} #hours ::selection {
 		background-color: #fefefe;
-		color: #d20000;
+		color: #c10000;
 	} #hours th:nth-child(1) {
 		width: 25%;
 	} #hours th:nth-child(2) {
@@ -66,7 +66,7 @@
 		border-radius: 15px;
 		background: linear-gradient(310deg, #ebeaeafa, #fff8f8f9);
 	} #info ::selection {
-		background-color: #d20000;
+		background-color: #c10000;
 		color: #fefefe;
 	}
 	
@@ -90,14 +90,14 @@
 	}	#options a {
 		padding: 10px;
 		
-		color: #d20000;
+		color: #c10000;
 		font-size: 2vmin;
 		font-weight: bold;
 		border-radius: 5px;
 		box-shadow: 3px 3px 10px #d3d3d3, -2px -2px 5px #ececec;
 		background: linear-gradient(340deg, #dadadaf9, #fff8f8f9);
 	} #options a:active {
-		background: linear-gradient(310deg, #d20000dd, #cf3d3ddd);
+		background: linear-gradient(310deg, #c10000dd, #cf3d3ddd);
 		color: #fefefe;
 		box-shadow: none;
 	} .infoCards {
@@ -108,7 +108,7 @@
 		padding: 0;
 		width: 80%;
 
-		border: 1px solid #d20000;
+		border: 1px solid #c10000;
 	}
 
 	#contact {
@@ -119,16 +119,16 @@
 		
 		font-size: 2.5vmin;
 	} #contact a {
-		color: #d20000;
+		color: #c10000;
 	} #contact th {
-		color: #d20000;
+		color: #c10000;
 	} #contact h2 {
 		padding: 0;
 		margin: 0;
 	
 		font-size: 3vmin;
 		letter-spacing: 2px;
-		color: #d20000;
+		color: #c10000;
 	}
 	
 	#service {
@@ -141,7 +141,7 @@
 
 		font-size: 3vmin;
 		letter-spacing: 2px;
-		color: #d20000;
+		color: #c10000;
 	} .serviceCards {
 		display: grid;
 		grid-template-columns: 30% 70%;
@@ -155,19 +155,19 @@
 		width: 90%;
 		height: auto;
 
-		border: 2px solid #d20000;
+		border: 2px solid #c10000;
 	} .serviceCards h2 {
 		padding: 0;
 		margin: 0;
 		
 		font-size: 3vmin; 
 		letter-spacing: 2px;
-		color: #d20000;
+		color: #c10000;
 	} .serviceCards p {
 		font-family: "Lora", serif;
 		font-size: 2.3vmin;
 	} .serviceCards a {
-		color: #d20000;
+		color: #c10000;
 	}
 }
 
@@ -194,7 +194,7 @@
 
 	font-size: 3vmin;
 	letter-spacing: 2px;
-	color: #d20000;
+	color: #c10000;
 } #history p {
 	grid-column-start: 1;
 	grid-column-end: 2;

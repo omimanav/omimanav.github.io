@@ -40,7 +40,7 @@ about.css is for the about page
 	margin-bottom: 20px;
 	background-color: #fefefe2d;
 } ::-webkit-scrollbar-thumb {
-	background-color: #d20000;
+	background-color: #c10000;
 } ::-webkit-scrollbar-thumb:hover {
 	background-color: #f00000;
 }
