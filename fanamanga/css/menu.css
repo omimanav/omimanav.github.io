@@ -76,6 +76,9 @@
 	} .menuItem .products img {
 		max-width:90%;
 		justify-self: center;
+
+		border-radius: 10px;
+		border: 5px solid #fefefe;
 	}
 }
 

@@ -29,7 +29,7 @@ about.css is for the about page
 /* show a little animation */
 * {
 	transition-duration: 0.1s;
-	-webkit-overflow-scrolling: touch;.
+	-webkit-overflow-scrolling: touch;
 }
 
 ::-webkit-scrollbar {
@@ -51,6 +51,7 @@ a, a:visited {
 }
 
 #main {
+	z-index: 1;
 	position: absolute;
 	display: grid;
 	top: 0;
@@ -59,6 +60,32 @@ a, a:visited {
 	height: 100vh;
 
 	font-family: "Barlow", sans-serif;
+}
+
+#langSelect {
+	z-index: 2;
+	display: grid;
+	grid-template-columns: auto auto;
+	column-gap: 50px;
+	position: fixed;
+	top: 20px;
+	right: 10%;
+
+	font-size: 3.5vmin;
+	font-family: "Barlow", sans-serif;
+	font-weight: bold;
+	padding: 10px;
+	border-radius: 10px;
+	background: linear-gradient(310deg, #c10000ee, #cf3d3dee);
+	box-shadow: 3px 3px 5px #9f3333, -3px -3px 5px #df4a4a;
+} #english, #french {
+	padding: 5px;
+	border-radius: 10px;
+} #langSelect .selected {
+	background: linear-gradient(120deg, #bb0303ee, #ee4a4aee);
+} #langSelect a:not(.selected) {
+	background: linear-gradient(310deg, #bb0303ee, #ee4a4aee);
+	box-shadow: 3px 3px 5px #9f3333, -3px -3px 5px #df4a4a;
 }
 
 /* desktop and ipad friendly */
