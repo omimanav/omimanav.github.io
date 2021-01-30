@@ -110,7 +110,8 @@ a, a:visited {
 		grid-template-rows: 20% 70% 10%;
 		align-content: center;
 
-		backdrop-filter: contrast(0.8);
+		background: linear-gradient(310deg, #bbbbbbaa, #ffffffaa);
+		backdrop-filter: contrast(0.8) ;
 		-webkit-backdrop-filter: contrast(0.8);
 	}
 	

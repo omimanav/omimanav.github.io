@@ -44,9 +44,9 @@
 		background-color: #fefefe;
 		color: #c10000;
 	} #hours th:nth-child(1) {
-		width: 25%;
+		width: 30%;
 	} #hours th:nth-child(2) {
-		width: 25%;
+		width: 20%;
 	} #hours th:nth-child(3) {
 		width: 50%;
 	}
