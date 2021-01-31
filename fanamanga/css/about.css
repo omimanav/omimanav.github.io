@@ -239,6 +239,12 @@
 		background: linear-gradient(310deg, #c10000dd, #eb5151dd);
 		font-weight: bold;
 		font-size: 3vmin;
+	} #hours th:nth-child(1) {
+		width: 30%;
+	} #hours th:nth-child(2) {
+		width: 20%;
+	} #hours th:nth-child(3) {
+		width: 50%;
 	}
 	
 	#map {
