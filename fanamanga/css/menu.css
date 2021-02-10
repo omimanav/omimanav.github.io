@@ -34,14 +34,14 @@
 		background: linear-gradient(310deg, #c10000ee, #cf3d3dee);
 		box-shadow: -0px -0px 0px #ffc3c3, 0px 0px 0px #ff4040;
 	} .menuItem .title {
-		font-size: 3vw;
+		font-size: 2.5vw;
 		font-weight: 700;
 		letter-spacing: 7px;
 	} .menuItem .subtitle {
 		display: grid;
 		justify-self: center;
 		row-gap: 7%;
-		font-size: 2vw;
+		font-size: 1.7vw;
 		font-weight: 300;
 	} .menuItem .description {
 		font-size: 1.5vw;
