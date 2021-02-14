@@ -1,0 +1,52 @@
+a:visited {
+	color: #c10000;
+}
+
+@media(min-width: 800px) {
+	#boutique {
+		display: grid;
+		height: 80%;
+		width: 50%;
+		justify-self: center;
+		align-self: center;
+		grid-template-columns: 50% 50%;
+		grid-template-rows: 50% 50%;
+		column-gap: 10px;
+		row-gap: 10px;
+	}
+
+	.products {
+		padding: 20px;
+		font-size: 3vmin;
+		text-align: center;
+
+		color: #c10000;
+		font-weight: bold;
+		border-radius: 15px;
+		background: linear-gradient(300deg, #e7e7e7f3, #ebebebf3);
+	} .products img {
+		max-width: 80%;
+		max-height: 60%;
+	}
+
+	#kpop {
+		grid-row-start: 1;
+		grid-row-end: 3;
+		grid-column-start: 2;
+		grid-column-end: 3;
+	}
+
+	#cosmetics {
+		grid-row-start: 1;
+		grid-row-end: 2;
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+	
+	#manga {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 2;
+		grid-row-end: 3;
+	}
+}
