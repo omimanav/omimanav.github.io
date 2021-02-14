@@ -54,3 +54,58 @@ a:visited {
 		max-height: 70%;
 	}
 }
+
+@media (max-width:800px) {
+	#boutique {
+		display: grid;
+		height: 90%;
+		width: 70%;
+		justify-self: center;
+		align-self: center;
+		grid-template-rows: 30% 40%;
+		grid-template-columns: 50% 50%;
+		row-gap: 10px;
+		column-gap: 10px;
+	}
+
+	.products {
+		padding: 20px;
+		font-size: 4vmin;
+
+		text-align: center;
+		color: #fefefe;
+		font-weight: bold;
+		border-radius: 15px;
+		background: linear-gradient(310deg, #c10000e0, #cf3d3de0);
+		box-shadow: -5px -5px 15px #ce8e8e, 5px 5px 15px #9b2929;
+	} 
+	
+	#kpop {
+		grid-row-start: 2;
+		grid-row-end: 4;
+		grid-column-start: 1;
+		grid-column-end: 3;
+	} #kpop img {
+		max-width: 20%;
+	}
+	
+	#cosmetics {
+		grid-row-start: 1;
+		grid-row-end: 2;
+		grid-column-start: 1;
+		grid-column-end: 2;
+	} #cosmetics img {
+		display: inline;
+		max-width: 30%;
+	}
+	
+	#manga {
+		grid-row-start: 1;
+		grid-row-end: 2;
+		grid-column-start: 2;
+		grid-column-end: 3;
+	} #manga img {
+		display: none;
+	}
+	
+}
