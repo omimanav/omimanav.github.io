@@ -28,7 +28,7 @@
 		cursor: pointer;
 		box-shadow: -3px -3px 15px #ffb1b1, 3px 3px 15px #c03535;
 	} .menuItem:active {
-		height: 79%;
+		height: 78%;
 		
 		cursor: pointer;
 		background: linear-gradient(310deg, #c10000ee, #cf3d3dee);

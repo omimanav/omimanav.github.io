@@ -18,9 +18,10 @@ section {
 for a max depth of 3 children, then a new section (sibling) will begin; keeps code clean, compact, comprehensible
 
 main.css is present in all pages
-menu.css is for the homepage
+mainMenu.css is for the homepage
 food.css is for the food service page
-about.css is for the about page 
+about.css is for the about page
+boutique.css is for the boutique page
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&display=swap');
