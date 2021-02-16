@@ -209,10 +209,6 @@
 		width: 0px;
 	}
 
-	#logo {
-
-	}
-
 	#main {
 		row-gap: 20px;
 		align-content: center;
@@ -340,19 +336,16 @@
 
 	#history {
 		display: grid;
-		grid-template-columns: 75% 25%;
-		grid-template-rows: auto auto auto;
+		grid-template-rows: auto auto auto auto;
 		align-items: center;
 		justify-items: center;
-		text-align: justify;
-		padding-bottom: 50px;
+		overflow: scroll;
 	} #history img {
-		width: 80%;
-		grid-column-start: 2;
-		grid-column-end: 3;
+		width: 50%;
 		grid-row-start: 3;
 		grid-row-end: 4;
 	} #history h2 {
+		text-align: left;
 		padding: 0;
 		margin: 0;
 		grid-column-start: 1;
@@ -360,22 +353,17 @@
 		grid-row-start: 2;
 		grid-row-end: 3;
 	
-		font-size: 4vmin;
+		font-size: 3vmin;
 		letter-spacing: 2px;
 		color: #c10000;
 	} #history p {
-		grid-column-start: 1;
-		grid-column-end: 2;
-		grid-row-start: 3;
-		grid-row-end: 4;
+		grid-row-start: 4;
+		grid-row-end: 5;
 		font-family: "Lora", serif;
-		font-size: 3.5vmin;
+		font-size: 4vmin;
 	} #history hr {
 		grid-row-start: 1;
 		grid-row-end: 2;
-		grid-column-start: 1;
-		grid-column-end: 3;
-		width: 90%;
 	}
 	
 	#footer {
