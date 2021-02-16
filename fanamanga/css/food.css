@@ -74,6 +74,10 @@
 		overflow: hidden;
 	}
 
+	#main {
+		align-content: center;
+	}
+
 	#food {
 		display: grid;
 		grid-template-rows: 15% 17% 17% 15% 25%;

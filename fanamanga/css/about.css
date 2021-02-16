@@ -210,7 +210,8 @@
 	}
 
 	#main {
-		row-gap: 15px;
+		row-gap: 25px;
+		align-content: center;
 	}
 
 	#about {
