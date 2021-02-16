@@ -83,13 +83,12 @@
 		justify-items: center;
 		row-gap: 10px;
 		height: 100%;
-		width: 80vw;
+		width: 80%;
 	} #food .serviceTitle {
 		font-size: 3vh;
 		display: grid;
 		grid-template-columns: 30% auto;
 		justify-content: left;
-		align-items: center;
 		padding: 10px;
 		width: 100%;
 
@@ -112,7 +111,6 @@
 		grid-column-end: 3; 
 	} #food .service {
 		display: grid;
-		align-content: center;
 		justify-items: center;
 		padding: 5px;
 		width: 100%;
