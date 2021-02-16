@@ -209,8 +209,12 @@
 		width: 0px;
 	}
 
+	#logo {
+
+	}
+
 	#main {
-		row-gap: 25px;
+		row-gap: 20px;
 		align-content: center;
 	}
 
