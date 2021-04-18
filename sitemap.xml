@@ -1,112 +1,104 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://omimanav.com/</loc>
-  <lastmod>2020-05-30T02:29:11+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://omimanav.com/work</loc>
-  <lastmod>2020-05-30T02:29:11+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://omimanav.com/about</loc>
-  <lastmod>2020-05-30T02:29:11+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://omimanav.com/1010n</loc>
-  <lastmod>2020-05-30T02:29:11+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omimanav.com/1010d</loc>
-  <lastmod>2020-05-30T02:29:11+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omimanav.com/n-i</loc>
-  <lastmod>2020-05-30T02:29:11+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omimanav.com/s-i</loc>
-  <lastmod>2020-05-30T02:29:11+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omimanav.com/dxb</loc>
-  <lastmod>2020-05-30T02:29:11+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omimanav.com/icn</loc>
-  <lastmod>2020-05-30T02:29:11+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omimanav.com/hnd</loc>
-  <lastmod>2020-05-30T02:29:11+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omimanav.com/pek1</loc>
-  <lastmod>2020-05-30T02:29:11+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omimanav.com/pek2</loc>
-  <lastmod>2020-05-30T02:29:11+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omimanav.com/bdq</loc>
-  <lastmod>2020-05-30T02:29:11+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omimanav.com/scl</loc>
-  <lastmod>2020-05-30T02:29:11+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omimanav.com/portraits</loc>
-  <lastmod>2020-05-30T02:29:11+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omimanav.com/duo/</loc>
-  <lastmod>2020-05-30T02:29:11+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omimanav.com/arinano/</loc>
-  <lastmod>2020-05-30T02:29:11+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omimanav.com/startpage/null/</loc>
-  <lastmod>2020-05-04T23:05:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omimanav.com/duo/index</loc>
-  <lastmod>2020-05-30T02:29:11+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://omimanav.com/arinano/index.html</loc>
-  <lastmod>2020-05-30T02:29:11+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-
-
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- created with sitemap-gen https://sitemap-gen.com/ -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://omimanav.com/</loc>
+		<lastmod>2021-04-18T17:53:44.1741285+02:00</lastmod>
+	</url>
+	<url>
+		<loc>https://omimanav.com/work</loc>
+		<lastmod>2021-04-18T17:53:44.1741285+02:00</lastmod>
+	</url>
+	<url>
+		<loc>https://omimanav.com/about</loc>
+		<lastmod>2021-04-18T17:53:44.1741285+02:00</lastmod>
+	</url>
+	<url>
+		<loc>https://omimanav.com/travels</loc>
+		<lastmod>2021-04-18T17:53:44.1741285+02:00</lastmod>
+	</url>
+	<url>
+		<loc>https://omimanav.com/portraits</loc>
+		<lastmod>2021-04-18T17:53:44.1741285+02:00</lastmod>
+	</url>
+	<url>
+		<loc>https://omimanav.com/food</loc>
+		<lastmod>2021-04-18T17:53:44.1741285+02:00</lastmod>
+	</url>
+	<url>
+		<loc>https://omimanav.com/duo/</loc>
+		<lastmod>2021-04-18T17:53:44.1741285+02:00</lastmod>
+	</url>
+	<url>
+		<loc>https://omimanav.com/arinano/</loc>
+		<lastmod>2021-04-18T17:53:44.1741285+02:00</lastmod>
+	</url>
+	<url>
+		<loc>https://omimanav.com/startpage/null/</loc>
+		<lastmod>2021-04-18T17:53:44.1741285+02:00</lastmod>
+	</url>
+	<url>
+		<loc>https://omimanav.com/1010n</loc>
+		<lastmod>2021-04-18T17:53:44.1741285+02:00</lastmod>
+	</url>
+	<url>
+		<loc>https://omimanav.com/1010d</loc>
+		<lastmod>2021-04-18T17:53:44.1741285+02:00</lastmod>
+	</url>
+	<url>
+		<loc>https://omimanav.com/n-i</loc>
+		<lastmod>2021-04-18T17:53:44.1741285+02:00</lastmod>
+	</url>
+	<url>
+		<loc>https://omimanav.com/s-i</loc>
+		<lastmod>2021-04-18T17:53:44.1741285+02:00</lastmod>
+	</url>
+	<url>
+		<loc>https://omimanav.com/dxb</loc>
+		<lastmod>2021-04-18T17:53:44.1741285+02:00</lastmod>
+	</url>
+	<url>
+		<loc>https://omimanav.com/icn</loc>
+		<lastmod>2021-04-18T17:53:44.1741285+02:00</lastmod>
+	</url>
+	<url>
+		<loc>https://omimanav.com/hnd</loc>
+		<lastmod>2021-04-18T17:53:44.1741285+02:00</lastmod>
+	</url>
+	<url>
+		<loc>https://omimanav.com/pek1</loc>
+		<lastmod>2021-04-18T17:53:44.1741285+02:00</lastmod>
+	</url>
+	<url>
+		<loc>https://omimanav.com/pek2</loc>
+		<lastmod>2021-04-18T17:53:44.1741285+02:00</lastmod>
+	</url>
+	<url>
+		<loc>https://omimanav.com/bdq</loc>
+		<lastmod>2021-04-18T17:53:44.1741285+02:00</lastmod>
+	</url>
+	<url>
+		<loc>https://omimanav.com/scl</loc>
+		<lastmod>2021-04-18T17:53:44.1741285+02:00</lastmod>
+	</url>
+	<url>
+		<loc>https://omimanav.com/index</loc>
+		<lastmod>2021-04-18T17:53:44.1741285+02:00</lastmod>
+	</url>
+	<url>
+		<loc>http://omimanav.com/startpage/pt/</loc>
+		<lastmod>2021-04-18T17:53:44.1741285+02:00</lastmod>
+	</url>
+	<url>
+		<loc>https://omimanav.com/index.html</loc>
+		<lastmod>2021-04-18T17:53:44.1741285+02:00</lastmod>
+	</url>
+	<url>
+		<loc>http://omimanav.com/upafterdark/</loc>
+		<lastmod>2021-04-18T17:53:44.1741285+02:00</lastmod>
+	</url>
+	<url>
+		<loc>http://omimanav.com/work</loc>
+		<lastmod>2021-04-18T17:53:44.1741285+02:00</lastmod>
+	</url>
 </urlset>
