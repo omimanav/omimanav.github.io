@@ -102,8 +102,8 @@
 
 		background-image: url(../img/home-lg.jpg);
 		background-color: var(--generalBG);
-		background-position: center;
-		background-size: cover;
+		background-position: top;
+		background-size: auto 100%;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 	}
