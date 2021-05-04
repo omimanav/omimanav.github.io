@@ -7,7 +7,7 @@
 	transition-duration: 0.2s;
 }
 
-::-webkit-scrollbar {
+body::-webkit-scrollbar {
 	display: none;
 }
 
