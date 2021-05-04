@@ -8,7 +8,7 @@ window.onload = function () {
 
 const aboutText = `
 	<span class="about" id="iris">French-Canadian illustrator inspired by anime/manga, retro-culture, silly patterns and neon colors.<br>Currently based in Québec.</span>
-	<span class="about" id="contact"><br>Instagram: <a href="https://instagram.com/arinanodraws">@arinanodraws</a><br>email: <a href="mailto:arinanocontact@gmail.com">arinanocontact@gmail.com</a></span>
+	<span class="about" id="contact"><br>Instagram: <a href="https://instagram.com/arinano.jpg">@arinano.jpg</a><br>email: <a href="mailto:arinanocontact@gmail.com">arinanocontact@gmail.com</a></span>
 	`;
 
 if (window.innerWidth >= 900) {
