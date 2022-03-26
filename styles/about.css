@@ -26,10 +26,10 @@
 		color: var(--generalFG);
 		text-decoration: underline;
 	} #summary {
-		padding-left: 50px;
+		padding-left: 35%;
 		text-align: left;
 	} #workHistory {
-		padding-right: 50px;
+		padding-right: 20%;
 		text-align: right;
 	} .works, .skills {
 		list-style: none;
