@@ -26,18 +26,19 @@
 
 	<span id="art" class="container">
 		<a href="work" class="art button"><i>travels</i></a>
+		<a href="118i" class="art button">118i</a>
 		<a href="eu1" class="art button">passing by-01</a>
 		<a href="eu2" class="art button">passing by-02<hr></a>
-		<a href="1010n" class="art button">akl by night</a>
-		<a href="1010d" class="art button">akl by day</a>
-		<a href="n-i" class="art button">north island</a>
-		<a href="s-i" class="art button">south island<hr></a>
+		<a href="1010n" class="art button">1010n</a>
+		<a href="1010d" class="art button">1010d</a>
+		<a href="n-i" class="art button">te ika</a>
+		<a href="s-i" class="art button">te waka<hr></a>
 		<a href="dxb" class="art button">halt in dubai</a>
-		<a href="icn" class="art button">seoul</a>
-		<a href="hnd" class="art button">tokyo</a>
+		<a href="icn" class="art button">서울</a>
+		<a href="hnd" class="art button">東京</a>
 		<a href="pek1" class="art button">hebei-01</a>
 		<a href="pek2" class="art button">hebei-02</a>
-		<a href="bdq" class="art button">india</a>
+		<a href="bdq" class="art button">396220</a>
 		<a href="scl" class="art button">santiago</a>
 		<a href="portraits" class="art button"><i>portraits</i></a>
 		<a href="food" class="art button"><i>food</i></a>

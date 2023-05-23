@@ -1,4 +1,4 @@
-@media (min-width: 800px) {
+@media (min-width: 900px) {
 	#about hr {
 		width: 90%;
 	}	#work:hover hr {
@@ -37,7 +37,7 @@
 	}
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
 	#menubar {
 		position: -webkit-sticky;
 		position: sticky;

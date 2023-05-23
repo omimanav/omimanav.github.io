@@ -1,4 +1,4 @@
-@media (min-width: 800px) {
+@media (min-width: 900px) {
 	body {
 		backdrop-filter: blur(25px);
 		-webkit-backdrop-filter: blur(25px);
@@ -56,7 +56,7 @@
 	}
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
 	#menubar {
 		position: -webkit-sticky;
 		position: sticky;
