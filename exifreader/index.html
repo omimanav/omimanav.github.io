@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>EXIF Reader</title>
+	<style>
+		#dropInput{
+			display: block;
+			width: 75%;
+			height: 200px;
+			background-color: #efefef;
+			margin: 0 auto;
+			cursor: pointer;
+			text-align: center;
+			font-size: xx-large;
+			font-family: sans-serif;
+		} 
+
+		#dropLabel {
+			
+		}
+	</style>
+	<script src="https://cdn.jsdelivr.net/npm/exif-js"></script>
+	<script src="./main.js"></script>
+</head>
+<body>
+	<input type="file" name="image" id="dropInput" accept="image/*" onchange="exif(event)"/>
+	<span id="text"></span>
+</body>
+</html>

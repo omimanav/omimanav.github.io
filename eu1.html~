@@ -25,7 +25,7 @@
 	</span>
 
 	<span id="art" class="container">
-		<a href="work" class="art button"><i>travels</i></a>
+
 		<a href="eu1" class="art button">passing by-01<hr></a>
 		<a href="eu2" class="art button">passing by-02</a>
 		<a href="1010n" class="art button">1010n</a>
@@ -39,8 +39,10 @@
 		<a href="pek2" class="art button">hebei-02</a>
 		<a href="bdq" class="art button">396220</a>
 		<a href="scl" class="art button">santiago</a>
+<br>
 		<a href="portraits" class="art button"><i>portraits</i></a>
-		<a href="food" class="art button"><i>food</i></a>
+		<br>
+<a href="food" class="art button"><i>food</i></a>
 	</span>
 
 	<span id="eu1" class="gallery">
