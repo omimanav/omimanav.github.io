@@ -1,0 +1,43 @@
+{
+	"site": {
+		"baseUrl": "https://omimanav.com",
+		"gaId": "UA-104938819-1"
+	},
+	"about": {
+		"location": "Currently based in the West Coast, New Zealand.",
+		"email": "omimanav@icloud.com",
+		"workHistory": [
+			"food photographer (fanamanga) 2021",
+			"interior photographer (airbnb) 2017-2019",
+			"interior photographer (miro) 2017-2019",
+			"work selected for ubuntu desktop wallpaper 2018",
+			"published in craccum magazine 2018",
+			"photography workshops (photosoc) 2017-2018",
+			"design of photo-zines (photosoc) 2017-2018"
+		]
+	},
+	"workLinks": [
+		{ "href": "https://github.com/omimanav/bad", "label": "bad ui" },
+		{ "href": "https://github.com/omimanav/fetcher", "label": "fetcher" },
+		{ "href": "https://github.com/omimanav/blurpaper", "label": "blurpaper" },
+		{ "href": "https://github.com/omimanav/basic-filemanager", "label": "python file manager" }
+	],
+	"galleries": [
+		{ "slug": "eu1", "pageTitle": "europe - part one", "navLabel": "passing by-01", "folder": "eu", "prefix": "eu", "ext": "jpg", "start": 0, "count": 27, "section": "travel" },
+		{ "slug": "eu2", "pageTitle": "europe - part two", "navLabel": "passing by-02", "folder": "eu", "prefix": "eu", "ext": "JPG", "start": 27, "count": 30, "section": "travel" },
+		{ "slug": "bkk", "pageTitle": "ลืมไม่ลง", "navLabel": "passing by-03", "folder": "maileum", "prefix": "maileum", "ext": "jpg", "start": 1, "count": 26, "section": "travel" },
+		{ "slug": "1010n", "pageTitle": "1010n", "navLabel": "1010n", "folder": "1010n", "prefix": "1010n", "ext": "jpg", "start": 0, "count": 7, "section": "travel" },
+		{ "slug": "1010d", "pageTitle": "1010d", "navLabel": "1010d", "folder": "1010d", "prefix": "1010d", "ext": "jpg", "start": 0, "count": 7, "section": "travel" },
+		{ "slug": "dxb", "pageTitle": "dubai halt", "navLabel": "passing by-04", "folder": "dxb", "prefix": "dxb", "ext": "jpg", "start": 0, "count": 11, "section": "travel" },
+		{ "slug": "icn", "pageTitle": "seoul", "navLabel": "passing by-05", "folder": "seoul", "prefix": "seoul", "ext": "jpg", "start": 0, "count": 19, "section": "travel" },
+		{ "slug": "n-i", "pageTitle": "te ika", "navLabel": "te ika", "folder": "n-i", "prefix": "n-i", "ext": "jpg", "start": 0, "count": 12, "section": "travel" },
+		{ "slug": "s-i", "pageTitle": "te waka", "navLabel": "te waka", "folder": "s-i", "prefix": "s-i", "ext": "jpg", "start": 0, "count": 17, "section": "travel" },
+		{ "slug": "hnd", "pageTitle": "tokyo", "navLabel": "passing by-06", "folder": "tokyo", "prefix": "tokyo", "ext": "jpg", "start": 0, "count": 11, "section": "travel" },
+		{ "slug": "pek1", "pageTitle": "河北省 - part one", "navLabel": "passing by-07", "folder": "hebei01", "prefix": "hebei", "ext": "jpg", "start": 0, "count": 13, "section": "travel" },
+		{ "slug": "pek2", "pageTitle": "河北省 - part two", "navLabel": "passing by-08", "folder": "hebei02", "prefix": "hebei", "ext": "jpg", "start": 14, "count": 9, "section": "travel" },
+		{ "slug": "bdq", "pageTitle": "भारत", "navLabel": "भारत", "folder": "ind", "prefix": "ind", "ext": "jpg", "start": 0, "count": 21, "section": "travel" },
+		{ "slug": "scl", "pageTitle": "santiago", "navLabel": "passing by-09", "folder": "sdc", "prefix": "sdc", "ext": "jpg", "start": 0, "count": 11, "section": "travel" },
+		{ "slug": "portraits", "pageTitle": "portraits", "navLabel": "portraits", "folder": "portraits", "prefix": "portraits", "ext": "jpg", "start": 0, "count": 11, "section": "other" },
+		{ "slug": "food", "pageTitle": "food", "navLabel": "fanamanga", "folder": "food", "prefix": "food", "ext": "jpg", "start": 0, "count": 6, "section": "other" }
+	]
+}
