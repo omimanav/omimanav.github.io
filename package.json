@@ -1,0 +1,8 @@
+{
+	"name": "omimanav-site",
+	"private": true,
+	"description": "Static photography site. No dependencies - build.js uses only Node core modules.",
+	"scripts": {
+		"build": "node _build/build.js"
+	}
+}
