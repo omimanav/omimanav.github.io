@@ -1,0 +1,302 @@
+From 8b421ade00477ad7a60ecf1bb4376e221604e53c Mon Sep 17 00:00:00 2001
+From: Claude <noreply@anthropic.com>
+Date: Wed, 23 Sep 2026 23:46:52 +0000
+Subject: [PATCH] Remove intrusive navToggle hamburger button from gallery
+ pages
+
+The button was unstyled (no CSS existed for #navToggle/.nav-toggle),
+so it rendered with default browser button chrome on both mobile and
+desktop, appearing as an unexplained white icon over the site.
+
+- Removed the <button id="navToggle"> element from all 16 generated
+  gallery pages
+- Removed its emitting line from renderGalleryPage() in templates.js
+  so it won't reappear on the next build
+- Removed the now-dead click handler and related comment from
+  scripts/site.js
+---
+ 1010d.html      |  2 --
+ 1010n.html      |  2 --
+ bdq.html        |  2 --
+ bkk.html        |  2 --
+ dxb.html        |  2 --
+ eu1.html        |  2 --
+ eu2.html        |  2 --
+ food.html       |  2 --
+ hnd.html        |  2 --
+ icn.html        |  2 --
+ n-i.html        |  2 --
+ pek1.html       |  2 --
+ pek2.html       |  2 --
+ portraits.html  |  2 --
+ s-i.html        |  2 --
+ scl.html        |  2 --
+ scripts/site.js | 27 ++++++---------------------
+ templates.js    |  2 --
+ 18 files changed, 6 insertions(+), 55 deletions(-)
+
+diff --git a/1010d.html b/1010d.html
+index 4ea7718..e47305c 100644
+--- a/1010d.html
++++ b/1010d.html
+@@ -51,8 +51,6 @@
+ 		<a href="food" class="art button">fanamanga</a>
+ 	</span>
+ 
+-	<button id="navToggle" class="nav-toggle" aria-label="Toggle gallery menu" aria-expanded="false" type="button">☰</button>
+-
+ 	<span id="1010d" class="gallery">
+ 		<img src="img/1010d/1010d0.jpg" draggable="false">
+ 		<img src="img/1010d/1010d1.jpg" draggable="false" loading="lazy">
+diff --git a/1010n.html b/1010n.html
+index 3488713..7746c2e 100644
+--- a/1010n.html
++++ b/1010n.html
+@@ -51,8 +51,6 @@
+ 		<a href="food" class="art button">fanamanga</a>
+ 	</span>
+ 
+-	<button id="navToggle" class="nav-toggle" aria-label="Toggle gallery menu" aria-expanded="false" type="button">☰</button>
+-
+ 	<span id="1010n" class="gallery">
+ 		<img src="img/1010n/1010n0.jpg" draggable="false">
+ 		<img src="img/1010n/1010n1.jpg" draggable="false" loading="lazy">
+diff --git a/bdq.html b/bdq.html
+index c4e5c04..85a5351 100644
+--- a/bdq.html
++++ b/bdq.html
+@@ -51,8 +51,6 @@
+ 		<a href="food" class="art button">fanamanga</a>
+ 	</span>
+ 
+-	<button id="navToggle" class="nav-toggle" aria-label="Toggle gallery menu" aria-expanded="false" type="button">☰</button>
+-
+ 	<span id="bdq" class="gallery">
+ 		<img src="img/ind/ind0.jpg" draggable="false">
+ 		<img src="img/ind/ind1.jpg" draggable="false" loading="lazy">
+diff --git a/bkk.html b/bkk.html
+index 3c80fad..e53a304 100644
+--- a/bkk.html
++++ b/bkk.html
+@@ -51,8 +51,6 @@
+ 		<a href="food" class="art button">fanamanga</a>
+ 	</span>
+ 
+-	<button id="navToggle" class="nav-toggle" aria-label="Toggle gallery menu" aria-expanded="false" type="button">☰</button>
+-
+ 	<span id="bkk" class="gallery">
+ 		<img src="img/maileum/maileum1.jpg" draggable="false">
+ 		<img src="img/maileum/maileum2.jpg" draggable="false" loading="lazy">
+diff --git a/dxb.html b/dxb.html
+index bec9617..1956f19 100644
+--- a/dxb.html
++++ b/dxb.html
+@@ -51,8 +51,6 @@
+ 		<a href="food" class="art button">fanamanga</a>
+ 	</span>
+ 
+-	<button id="navToggle" class="nav-toggle" aria-label="Toggle gallery menu" aria-expanded="false" type="button">☰</button>
+-
+ 	<span id="dxb" class="gallery">
+ 		<img src="img/dxb/dxb0.jpg" draggable="false">
+ 		<img src="img/dxb/dxb1.jpg" draggable="false" loading="lazy">
+diff --git a/eu1.html b/eu1.html
+index 9ea00ce..1720853 100644
+--- a/eu1.html
++++ b/eu1.html
+@@ -51,8 +51,6 @@
+ 		<a href="food" class="art button">fanamanga</a>
+ 	</span>
+ 
+-	<button id="navToggle" class="nav-toggle" aria-label="Toggle gallery menu" aria-expanded="false" type="button">☰</button>
+-
+ 	<span id="eu1" class="gallery">
+ 		<img src="img/eu/eu0.jpg" draggable="false">
+ 		<img src="img/eu/eu1.jpg" draggable="false" loading="lazy">
+diff --git a/eu2.html b/eu2.html
+index 619ab0b..11eaff0 100644
+--- a/eu2.html
++++ b/eu2.html
+@@ -51,8 +51,6 @@
+ 		<a href="food" class="art button">fanamanga</a>
+ 	</span>
+ 
+-	<button id="navToggle" class="nav-toggle" aria-label="Toggle gallery menu" aria-expanded="false" type="button">☰</button>
+-
+ 	<span id="eu2" class="gallery">
+ 		<img src="img/eu/eu27.JPG" draggable="false">
+ 		<img src="img/eu/eu28.JPG" draggable="false" loading="lazy">
+diff --git a/food.html b/food.html
+index 472ed6c..e196c09 100644
+--- a/food.html
++++ b/food.html
+@@ -51,8 +51,6 @@
+ 		<a href="food" class="art button">fanamanga<hr></a>
+ 	</span>
+ 
+-	<button id="navToggle" class="nav-toggle" aria-label="Toggle gallery menu" aria-expanded="false" type="button">☰</button>
+-
+ 	<span id="food" class="gallery">
+ 		<img src="img/food/food0.jpg" draggable="false">
+ 		<img src="img/food/food1.jpg" draggable="false" loading="lazy">
+diff --git a/hnd.html b/hnd.html
+index e4ef51c..6744e4a 100644
+--- a/hnd.html
++++ b/hnd.html
+@@ -51,8 +51,6 @@
+ 		<a href="food" class="art button">fanamanga</a>
+ 	</span>
+ 
+-	<button id="navToggle" class="nav-toggle" aria-label="Toggle gallery menu" aria-expanded="false" type="button">☰</button>
+-
+ 	<span id="hnd" class="gallery">
+ 		<img src="img/tokyo/tokyo0.jpg" draggable="false">
+ 		<img src="img/tokyo/tokyo1.jpg" draggable="false" loading="lazy">
+diff --git a/icn.html b/icn.html
+index 6165b20..c05553f 100644
+--- a/icn.html
++++ b/icn.html
+@@ -51,8 +51,6 @@
+ 		<a href="food" class="art button">fanamanga</a>
+ 	</span>
+ 
+-	<button id="navToggle" class="nav-toggle" aria-label="Toggle gallery menu" aria-expanded="false" type="button">☰</button>
+-
+ 	<span id="icn" class="gallery">
+ 		<img src="img/seoul/seoul0.jpg" draggable="false">
+ 		<img src="img/seoul/seoul1.jpg" draggable="false" loading="lazy">
+diff --git a/n-i.html b/n-i.html
+index 39f535c..c1f8e4d 100644
+--- a/n-i.html
++++ b/n-i.html
+@@ -51,8 +51,6 @@
+ 		<a href="food" class="art button">fanamanga</a>
+ 	</span>
+ 
+-	<button id="navToggle" class="nav-toggle" aria-label="Toggle gallery menu" aria-expanded="false" type="button">☰</button>
+-
+ 	<span id="n-i" class="gallery">
+ 		<img src="img/n-i/n-i0.jpg" draggable="false">
+ 		<img src="img/n-i/n-i1.jpg" draggable="false" loading="lazy">
+diff --git a/pek1.html b/pek1.html
+index 1884633..e3eb7f0 100644
+--- a/pek1.html
++++ b/pek1.html
+@@ -51,8 +51,6 @@
+ 		<a href="food" class="art button">fanamanga</a>
+ 	</span>
+ 
+-	<button id="navToggle" class="nav-toggle" aria-label="Toggle gallery menu" aria-expanded="false" type="button">☰</button>
+-
+ 	<span id="pek1" class="gallery">
+ 		<img src="img/hebei01/hebei0.jpg" draggable="false">
+ 		<img src="img/hebei01/hebei1.jpg" draggable="false" loading="lazy">
+diff --git a/pek2.html b/pek2.html
+index a712dac..1d6f006 100644
+--- a/pek2.html
++++ b/pek2.html
+@@ -51,8 +51,6 @@
+ 		<a href="food" class="art button">fanamanga</a>
+ 	</span>
+ 
+-	<button id="navToggle" class="nav-toggle" aria-label="Toggle gallery menu" aria-expanded="false" type="button">☰</button>
+-
+ 	<span id="pek2" class="gallery">
+ 		<img src="img/hebei02/hebei14.jpg" draggable="false">
+ 		<img src="img/hebei02/hebei15.jpg" draggable="false" loading="lazy">
+diff --git a/portraits.html b/portraits.html
+index 270aa18..19bb39b 100644
+--- a/portraits.html
++++ b/portraits.html
+@@ -51,8 +51,6 @@
+ 		<a href="food" class="art button">fanamanga</a>
+ 	</span>
+ 
+-	<button id="navToggle" class="nav-toggle" aria-label="Toggle gallery menu" aria-expanded="false" type="button">☰</button>
+-
+ 	<span id="portraits" class="gallery">
+ 		<img src="img/portraits/portraits0.jpg" draggable="false">
+ 		<img src="img/portraits/portraits1.jpg" draggable="false" loading="lazy">
+diff --git a/s-i.html b/s-i.html
+index e3ef0e4..93846b2 100644
+--- a/s-i.html
++++ b/s-i.html
+@@ -51,8 +51,6 @@
+ 		<a href="food" class="art button">fanamanga</a>
+ 	</span>
+ 
+-	<button id="navToggle" class="nav-toggle" aria-label="Toggle gallery menu" aria-expanded="false" type="button">☰</button>
+-
+ 	<span id="s-i" class="gallery">
+ 		<img src="img/s-i/s-i0.jpg" draggable="false">
+ 		<img src="img/s-i/s-i1.jpg" draggable="false" loading="lazy">
+diff --git a/scl.html b/scl.html
+index 063f431..71a12e1 100644
+--- a/scl.html
++++ b/scl.html
+@@ -51,8 +51,6 @@
+ 		<a href="food" class="art button">fanamanga</a>
+ 	</span>
+ 
+-	<button id="navToggle" class="nav-toggle" aria-label="Toggle gallery menu" aria-expanded="false" type="button">☰</button>
+-
+ 	<span id="scl" class="gallery">
+ 		<img src="img/sdc/sdc0.jpg" draggable="false">
+ 		<img src="img/sdc/sdc1.jpg" draggable="false" loading="lazy">
+diff --git a/scripts/site.js b/scripts/site.js
+index 8b5f0c2..3e2c678 100644
+--- a/scripts/site.js
++++ b/scripts/site.js
+@@ -1,30 +1,15 @@
+ // site.js — shared behaviour, loaded on every page.
+ //
+-// Two independent things happen here:
+-//  1. On mobile gallery pages, #navToggle opens/closes the gallery list drawer.
+-//     No-ops on pages that don't have both elements (about/index/work).
+-//  2. Right-click is blocked on <img> elements as light friction against
+-//     casual "save image as..." — see the note in styles/gallery.css. This is
+-//     NOT real protection: view-source, devtools, and screenshots still work.
+-//     Dragging is blocked via the draggable="false" attribute on each <img>
+-//     in the generated HTML, so it keeps working even if this script fails
+-//     to load.
++// Right-click is blocked on <img> elements as light friction against
++// casual "save image as..." — see the note in styles/gallery.css. This is
++// NOT real protection: view-source, devtools, and screenshots still work.
++// Dragging is blocked via the draggable="false" attribute on each <img>
++// in the generated HTML, so it keeps working even if this script fails
++// to load.
+ 
+ (function () {
+ 	'use strict';
+ 
+-	var toggle = document.getElementById('navToggle');
+-	var art = document.getElementById('art');
+-
+-	if (toggle && art) {
+-		toggle.addEventListener('click', function () {
+-			var isOpen = art.classList.toggle('nav-open');
+-			document.body.classList.toggle('nav-open', isOpen);
+-			toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+-			toggle.textContent = isOpen ? '\u2715' : '\u2630';
+-		});
+-	}
+-
+ 	document.addEventListener('contextmenu', function (e) {
+ 		if (e.target && e.target.tagName === 'IMG') {
+ 			e.preventDefault();
+diff --git a/templates.js b/templates.js
+index 014c8e8..68668d5 100644
+--- a/templates.js
++++ b/templates.js
+@@ -106,8 +106,6 @@ function renderGalleryPage(gallery, allGalleries, gaId) {
+ 		'',
+ 		renderSidebar(allGalleries, gallery.slug),
+ 		'',
+-		'\t<button id="navToggle" class="nav-toggle" aria-label="Toggle gallery menu" aria-expanded="false" type="button">\u2630</button>',
+-		'',
+ 		`\t<span id="${gallery.slug}" class="gallery">`,
+ 		renderGalleryImages(gallery),
+ 		'\t</span>'
+-- 
+2.43.0
+
