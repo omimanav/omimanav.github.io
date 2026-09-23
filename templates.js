@@ -106,8 +106,6 @@ function renderGalleryPage(gallery, allGalleries, gaId) {
 		'',
 		renderSidebar(allGalleries, gallery.slug),
 		'',
-		'\t<button id="navToggle" class="nav-toggle" aria-label="Toggle gallery menu" aria-expanded="false" type="button">\u2630</button>',
-		'',
 		`\t<span id="${gallery.slug}" class="gallery">`,
 		renderGalleryImages(gallery),
 		'\t</span>'
